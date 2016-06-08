@@ -1,6 +1,6 @@
 @extends('layouts.adminex')
 
-@section('title', 'Page Title')
+@section('title', 'Home')
 
 @section('content')
 <div class="container">
