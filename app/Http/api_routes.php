@@ -14,3 +14,6 @@
 
 
 
+
+
+Route::resource('posts', 'postAPIController');

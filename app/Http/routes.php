@@ -12,12 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    echo "o site vai nessa budega aqui";
 });
 
 Route::auth();
 
-Route::get('/home', 'HomeController@index');
+Route::get('/dashboard', 'HomeController@index');
 
 
 /*
@@ -35,3 +35,6 @@ Route::group(['prefix' => 'api', 'namespace' => 'API'], function () {
 
 
 
+
+
+Route::resource('posts', 'postController');
