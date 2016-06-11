@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    echo "o site vai nessa budega aqui";
+  	return view('consis');
 });
 
 Route::auth();
