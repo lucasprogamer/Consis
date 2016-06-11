@@ -9,8 +9,8 @@
 
   <title>{{{ $name or 'Consis' }}} - @yield('title')</title>
 
-  <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-  <link href="{{ asset('css/style-responsive.css') }}" rel="stylesheet">
+  <link href="{{ asset('adminex/css/style.css') }}" rel="stylesheet">
+  <link href="{{ asset('adminex/css/style-responsive.css') }}" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -31,9 +31,9 @@
 <!-- Placed js at the end of the document so the pages load faster -->
 
 <!-- Placed js at the end of the document so the pages load faster -->
-<script src="{{ asset('js/jquery-1.10.2.min.js') }}"></script>
-<script src="{{ asset('js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('js/modernizr.min.js') }}"></script>
+<script src="{{ asset('adminex/js/jquery-1.10.2.min.js') }}"></script>
+<script src="{{ asset('adminex/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('adminex/js/modernizr.min.js') }}"></script>
 
 </body>
 </html>

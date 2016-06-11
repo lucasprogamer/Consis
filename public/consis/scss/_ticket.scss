@@ -1,0 +1,132 @@
+.ticket{
+    padding: 80px 0;
+    background: url("../images/ticket/bg.jpg") no-repeat scroll;
+    background-size: cover;
+    position: relative;
+    &:before{
+        content: '';
+        position: absolute;
+        background: rgba(3, 50, 66, 0.8);
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+    .booking_ticket{
+        position: relative;
+        text-align: center;
+        h2{
+            color: #fff;
+            font: bold 30px/1 $mont;
+            padding-bottom: 55px;
+            span{
+                color: $basecolor3;
+            }
+        }
+        .register_form{
+            background: #202e3b;
+            padding: 35px 0;
+            border-radius: 50px 0;
+            form{
+                display: inline-flex;
+                border-radius: 25px 0 25px;
+                @media (max-width: 991px){
+                    display: block;
+                }
+                .form-group{
+                    display: inline-flex;
+                    @media (max-width: 991px){
+                        display: block;
+                        width: 100%;
+                        border-radius: 25px 0 0 25px;
+                        padding: 0 30px;
+                        margin-bottom: 10px;
+                        &:last-child{
+                            margin-bottom: 0;
+                        }
+                    }
+                    
+                    &:first-child{
+                        border-radius: 70px 0 0 70px;
+                        overflow: hidden;
+                    }
+                    label{
+                        display: block;
+                        height: 60px;
+                        background: #999;
+                        margin: 0;  
+                        overflow: hidden;
+                        &:hover, &:focus, &.active{
+                            background: $basecolor3;
+                        }
+                        @media (max-width: 991px){
+                            float: left;
+                            border-radius: 25px 0 0 25px;
+                        }
+                        i{
+                            color: #fff;
+                            font-size: 24px;
+                            line-height: 60px;
+                            text-align: center;
+                            width: 78px;
+                            z-index: 3;
+                            @media (max-width: 1199px){
+                                width: 60px;
+                            }
+                        }
+                    }
+                    &:hover, &:focus{  
+                        label{
+                            background:$basecolor3; 
+                        }
+                        input{
+                            border: 1px solid $basecolor3;
+                        }   
+                    }
+                    input{
+                        width: 195px;
+                        height: 60px;
+                        padding: 0 35px;
+                        font: normal 13px/1 $mont;
+                        text-transform: uppercase;
+                        position: relative;
+                        border-radius: 0;
+                        @media (max-width: 1199px){
+                            width: 185px;
+                            padding: 0 25px;
+                        }
+                        @media (max-width: 991px){
+                            width: calc(100% - 60px);
+                            padding: 0 25px;
+                            border-radius: 0 25px 25px 0;
+                        }
+                        &:focus{ 
+                            
+                        }
+                    }
+                }
+                a{
+                    color: #fff;
+                    text-transform: uppercase;
+                    text-align: center;
+                    background: $basecolor3;
+                    font: normal 13px/60px $mont;
+                    letter-spacing: 2px;
+                    width: 275px;
+                    border-radius: 0 70px 70px 0;
+                    &:hover{
+                        background: #d74132;
+                    }
+                    @media (max-width: 1199px){
+                        width: 190px;
+                    }
+                    @media (max-width: 991px){
+                        padding: 20px 30px;
+                        border-radius: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

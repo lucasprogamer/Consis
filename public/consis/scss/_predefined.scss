@@ -1,0 +1,139 @@
+@font-face {
+    font-family: monL;
+    src: url(../fonts/dawat-font/Montserrat-Light.woff);
+}
+@font-face {
+    font-family: monSB;
+    src: url(../fonts/dawat-font/Montserrat-SemiBold.woff);
+}
+
+
+.p0{padding: 0;}
+.m0{margin: 0;}
+a,.btn,button{
+    text-decoration: none;
+    outline: none;
+    @include transition();
+    &:hover,&:focus{
+        text-decoration: none;
+        outline: none;
+    }
+}
+section, header, footer{
+    &.row{
+        margin: 0;
+    }
+}
+h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+.sec_header{
+    padding: 110px 0 80px;
+    padding-right: 40px;
+    position: relative;
+    &:before{
+        content:'';
+        position: absolute;
+        top: 110px;
+        right: 0;
+        width: 10px;
+        height: 73px;
+        background: #ccc;
+    }
+    &:after{
+        content:'';
+        position: absolute;
+        top: 110px;
+        right: 0;
+        width: 10px;
+        height: 43px;
+        background: $basecolor3;
+    }
+    h2{
+        font: bold 30px/40px $mont;
+        color: #141414;
+        text-align: right;
+    }
+    p{
+        font: italic 13px/1 "Droid Serif", serif;
+        color: #6f6f6f;
+        text-align: right;
+        padding-top: 16px;
+        margin: 0;
+    }
+}
+
+
+.sec_header_left{
+    padding: 110px 0 80px;
+    padding-left: 40px;
+    position: relative;
+    &:before{
+        content:'';
+        position: absolute;
+        top: 110px;
+        left: 0;
+        width: 10px;
+        height: 73px;
+        background: #ccc;
+    }
+    &:after{
+        content:'';
+        position: absolute;
+        top: 110px;
+        left: 0;
+        width: 10px;
+        height: 43px;
+        background: $basecolor3;
+    }
+    h2{
+        font: bold 30px/40px $mont;
+        color: #141414;
+        text-align: left;
+    }
+    p{
+        font: italic 13px/1 "Droid Serif", serif;
+        color: #6f6f6f;
+        text-align: left;
+        padding-top: 16px;
+        margin: 0;
+    }
+}
+
+.page_title{
+    text-align: center;
+    position: relative;
+    padding-top: 130px;
+    h2{
+        color: $basecolor3;
+        font: 900 50px/1 $open;
+        text-transform: uppercase;
+        span{
+            color: #fff;
+            font: bold 50px/1 $open;
+        }
+    }
+    h4{
+        color: #fff;
+        font: normal 18px/24px $open;
+        padding-top: 30px;
+        letter-spacing: 0.5px;
+    }
+}
+
+// Mixitup
+.sponsor{
+    .sponsor_inner{
+        .protfolio_content{
+            .gallery_item{
+                .slides{
+                    .mix{
+                         display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+

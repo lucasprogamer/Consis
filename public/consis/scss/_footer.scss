@@ -1,0 +1,72 @@
+footer{
+    background: #1e202d;
+    .footer_top{
+        padding: 32px 0;
+        text-align: center;
+        border-bottom: 1px solid #353742;
+        img{
+            height: 50px;
+        }
+    }
+    .footer_bottom{
+        .left{
+            font: normal 13px/28px $mont;
+            color: #a1b1bc;
+            vertical-align: middle;
+            padding: 35px 0;
+            float: left;
+            span{
+                color: $basecolor3;
+            }
+        }
+        .footer_menu{
+            float: right;
+            vertical-align: middle;
+            ul{
+                padding-top: 25px;
+                li{
+                    padding: 0;
+                    display: inline-block;
+                    &.active{
+                        background: transparent;
+                        &:before{
+                            content: '';
+                            position: absolute;
+                            background: $basecolor3;
+                            width: 80%;
+                            height: 3px;
+                            top: 50%;
+                            left: 8%;
+                        }
+                    }
+                    a{
+                        color: #fff;
+                        font-family: monL;
+                        font-size: 16px;
+                        line-height: 26px;
+                        @media (max-width: 767px){
+                            padding: 10px 8px;
+                        }
+                        &:hover{
+                            background: transparent;
+                        }
+                    }
+                    &:hover{
+                        &:before{
+                            width: 80%;
+                        }
+                    }
+                    &:before{
+                        content: '';
+                        position: absolute;
+                        background: $basecolor3;
+                        width: 0%;
+                        height: 3px;
+                        top: 50%;
+                        left: 8%;
+                    }
+                }
+            }
+        }
+    }
+}

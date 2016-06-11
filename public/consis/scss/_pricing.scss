@@ -1,0 +1,168 @@
+.pricing{
+    background: #f9f9f9;
+    .ticket_pricing{
+        .pricing_table{
+            text-align: center;
+            padding-bottom: 105px;
+            .table_part{
+                padding: 0 15px;
+                @media (max-width: 767px){
+                    padding: 25px 90px;
+                }
+                @media (max-width: 420px){
+                    padding: 20px 50px;
+                }
+                @media (max-width: 460px){
+                    padding: 20px 20px;
+                }
+                .table_part_inner{
+                    border: 1px solid #dde3e4;
+                    background: #fff;
+                    position: relative;
+                    border-radius: 0 50px;
+                    -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.22);
+                    -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.22);
+                    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.22);
+                    .table_head{
+                        border-radius: 0 50px;
+                        padding: 0;
+                        background-image: url('../images/pricing_table/1.png');
+                        position: relative;
+                        &:before{
+                            content: '';
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            display: block;
+                            height: 100%;
+                            width: 100%;
+                            background: rgba(16,60,75,0.9);
+                            border-radius: 0 50px;
+                        }
+                        h2{
+                            color: #fff;
+                            font: bold 40px/1 $mont;
+                            padding: 20px 0 0;
+                            position: relative;
+                        }
+                        h6{
+                            color: $basecolor3;
+                            font: normal 13px/36px $mont;
+                            text-transform: uppercase;
+                            padding-bottom: 10px;
+                            position: relative;
+                        }
+                        i{
+                            font-size: 36px;
+                            color: $basecolor3;
+                            position: absolute;
+                            top: -6px;
+                            right: 60px;
+                            @include transition;
+                        }
+                    }
+                    .table_heading{
+                        background: #fafafa;
+                        border: 1px solid #dde3e4;
+                        border-radius: 40px 0;
+                        position: relative;
+                        box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.22);
+                        h3{
+                            text-transform: uppercase;
+                            font: bold 24px/1 $mont;
+                            padding-top: 30px;
+                            color: #2c3e50;
+                        }
+                        h6{
+                            padding: 20px 0 30px;
+                            color: #999;
+                            font: monL;
+                            font-size: 18px;
+                            line-height: 18px;
+                        }
+                    }
+                    ul{
+                        padding: 0 35px;
+                        li{
+                            border-bottom: 1px solid #e0e0e0;
+                            a{
+                                font: normal 13px/40px $mont;
+                                color: #6f6f6f;
+                                &:hover{
+                                    background: transparent;
+                                }
+                            }
+                        }
+                    }
+                    .buton{
+                        text-align: center;
+                        background: transparent;
+                        padding: 37px 0 37px;
+                        a{
+                            border: 1px solid #ccc;
+                            text-transform: uppercase;
+                            color: #6f6f6f;
+                            font: normal 13px/36px $mont;
+                            padding: 16px 60px;
+                            border-radius: 30px;
+                            margin-top: 25px;
+                            letter-spacing: 1px;
+                            &:hover{
+                                background: $basecolor3;
+                                border: 1px solid $basecolor3;
+                                color: #fff;
+                            }
+                            &:focus{
+                                outline: none;
+                            }
+                            @media (max-width: 991px){
+                                padding: 10px 30px;
+                            }
+                        }
+                    }
+                    &:hover{
+                        -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.22);
+                        -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.22);
+                        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.22);
+                        
+                        .buton{
+                            a{
+                                background: $basecolor3;
+                                border: 1px solid $basecolor3;
+                                color: #fff;
+                                &:hover{
+                                    background: #d74132;
+                                }
+                            }
+                        }
+                    }
+                }
+                .table_first{
+                    border-radius: 40px 0;
+                    position: relative;
+                    overflow: hidden;
+                    .top_border{
+                        position: absolute;
+                        top: 0;
+                        left: calc(50% - 85px);
+                        text-align: center;
+                        display: block;
+                        background: #acacac;
+                        width: 170px;
+                        height: 3px;
+                        z-index: 999;
+                    }
+                    &:hover{
+                        .top_border{
+                            background: $basecolor3;
+                        }
+                    }
+                }
+                
+            }
+        }
+        .pricing_table_top{
+            padding-bottom: 0;
+        }
+    }
+}

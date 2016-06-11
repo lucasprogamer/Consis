@@ -1,0 +1,255 @@
+.events_schedule{
+    .events_schedule_content{
+        padding-bottom: 110px;
+        .events_schedule_tab{
+            .schedules{
+                background-image: url(../images/event_schedule/bg_left.png);
+                background-size: cover;
+                height: 600px;
+                position: relative;
+                padding: 55px 0 55px 55px;
+                border-right: 1px solid #d8e4e9;
+                &:before{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: 100%;
+                    width: 100%;
+                    background: rgba(3,50,66,0.3);
+                    border-radius: 48px 0 0 48px;
+                }
+                li{
+                    background: #fff;
+                    border-bottom: 1px solid #d6d6d6;
+                    position: relative;
+                    &:first-child{
+                        border-radius: 40px 0 0 0;
+                        a{
+                            border-radius: 40px 0 0 0;
+                            &:hover{
+                                border-radius: 40px 0 0 0;
+                            }
+                        }
+                    }
+                    &:last-child{
+                        border: none;
+                        border-radius: 0 0 0 40px;
+                        a{
+                            border-radius: 0 0 0 40px;
+                            &:hover{
+                                border-radius: 0 0 0 40px;
+                            }
+                        }
+                    }
+                    &.active{
+                        background: $basecolor3;
+                        &:before{
+                            content: '';
+                            position: absolute;
+                            top: 38px;
+                            right: -9px;
+                            width: 0;
+                            height: 0;
+                            border-style: solid;
+                            border-width: 10px 0 10px 10px;
+                            border-color: transparent transparent transparent $basecolor3;
+                            z-index: 99;
+                            @include transition;
+                        }
+                        a{
+                            color: #fff;
+                            h3{
+                                color: #fff;
+                            }
+                            h6{
+                                color: #fff;
+                            }
+                        }
+                        
+                    }
+                    a{
+                        padding: 22px 0 22px 35px;
+                        color: #333;
+                        h3{
+                            font: bold 18px/25px $mont;
+                            color: #333;
+                        }
+                        h6{
+                            font: normal 14px/30px $mont;
+                            color: #666;
+                        }
+                        &:hover,&:focus{
+                            background: $basecolor3;
+                            color: #fff;
+                            h3{
+                                color: #fff;
+                            }
+                            h6{
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+            .tab-content{
+                padding: 55px 55px 55px 0;
+                background-image: url(../images/event_schedule/bg_right.jpg);
+                background-size: cover;
+                height: 600px;
+                @media (max-width: 480px){
+                    height: auto;
+                }
+                &:before{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: 100%;
+                    width: 100%;
+                    background: rgba(247,247,247,0.9);
+                }
+                .close_menu{
+                    text-align: center;
+                    background: #fff;
+                    position: relative;
+                    .closemenu{
+                        border: 1px solid #d8e4e9;
+                        display: block;
+                        text-align: center;
+                        margin: 0 34px;
+                        li{
+                            width: 213px;
+                            border: 1px solid #d8e4e9;
+                            display: table-cell; 
+                            @media (max-width: 480px){
+                                width: 100%;
+                                display: block;
+                            }
+                            &:hover, &:focus,&.active{
+                                background: $basecolor3;
+                                a{
+                                    color: #fff;
+                                }
+                            }
+                            a{
+                                font: normal 14px/30px $mont;
+                                color: #666;
+                                text-align: center;
+                                @include transition;
+                                background: transparent;
+                                @media(max-width: 1199px){
+                                    padding: 10px 0;
+                                }
+                                &:hover,&:focus{
+                                    color: #fff;
+                                    background: $basecolor3;
+                                }
+                            }
+                        }
+                    }
+                }
+                .tab-pane{
+                    background: #fff;
+                    position: relative;
+                    padding: 40px 50px 35px;
+                    @include transition;
+                    .item_hover{
+                        padding-bottom: 30px;
+                        border-bottom: 1px solid rgba(231,76,60,0.15);
+                        &:last-child{
+                            border-bottom: 0;
+                            padding-bottom: 0;
+                            padding-top: 32px;
+                        }
+                        .image_hover{
+                            position: relative;
+                            display: block;
+                            overflow: hidden;
+                            float: left;
+                            &:before{
+                                content: '';
+                                position: absolute;
+                                top: 200px;
+                                left: 0;
+                                display: block;
+                                height: 145px;
+                                width: 145px;
+                                background: rgba(3,50,66,0.85);
+                                border-radius: 25px 0;
+                                @include transition;
+                            }
+                            img{
+                                float: left;
+                                margin-right: 40px;
+                                height: 145px;
+                                width: 145px;
+                                border-radius: 25px 0;
+                            }
+                            a{
+                                color: #fff;
+                                font: normal 13px/35px $mont;
+                                padding: 0 14px;
+                                border: 1px solid #fff;
+                                border-radius: 30px;
+                                position: absolute;
+                                top: 52px;
+                                left: -200px;
+                                @include transition;
+                            }
+                            &:hover{
+                                &:before{
+                                    top: 0;
+                                }
+                                a{
+                                    left: 20px;
+                                }
+                            }
+                        }
+                        .hover_content{
+                            a{
+                                font-family: monSB;
+                                font-size: 18px;
+                                line-height: 30px;
+                                color: #333;
+                                &:hover{
+                                    color: $basecolor3;
+                                }
+                            }
+                            p{
+                                font: normal 13px/24px $mont;
+                                color: #6f6f6f;
+                                padding-bottom: 10px;
+                                border-bottom: 1px solid #e1e1e1;
+                                margin: 0;
+                                overflow: hidden;
+                                padding-top: 10px;
+                                @media (max-width: 1199px){
+                                    padding-top: 0;
+                                    padding-bottom: 6px;
+                                }
+                            }
+                            h3{
+                                font: normal 13px/1 $mont;
+                                color: $basecolor3;
+                                padding-top: 12px;
+                                i{
+                                    color: #6f6f6f;
+                                    font-size: 18px;
+                                    margin-right: 15px;
+                                    &:last-child{
+                                        margin-left: 25px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+    .pbnone{
+        padding-bottom: 0;
+    }
+}

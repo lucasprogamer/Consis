@@ -1,0 +1,77 @@
+.newsletter{
+    background: url("../images/newsletter/bg.jpg");
+    background-size: cover;
+    position: relative;
+    height: 300px;
+    text-align: center;
+    padding: 85px 0 80px;
+    &:before{
+        content: '';
+        position: absolute;
+        background: rgba(3,50,66,0.85);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 300px;
+        width: 100%;
+    }
+    .content{
+        position: relative;
+        h2{
+            font-weight: bold;
+            font-family: $mont;
+            color: #fff;
+            padding-bottom: 50px;
+            span{
+                color: $base4;
+                font-weight: 800;
+            }
+        }
+        form{
+            .input-group{
+                .form-control{   
+                    border-radius: 35px 0 0 35px;
+                    background: #fff;
+                    border: 0;
+                    padding-left: 35px;
+                    text-transform: uppercase;
+                    height: 60px;
+                    width: 390px;
+                    color: #666666;
+                    &:focus{
+                        border: 0;
+                    }
+                    @include placeholder {
+                        text-transform: uppercase;
+                        font: normal 13px/20px $mont;
+                        color: #666666;
+                        
+                    }
+                    
+                }
+                .sub_btn{
+                    border-radius: 0 35px 35px 0;
+                    background: #ef3b35;
+                    padding-right: 30px;
+                    border: 0;
+                    color: #fff;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    height: 60px;
+                    width: 200px;
+                    font: normal 13px/60px $mont;
+                    display: block;
+                    float: left;
+                    &:hover{
+                        background: #d74132;
+                    }
+                    &:focus{
+                        border: none;
+                        outline: none;
+                    }
+                }
+            }
+        }
+    }
+}

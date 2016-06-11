@@ -1,0 +1,192 @@
+.main_page{
+    background: url("../images/header/mainbg.jpg") no-repeat scroll;
+    background-size: cover;
+    position: relative;
+    height: 964px;
+    &:before{
+        content: '';
+        position: absolute;
+        background: rgba(3,50,66,0.85);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 964px;
+        width: 100%;
+    }
+    .container{
+        position: relative;
+        .count_down{
+            text-align: center;
+            position: relative;
+            padding-top: 150px;
+            h6{
+                font: normal 12px/20px "Montserrat", sans-serif;
+                background: #e74c3c;
+                padding: 12px 23px;
+                color: #fff;
+                border-radius: 25px 0;
+                display: inline-block;
+                letter-spacing: 3px;
+            }
+            h2{
+                font: 700 50px/1 $open;
+                color: #fff;
+                text-transform: uppercase;
+                padding: 33px 0;
+                @media (max-width: 767px){
+                    font: 700 30px/1 $open;
+                }
+                span{
+                    color: $basecolor3;
+                    font: 800 50px/1 $open;
+                    @media (max-width: 767px){
+                        font: 700 30px/1 $open;
+                    }
+                }
+            }
+            h4{
+                font: normal 18px/1 $open;
+                color: #fff;
+                letter-spacing: 0.5px;
+            }
+            ul{
+                margin: 50px 0;
+                li{
+                    border: 2px solid #4e6269;
+                    padding: 38px 0;
+                    border-radius: 60px 0;
+                    text-align: center;
+                    width: 170px;
+                    @media (max-width: 991px){
+                        border-radius: 35px 0;
+                    }
+                    span{
+                        color: #fff;
+                        font: bold 48px/1 $mont;
+                        position: relative;
+                        width: 45px;
+                        &:before{
+                            content: '';
+                            position: absolute;
+                            bottom: -10px;
+                            left: 12px;
+                            width: 32px;
+                            height: 3px;
+                            background: $basecolor3;
+                        }
+                    }
+                    p{
+                        color: #ebebeb;
+                        text-transform: uppercase;
+                        padding-top: 35px;
+                        font: 600 15px/1 $mont;
+                        margin: 0;
+                        letter-spacing: 1px;
+                    }
+                }
+                .minit{
+                    border-radius: 0 60px;
+                    @media (max-width: 991px){
+                        border-radius: 0 35px;
+                    }
+                }
+                .seperator{
+                    width: 55px;
+                    border: 0;
+                    @media (max-width: 1199px){
+                        width: 20px;
+                    }
+                }
+            }
+        }
+        .event_info{
+            background: $basecolor3;
+            padding: 17px 0;
+            position: absolute;
+            bottom: -247px;
+            border-radius: 80px 80px 0 0;
+            z-index: 55;
+            .event_info_describe{
+                padding-left: 45px;
+                padding-right: 55px;
+                border-right: 1px solid #eb6759;
+                &:last-child{
+                    padding-right: 60px;
+                    border: 0;
+                }
+                .item{
+                    padding: 25px 0 15px;
+                    .icon_side{
+                        padding-right: 30px;
+                        a{
+                            display: block;
+                            border-radius: 30px 0;
+                            border: 1px solid #f8cac5;
+                            i{
+                                height: 80px;
+                                width: 80px;
+                                color: #fff;
+                                font-size: 33px;
+                                line-height: 82px;
+                                text-align: center
+                            }
+                            &:hover{
+                                background: #d74132;
+                                border-radius: 30px 0;
+                            }
+                        }
+                    }
+                    .media-body{
+                        color: #fff;
+                        
+                        h3{
+                            margin-bottom: 10px;
+                            font-family: monSB;
+                        }
+                        p{
+                            font-size: 13px;
+                            line-height: 26px;
+                            margin: 0;
+                            font-family: monL;
+                            letter-spacing: 0.1px;
+                        }
+                    }
+                    
+                }
+                &:nth-child(2){
+                    .item{
+                        .media-body{
+                            p{
+                                padding-right: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.page_top{
+    background: url("../images/header/bg.jpg") no-repeat scroll;
+    background-size: cover;
+    position: relative;
+    height: 450px;
+    &:before{
+        content: '';
+        position: absolute;
+        background: rgba(3,50,66,0.85);
+        display: block;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+.menu_part .navbar-brand{
+    padding: 5px 15px;
+}
+//.main_page.navbar-default{
+//    border: 0px solid transparent;
+//}

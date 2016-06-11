@@ -1,0 +1,99 @@
+.gallery{
+    .sec_header{
+        text-transform: capitalize;
+    }
+    .gallery_inner{
+        .item{
+            padding: 0;
+            position: relative;
+            overflow: hidden;
+            @include transition;
+            img{
+               max-width: 100%;
+            }
+            .item_bg{
+                position: absolute;
+                top: 0;
+                left: -120%;
+                width: 100%;
+                height: 100%;
+                border: 13px solid rgba(231,76,60,0.9);
+                .item_hover{
+                    background: rgba(3,50,66,0.8);
+                    width: 100%;
+                    height: 100%;
+                    overflow: visible;
+                    &:before{
+                        content: '';
+                        position: absolute;
+                        left: 13px;
+                        top: 13px;
+                        right: 13px;
+                        bottom: 13px;
+                        display: block;
+                        background: rgba(3, 50, 66, 0.9);
+                        text-align: center;
+                    }
+                }
+                .search{
+                    &:before{
+                        content: '';
+                        position: absolute;
+                        top: 30%;
+                        left: 50%;
+                        background: $basecolor3;
+                        width: 1px;
+                        height: 40%;
+                    }
+                    &:after{
+                        content: '';
+                        position: absolute;
+                        left: 30%;
+                        top: 50%;
+                        background: $basecolor3;
+                        height: 1px;
+                        width: 40%;
+                    }
+                }
+            }
+            .item_back{
+                background: rgba(3,50,66,0.95);
+                padding: 85px 18px 0;
+                position: absolute;
+                top: 0;
+                left: -150%;
+                height: 100%;
+                width: 100%;    
+                h4{
+                    color: #fff;
+                    font-family: monSB;
+                    padding-left: 10px;
+                }
+                p{
+                    color: #ccc;
+                    font: normal 13px/24px $mont;
+                    padding-top: 20px;
+                    padding-left: 10px;
+                }
+                .more{
+                    border-top: 1px solid #2f4a53;
+                    padding-top: 20px;
+                    a{
+                        text-transform: capitalize;
+                        color: $basecolor3;
+                        padding-left: 10px;
+                    }
+                }
+            }
+            &:hover{
+                .item_bg{
+                    left: 0%;
+                    right: 0%;
+                }
+                .item_back{
+                    left: 0;
+                }
+            }
+        }
+    }
+}

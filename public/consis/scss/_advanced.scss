@@ -1,0 +1,163 @@
+.advanced{
+    padding-top: 110px;
+    .advanced_bg{
+        .advanced_left{
+            background-image: url('../images/schedule/bg.jpg');
+            background-size: cover;
+            padding: 30px;
+            border-top: 18px solid #f9f9f9;
+            border-left: 18px solid #f9f9f9;
+            border-bottom: 18px solid #f9f9f9;
+            position: relative;
+            &:before{
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                background: rgba(255,255,255,0.8);
+                height: 100%;
+                width: 100%;
+            }
+            .advanced_left_inner{
+                position: relative;
+                h3{
+                    color: $basecolor3;
+                    font-family: monSB;
+                    padding-bottom: 25px;
+                    border-bottom: 1px solid $basecolor3;
+                }
+                p{
+                    font: normal 13px/30px $mont;
+                    color: #6f6f6f;
+                    padding-top: 20px;
+                    margin: 0;
+                }
+                ul{
+                    padding-top: 30px;
+                    li{
+                        background: rgba(44,62,80,0.12);
+                        margin-bottom: 25px;
+                        border-radius: 15px 0;
+                        a{
+                            font: normal 14px/24px $mont;
+                            color: #555555;
+                            padding: 0;
+                            i{
+                                font-size: 18px;
+                                background: #a5a6a6;
+                                border-radius: 15px 0;
+                                height: 40px;
+                                width: 40px;
+                                text-align: center;
+                                line-height: 40px;
+                                color: #fff;
+                                @include transition;
+                            }
+                            span{
+                                padding-left: 24px;
+                            }
+                            &:hover{
+                                background: transparent;
+                                border-radius: 15px 0;
+                                color: $basecolor3;
+                                i{
+                                    background: $basecolor3;
+                                }
+                            }
+                        }
+                        &:last-child{
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+            
+        }
+        .advanced_right{
+            padding: 0;
+            position: relative;
+            &:before{
+                content: '';
+                display: block;
+                position: absolute;
+                top: 17px;
+                left: 17px;
+                right: 27px;
+                bottom: 17px;
+                background: rgba(3, 50, 66, 0.75);
+                border-radius: 0 40px 40px 0;
+            }
+            .owl-carousel{
+                .item{
+                    position: relative;
+                    &:before{
+                        content: '';
+                        position: absolute;
+                        background: rgba(3, 50, 66, 0.75);
+                        top: 30px;
+                        left: -380px;
+                        width: 370px;
+                        height: 532px;
+                        border-radius: 0 25px 25px 0;
+                    }
+                    img{
+                        height: 583px;
+                        padding-right: 15px;
+                    }
+                }
+            }
+            .owl-controls{
+                .owl-nav{
+                    text-transform: uppercase;
+                }
+            }
+            .owl-prev{
+                position: absolute;
+                float: left;
+                left: 0;
+                bottom: 50px;
+                text-align: center;
+                padding: 20px 10px;
+                background: #999;
+                color: #fff;
+                width: 45%;
+                margin-left: 5%;
+                @include transition;
+                a{
+                    color: #fff;
+                    i{
+                        margin-right: 5px;
+                    }
+                }
+                &:hover{
+                    background: $basecolor3;
+                }
+            }
+            .owl-next{
+                position: absolute;
+                float: left;
+                padding: 20px 10px;
+                right: 0;
+                bottom: 50px;
+                text-align: center;
+                background: #999;
+                color: #fff;
+                width: 45%;
+                margin-right: 4%;
+                margin-left: 1%;
+                @include transition;
+                a{
+                    color: #fff;
+                    i{
+                        margin-left: 5px;
+                    }
+                }
+                &:hover{
+                    background: $basecolor3;
+                }
+                
+            }
+            
+        }
+    }
+}

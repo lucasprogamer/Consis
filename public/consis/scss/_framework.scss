@@ -1,0 +1,23 @@
+$basecolor: #00232e;
+$basecolor2: #023242;
+$basecolor3: #e74c3c;
+$base4: #ef3b35;
+
+
+$mont: 'Montserrat', sans-serif;
+$droid: 'Droid Serif', serif;
+$open: 'Open Sans', sans-serif;
+$ubuntu:  'Ubuntu', sans-serif;
+
+
+// Mixins
+@mixin transition($property: all, $duration: 300ms, $animate: linear, $delay:0s){
+    transition: $property $duration $animate $delay;
+}
+
+// placeholder mixins
+@mixin placeholder {
+  &.placeholder { @content }
+  &:-moz-placeholder { @content }
+  &::-webkit-input-placeholder { @content }
+}

@@ -1,0 +1,109 @@
+.event{
+    padding: 110px 0 0;
+    .event_inside{
+        .event_left{
+            padding: 25px 25px 20px 25px;
+            background: #f9f9f9;
+            .row{
+                .event_describe{
+                    padding: 25px 15px 30px 25px;
+                    &:focus{
+                        border: 1px solid red;
+                    }
+                    &:nth-child(2n+1){
+                        border-right: 1px solid #f6dfdd;
+                    }
+                    &:nth-child(3){
+                        border-top: 1px solid #f6dfdd;
+                    }
+                    &:nth-child(4){
+                        border-top: 1px solid #f6dfdd;
+                    }
+                    &:nth-child(2n){
+                        padding-left: 30px;
+                        .item{
+                            .icon_side{
+                                a{
+                                    i{
+                                        font-size: 25px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .media{
+                        .icon_side{
+                            padding-right: 25px;
+                            a{
+                                display: block;
+                                i{
+                                    background: #999;
+                                    color: #fff;
+                                    height: 60px;
+                                    width: 60px;
+                                    text-align: center;
+                                    border: 5px solid #dcdcdc;
+                                    border-radius: 20px 0;
+                                    font-size: 30px;
+                                    line-height: 50px;
+                                }
+                                &:hover{
+                                    i{
+                                        background: $basecolor3;
+                                        border: 5px solid #f4c5c0;
+                                    }
+                                }
+                            }
+                        }
+                        .media-body{
+                            h4{
+                                font: 700 18px $mont;
+                                color: #141414;
+                                text-transform: capitalize;
+                                margin: 0;
+                            }
+                        }
+                    }
+                    p{
+                        font: normal 13px/24px $mont;
+                        color: #6f6f6f;
+                        padding-top: 25px;
+                        margin: 0;
+                    }
+                    
+                }
+            }
+        }
+        .event_right{
+            padding: 0;
+            img{
+                
+            }
+            &:before{
+                content:'';
+                position: absolute;
+                background: rgba(3,50,66,0.65);
+                top: 15px;
+                left: 20px;
+                height: 445px;
+                width: 345px;
+                border-radius: 0 50px 50px 0;
+            }
+            &:after{
+                content: '';
+                position: absolute;
+                background: url("../images/event/2.png");
+                top: 200px;
+                left: 95px;
+                height: 64px;
+                width: 172px;
+            }
+        }
+    }
+    .pb{
+        padding-bottom: 80px;
+    }
+}
+.event.tickets{
+    padding-bottom: 110px;
+}

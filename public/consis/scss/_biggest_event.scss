@@ -1,0 +1,55 @@
+.biggest_event{
+    background: #fff;
+    padding: 110px 0;
+    .biggest_event_header{
+        text-align: center;
+        padding-bottom: 60px;
+        h2{
+            font-family: monSB;
+            font-size: 30px;
+            line-height: 30px;
+            color: #141414;
+            padding-bottom: 20px;
+        }
+        h6{
+            font: italic 13px/24px $droid;
+            color: #999;
+            width: 60%;
+            display: inline-block;
+        }
+    }
+    .biggest_event_describe{
+        p{
+            color: #6f6f6f;
+            font: normal 13px/24px $mont;
+            text-align: justify;
+            &:last-child{
+                padding-top: 25px;
+                display: inline-block;
+            }
+        }
+        .biggest_event_left{
+            p{
+                &:first-child{
+                    float: left;
+                    span{
+                        color: #fff;
+                        padding-top: 5%;
+                        float: left;
+                        background: $basecolor3;
+                        font: 600 30px/1 $open;
+                        text-transform: uppercase;
+                        text-align: center;
+                        border-radius: 15px 0;
+                        width: 50px;
+                        height: 90px;
+                        margin-right: 18px;
+                    }
+                }
+            }
+        }
+        .biggest_event_right{
+            
+        }
+    }
+}

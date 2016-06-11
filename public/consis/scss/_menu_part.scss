@@ -1,0 +1,145 @@
+.menu_part{
+        background: $basecolor;
+        padding: 22px 0;
+        border: none;
+        box-shadow: none;
+        .nav.navbar-nav{
+            position: relative;
+            li{
+                padding: 0 10px;
+                @include transition;
+                @media (max-width: 991px){
+                    padding: 0 6px;
+                }
+                 &:before{
+                    content: '';
+                    position: absolute;
+                    background: $basecolor3;
+                    width: 0%;
+                    height: 3px;
+                    top: 50%;
+                    left: 8%;
+                }
+                &:hover, &:focus, &.active{
+                     outline: none;
+                    &:before{ 
+                        width: 80%;  
+                        left: 11%;
+
+                    }
+                }
+               &.active{
+                    background: transparent;
+                    a{
+                        background: transparent;
+                        box-shadow: none;
+                        outline: none;
+                        text-shadow: none;
+                    }
+                }
+                a{
+                    color: #fff;
+                    font-size: 16px;
+                    font-family: monL;
+                    @include transition;
+                    background: transparent;
+                    text-shadow: none;
+                    &:hover,&:focus{
+                        background: transparent; 
+                        outline: none;
+                        color: #fff;
+                    }   
+                }
+                &.dropdown{
+                    a{
+                       color: #fff; 
+                    }
+                    .dropdown-menu{
+                        background: #00232e;
+                        position: absolute; 
+                        @include transition;
+                        transform: rotateX(-90deg);
+                        transform-origin: top;
+                        display: block;  
+                        z-index: 9999;
+                    }
+                }
+                @media(min-width: 768px){
+                    &:hover .dropdown-menu, &:hover a{
+                        transform: rotateX(0deg);
+                    }
+                }
+            }
+            
+        }
+    
+        .navbar-collapse{ 
+            position: relative;
+            .search_button{   
+                float: right;
+                a{
+                    color: #fff; 
+                    font-size: 16px;
+                    font-family: monL;
+                    padding-top: 14px;   
+                    i{
+                        font-size: 16px;
+                    }
+                }
+                .search_p{     
+                    z-index: 3; 
+                    position: absolute;
+                    color: #fff;
+                    background: #00232e;
+                    width: 70%;  
+                    right: 50px;
+                    top: -8px;
+                    height: 75px;
+                    input{
+                        float: right;
+                        position: relative;
+                        left: 10px;
+                        top: 20px;
+                        background-color: transparent;
+                        border: 0; 
+                        border-bottom: 1px solid rgba(231, 76, 60, 0.6);
+                        &:hover, &:focus{
+                            outline: none;
+                            box-shadow: 0;
+                        }
+                        @include placeholder{
+                            color: #cccccc;
+                            font: 400 14px $mont;  
+                        }
+                    }
+                }
+            }
+        }
+        &:before{
+            content: '';
+            position: absolute;
+            background: $basecolor;
+            top: 0;
+            left: -113px;
+            height: 94px;
+            width: 115px;
+            border-radius: 0px 0px 0px 75px;
+        }
+        &:after{
+            content: '';
+            position: absolute;
+            background: $basecolor;
+            top: 0;
+            right: -113px;
+            height: 94px;
+            width: 115px;
+            border-radius: 0px 0px 75px 0px;
+        }
+    }
+
+.row.main_page{
+    overflow: hidden;
+}
+.row.page_top{
+    overflow: hidden;
+}

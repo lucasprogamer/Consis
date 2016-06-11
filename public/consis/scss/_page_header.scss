@@ -1,0 +1,15 @@
+.page_top{
+    background: url("../images/header/bg.jpg") no-repeat scroll;
+    background-size: cover;
+    position: relative;
+    height: 450px;
+    &:before{
+        content: '';
+        position: absolute;
+        background: rgba(3,50,66,0.85);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
