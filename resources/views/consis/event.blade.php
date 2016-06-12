@@ -7,11 +7,11 @@
                             <div class="media item">
                                 <div class="media-left media-middle icon_side">
                                     <a href="#">
-                                        <i class="fa fa-gift"></i>
+                                        <i class="fa fa-users"></i>
                                     </a>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Biggest Event</h4>
+                                    <h4 class="media-heading">Palestras</h4>
                                 </div>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipisc, sed diam nonummy nibh euismod tincidunt laore dolore magna aliquam erat volutpat. </p>
@@ -20,11 +20,11 @@
                             <div class="media item">
                                 <div class="media-left media-middle icon_side">
                                     <a href="#">
-                                        <i class="fa fa-users"></i>
+                                        <i class="fa fa-desktop"></i>
                                     </a>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">10 Countries Attend</h4>
+                                    <h4 class="media-heading">Mini Cursos</h4>
                                 </div>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipisc, sed diam nonummy nibh euismod tincidunt laore dolore magna aliquam erat volutpat. </p>
@@ -37,7 +37,7 @@
                                     </a>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Online Tickets</h4>
+                                    <h4 class="media-heading">Sessões Técnicas</h4>
                                 </div>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipisc, sed diam nonummy nibh euismod tincidunt laore dolore magna aliquam erat volutpat. </p>
@@ -46,11 +46,11 @@
                             <div class="media item">
                                 <div class="media-left media-middle icon_side">
                                     <a href="#">
-                                        <i class="fa fa-film"></i>
+                                        <i class="fa fa-gamepad"></i>
                                     </a>
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="media-heading">Video streaming</h4>
+                                    <h4 class="media-heading">Campeonatos</h4>
                                 </div>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipisc, sed diam nonummy nibh euismod tincidunt laore dolore magna aliquam erat volutpat. </p>
@@ -67,17 +67,16 @@
     <section class="row events_schedule">
         <div class="container">
             <div class="row sec_header">
-                <h2>Events Schedule</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod to end.</p>
+                <h2>Agenda</h2>
+                <p>Acompanhe a Agenda de eventos e não perca nossa programação</p>
             </div>
             <div class="row events_schedule_content">
                 <div class="events_schedule_tab">
                     <ul class="nav schedules col-md-2 col-sm-3">
-                        <li class="active"><a data-toggle="tab" href="#home"><h3>Day 01 </h3><h6>08/03/2016</h6></a></li>
-                        <li><a data-toggle="tab" href="#menu1"><h3>Day 02 </h3><h6>09/03/2016</h6></a></li>
-                        <li><a data-toggle="tab" href="#menu2"><h3>Day 03 </h3><h6>10/03/2016</h6></a></li>
-                        <li><a data-toggle="tab" href="#menu3"><h3>Day 04 </h3><h6>11/03/2016</h6></a></li>
-                        <li><a data-toggle="tab" href="#menu4"><h3>Day 05 </h3><h6>12/03/2016</h6></a></li>
+                        <li class="active"><a data-toggle="tab" href="#home"><h3>Dia 01 </h3><h6>08/03/2016</h6></a></li>
+                        <li><a data-toggle="tab" href="#menu1"><h3>Dia 02 </h3><h6>09/03/2016</h6></a></li>
+                        <li><a data-toggle="tab" href="#menu2"><h3>Dia 03 </h3><h6>10/03/2016</h6></a></li>
+                        <li><a data-toggle="tab" href="#menu3"><h3>Dia 04 </h3><h6>11/03/2016</h6></a></li>
                     </ul>
                     <div class="tab-content col-md-10 col-sm-9">
                         <div class="close_menu">

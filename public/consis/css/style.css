@@ -2429,7 +2429,7 @@ h2, h3, h4, h5, h6 {
   padding-bottom: 110px;
 }
 .events_schedule .events_schedule_content .events_schedule_tab .schedules {
-  background-image: url(http://placehold.it/208x600);
+  background-image: url(../images/event_schedule/bg_left.png);
   background-size: cover;
   height: 600px;
   position: relative;
@@ -2520,7 +2520,7 @@ h2, h3, h4, h5, h6 {
 }
 .events_schedule .events_schedule_content .events_schedule_tab .tab-content {
   padding: 55px 55px 55px 0;
-  background-image: url(http://placehold.it/962x600);
+  background-image: url(../images/event_schedule/bg_right.jpg);
   background-size: cover;
   height: 600px;
 }

@@ -11,7 +11,7 @@
                 <div class="footer_menu">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a onclick="$('body').animatescroll();">Home</a></li>
-                            <li><a onclick="$('.event').animatescroll();">Agenda</a></li>
+                            <li><a onclick="$('.events_schedule').animatescroll();">Agenda</a></li>
                             <li><a onclick="$('.newsletter').animatescroll();">Subimissões</a></li>
                             <li><a onclick="$('.speakers').animatescroll();">Palestrantes</a></li>
                             <li><a onclick="$('.blog').animatescroll();">Blog</a></li>
