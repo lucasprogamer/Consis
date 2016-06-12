@@ -41,7 +41,7 @@
                 </nav>
             </div>
                 <div class="row m0 count_down">
-                    <h6>17/10 a 20/10</h6>
+                    <h6>24/10 a 27/10</h6>
                     <h2><span>I Consis</span></h2>
                     <h4>I Congresso de Sistemas de Informação FAHESA/ITPAC </h4> 
                     <ul id="example">
