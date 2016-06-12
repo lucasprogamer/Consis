@@ -42,9 +42,9 @@
 
     @include('consis.speakers')
     
-    <!-- @include('consis.comments') -->
+    {{-- @include('consis.comments') 
   
-    <!-- @include('consis.pricing') -->
+    @include('consis.pricing') --}}
 
     
     @include('consis.register')
@@ -67,6 +67,7 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
     <script type="text/javascript" src="{{ asset('consis/vendors/flexslider/jquery.flexslider-min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('consis/js/jquery.countdown.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('consis/js/animatescroll/animatescroll.js') }}"></script>
     <script src="{{ asset('consis/js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('consis/js/owl.carousel.min.js') }}"></script> 
     

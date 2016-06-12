@@ -17,20 +17,23 @@
 
                     <!-- Menu -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                       <div class="search_button">
+                      
+
+                      <!--  <div class="search_button">
                             <a type="button" class="btn btn-searce" data-toggle="collapse" data-target="#search"><i class="fa fa-search"></i></a>
                             <div id="search" class="search_p collapse">
                                 <input type="search" placeholder="Search...">
                             </div>
-                        </div>
+                        </div> -->
+                        
+                      
                         <ul class="nav navbar-nav navbar-right">
                             <li class="active"><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="schedule.html">Schedule</a></li>
-                            <li><a href="speakers.html">Speakers</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a onclick="$('.event').animatescroll();">Agenda</a></li>
+                            <li><a onclick="$('.newsletter').animatescroll();">Subimissões</a></li>
+                            <li><a onclick="$('.speakers').animatescroll();">Palestrantes</a></li>
+                            <li><a onclick="$('.blog').animatescroll();">Blog</a></li>
+                            <li><a onclick="$('.g_map').animatescroll();">Contato</a></li>
 
                         </ul>
                     </div><!-- /.navbar-collapse -->
