@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.adminex')
 
 @section('content')
     <div class="row">
@@ -10,10 +10,25 @@
     @include('core-templates::common.errors')
 
     <div class="row">
-        {!! Form::open(['route' => 'posts.store']) !!}
+        <div class="col-md-12">
+            <section class="panel">
+                <header class="panel-heading">
+                    Novo
+                    <span class="tools pull-right">
+                        <a class="fa fa-chevron-down" href="javascript:;"></a>
+                    </span>
+                </header>
+        
+                <div class="panel-body">
 
-            @include('posts.fields')
+                    {!! Form::open(['route' => 'posts.store']) !!}
 
-        {!! Form::close() !!}
+                        @include('posts.fields')
+
+                    {!! Form::close() !!}
+              
+                </div>
+            </section>
+        </div>
     </div>
 @endsection

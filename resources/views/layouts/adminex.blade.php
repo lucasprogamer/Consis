@@ -139,6 +139,8 @@
 <script src="{{ asset('adminex/js/jquery.nicescroll.js') }}"></script>
 
 
+<script type="text/javascript" src="{{ asset('adminex/js/ckeditor/ckeditor.js') }}"></script>
+
 <!--common scripts for all pages-->
 <script src="{{ asset('adminex/js/scripts.js') }}"></script>
 

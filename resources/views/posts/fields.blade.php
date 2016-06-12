@@ -5,9 +5,24 @@
 </div>
 
 <!-- Post Field -->
-<div class="form-group col-sm-12 col-lg-12">
-    {!! Form::label('post', 'Post:') !!}
-    {!! Form::textarea('post', null, ['class' => 'form-control']) !!}
+<div class="col-md-12">
+<section class="panel">
+    <header class="panel-heading">
+          {!! Form::label('post', 'Post:') !!}
+            <span class="tools pull-right">
+                <a href="javascript:;" class="fa fa-chevron-down"></a>
+             </span>
+    </header>
+
+    
+		<div class="panel-body">
+			<div class="form-group  col-sm-12 col-lg-12">
+				
+				{!! Form::textarea('post', null, ['class' => 'form-control ckeditor']) !!}
+			
+			</div>
+		</div>
+	</section>
 </div>
 
 <!-- Autor Field -->

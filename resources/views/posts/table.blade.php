@@ -1,4 +1,4 @@
-<table class="table table-responsive" id="posts-table">
+<table class="table table-responsive table-hover table-striped" id="posts-table">
     <thead>
         <th>Titulo</th>
         <th>Post</th>
@@ -14,9 +14,9 @@
             <td>
                 {!! Form::open(['route' => ['posts.destroy', $post->id], 'method' => 'delete']) !!}
                 <div class='btn-group'>
-                    <a href="{!! route('posts.show', [$post->id]) !!}" class='btn btn-default btn-xs'><i class="glyphicon glyphicon-eye-open"></i></a>
-                    <a href="{!! route('posts.edit', [$post->id]) !!}" class='btn btn-default btn-xs'><i class="glyphicon glyphicon-edit"></i></a>
-                    {!! Form::button('<i class="glyphicon glyphicon-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-xs', 'onclick' => "return confirm('Are you sure?')"]) !!}
+                    <a href="{!! route('posts.show', [$post->id]) !!}" class='btn btn-default btn-sm'><i class="fa fa-eye"></i></a>
+                    <a href="{!! route('posts.edit', [$post->id]) !!}" class='btn btn-default btn-sm'><i class="fa fa-pencil"></i></a>
+                    {!! Form::button('<i class="fa fa-trash-o"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Deseja Realmente excluir?')"]) !!}
                 </div>
                 {!! Form::close() !!}
             </td>

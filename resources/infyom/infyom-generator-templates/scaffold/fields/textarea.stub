@@ -1,5 +1,20 @@
 <!-- $FIELD_NAME_TITLE$ Field -->
-<div class="form-group col-sm-12 col-lg-12">
+<div class="col-md-12">
+<section class="panel">
+    <header class="panel-heading">
     {!! Form::label('$FIELD_NAME$', '$FIELD_NAME_TITLE$:') !!}
-    {!! Form::textarea('$FIELD_NAME$', null, ['class' => 'form-control']) !!}
+            <span class="tools pull-right">
+                <a href="javascript:;" class="fa fa-chevron-down"></a>
+             </span>
+    </header>
+
+    
+		<div class="panel-body">
+			<div class="form-group  col-sm-12 col-lg-12">
+    			
+    			{!! Form::textarea('$FIELD_NAME$', null, ['class' => 'form-control ckeditor']) !!}
+			
+			</div>
+		</div>
+	</section>
 </div>
