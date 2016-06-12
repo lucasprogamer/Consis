@@ -3,6 +3,7 @@
         <div class="container">
             <div class="row">
             
+            <div class="fixed">
                 <nav class="navbar navbar-default menu_part">
                 <!-- mobile menu -->
                     <div class="navbar-header">
@@ -28,7 +29,7 @@
                         
                       
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a onclick="$('body').animatescroll();">Home</a></li>
                             <li><a onclick="$('.event').animatescroll();">Agenda</a></li>
                             <li><a onclick="$('.newsletter').animatescroll();">Subimissões</a></li>
                             <li><a onclick="$('.speakers').animatescroll();">Palestrantes</a></li>
@@ -38,10 +39,11 @@
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </nav>
+            </div>
                 <div class="row m0 count_down">
-                    <h6>09 Nov, 2016</h6>
-                    <h2><span>DAWAT</span> Conferences <span>&amp;</span> events </h2>
-                    <h4>So get ready to attend this awesome event &amp; book your seat now! </h4> 
+                    <h6>17/10 a 20/10</h6>
+                    <h2><span>I Consis</span></h2>
+                    <h4>I Congresso de Sistemas de Informação FAHESA/ITPAC </h4> 
                     <ul id="example">
                         <li><span class="days">00</span><p class="days_text">Days</p></li>
                         <li class="seperator"></li>
@@ -61,8 +63,8 @@
                                 </a>
                             </div>
                             <div class="media-body">
-                                <h3 class="media-heading">Dhaka, BD</h3>
-                                <p>Dawat Hall, Road # 00, Section # 11, Mirpur, Dhaka.</p>
+                                <h3 class="media-heading">FAHESA/ITPAC</h3>
+                                <p>Av. Filadélfia. 568 St. Oeste,  Araguaína-TO</p>
                             </div>
                         </div>
                     </div>
@@ -74,8 +76,8 @@
                                 </a>
                             </div>
                             <div class="media-body">
-                                <h3 class="media-heading">75 speakers</h3>
-                                <p>All speakers are experts, Do not miss your chances.</p>
+                                <h3 class="media-heading">26Hrs EVENTO</h3>
+                                <p>Palestras, Mini-Cursos e Sessões Técnicas</p>
                             </div>
                         </div>
                     </div>
@@ -87,8 +89,8 @@
                                 </a>
                             </div>
                             <div class="media-body">
-                                <h3 class="media-heading">2500 seats</h3>
-                                <p>First come, first served. So, book your seat quickly.</p>
+                                <h3 class="media-heading">200 VAGAS</h3>
+                                <p>mais de 200 vagas</p>
                             </div>
                         </div>
                     </div>

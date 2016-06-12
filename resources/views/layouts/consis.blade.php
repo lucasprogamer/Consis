@@ -38,20 +38,20 @@
 
     @include('consis.event')
 
-    @include('consis.subscribe')
+    {{-- @include('consis.subscribe') --}}
 
-    @include('consis.speakers')
+    {{-- @include('consis.speakers') --}}
     
-    {{-- @include('consis.comments') 
+    {{-- @include('consis.comments')--}} 
   
-    @include('consis.pricing') --}}
+   {{-- @include('consis.pricing') --}}
 
     
-    @include('consis.register')
+    {{-- @include('consis.register') --}}
     
-    @include('consis.blog')
+    {{-- @include('consis.blog') --}}
     
-    @include('consis.sponsors')
+    {{-- @include('consis.sponsors') --}}
     
     @include('consis.contact')
     

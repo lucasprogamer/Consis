@@ -3,10 +3,16 @@
      
     // Countdown JS
     $('#example').countdown({
-        date: '6/24/2016 23:59:59',
+        date: '10/24/2016 23:59:59',
         offset: -8,
-        day: 'Day',
-        days: 'Days'
+        day: 'Dia',
+        days: 'Dias',
+        hour:'Hora',
+        hours:'Horas',
+        minute:'Minuto',
+        minutes:'minutos',
+        second:'Segundo',
+        seconds:'Segundos'
     }, 
     function () {
         alert('Done!');

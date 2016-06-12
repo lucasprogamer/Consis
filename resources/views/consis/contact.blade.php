@@ -4,14 +4,14 @@
 
         <div class="container">
             <div class="row contact_info">
-                <h3>Dawat Contact Info:</h3>
+                <h3>Entre em Contato:</h3>
                 <div class="widget row m0">
                     <ul>
                         <li>
                             <i class="fa fa-map-marker"></i>
                             <div class="location_address fleft">
-                                House # 00, Road # 00, Block # ABC, <br>
-                                Mirpur-11, Dhaka, Bangladesh.
+                                Av. Filadélfia. 568S <br>
+                                St. Oeste,  Araguaína-TO
                             </div>
 
                         </li>
@@ -24,7 +24,7 @@
                         <li>
                             <i class="fa fa-paper-plane"></i>
                             <div class="fleft contact_mail">
-                                <a href="#">info@dawat.com</a>
+                                <a href="#">contato@consis.com.br</a>
                             </div>
                         </li>
                         <li>
