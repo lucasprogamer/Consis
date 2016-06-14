@@ -1,10 +1,6 @@
 
     <header class="row main_page">
-        <div class="fixed">
-            <div class="container">
-                
-            
-
+                    <div class="fixed">
                 <nav class="navbar navbar-default menu_part">
                 <!-- mobile menu -->
                     <div class="navbar-header">
@@ -40,11 +36,8 @@
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </nav>
-            </div>  
-        </div>
-
+            </div>
         <div class="container">
-
             <div class="row">
             
 

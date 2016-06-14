@@ -3360,10 +3360,3 @@ footer .footer_bottom .footer_menu ul li:before {
 
 
 /*custom*/
-
-
-.fixed{
-  position: fixed;
-  z-index: 99;
-  
-}
