@@ -3357,3 +3357,13 @@ footer .footer_bottom .footer_menu ul li:before {
 /*====================================================*/
 
 /*# sourceMappingURL=style.css.map */
+
+
+/*custom*/
+
+
+.fixed{
+  position: fixed;
+  z-index: 99;
+  
+}

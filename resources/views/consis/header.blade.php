@@ -1,9 +1,10 @@
 
     <header class="row main_page">
-        <div class="container">
-            <div class="row">
+        <div class="fixed">
+            <div class="container">
+                
             
-            <div class="fixed">
+
                 <nav class="navbar navbar-default menu_part">
                 <!-- mobile menu -->
                     <div class="navbar-header">
@@ -39,7 +40,14 @@
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </nav>
-            </div>
+            </div>  
+        </div>
+
+        <div class="container">
+
+            <div class="row">
+            
+
                 <div class="row m0 count_down">
                     <h6>24/10 a 27/10</h6>
                     <h2><span>I Consis</span></h2>
