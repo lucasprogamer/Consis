@@ -1,6 +1,6 @@
 
-    <header class="row main_page">
-                    <div class="fixed">
+    <header id="topo" class="row main_page">
+            <div id="meuMenu">
                 <nav class="navbar navbar-default menu_part">
                 <!-- mobile menu -->
                     <div class="navbar-header">
@@ -10,7 +10,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"><img src="images/header/logo.png" alt="#"></a>
+                        <a class="navbar-brand" href="#"><img src="consis/images/header/logo_consis1.png" alt="#"></a>
                     </div>
 
                     <!-- Menu -->
@@ -28,7 +28,7 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li><a onclick="$('body').animatescroll();">Home</a></li>
                             <li><a onclick="$('.events_schedule').animatescroll();">Agenda</a></li>
-                            <li><a onclick="$('.newsletter').animatescroll();">Subimissões</a></li>
+                            <li><a onclick="$('.newsletter').animatescroll();">Submissões</a></li>
                             <li><a onclick="$('.speakers').animatescroll();">Palestrantes</a></li>
                             <li><a onclick="$('.blog').animatescroll();">Blog</a></li>
                             <li><a onclick="$('.g_map').animatescroll();">Contato</a></li>
@@ -43,6 +43,7 @@
 
                 <div class="row m0 count_down">
                     <h6>24/10 a 27/10</h6>
+                    
                     <h2><span>I Consis</span></h2>
                     <h4>I Congresso de Sistemas de Informação FAHESA/ITPAC </h4> 
                     <ul id="example">

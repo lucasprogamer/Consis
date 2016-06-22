@@ -1,19 +1,19 @@
    <section class="row sponsor">
         <div class="container">
             <div class="row sponsor_inner">
-                <h2>our <span>sponsors</span></h2>
+                <h2>Nossos <span>Patrocinadores</span></h2>
                 <div class="protfolio_content"> 
                      <div class="gallery_filter">
                         <ul>
-                            <li class="filter active" data-filter="all">silver sponsors</li>
-                            <li class="filter" data-filter=".bedroom">gold sponsors</li>
-                            <li class="filter" data-filter=".indoor">platinum sponsors</li> 
+                            <li class="filter active" data-filter="all">Ouro</li>
+                            <li class="filter" data-filter=".bedroom">Prata</li>
+                            <li class="filter" data-filter=".indoor">Apoiador</li> 
                         </ul>
                     </div>
                     <div class="gallery_item flexslider">
                         <ul class="slides">
                             <li class="mix item bedroom indoor garage Kitchen bathroom" data-my-order="1"> 
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/itpac_logo.png" alt="#"> 
                             </li>
                              <li class="mix item indoor basement Kitchen" data-my-order="2"> 
                                 <img src="http://placehold.it/177x177" alt="#"> 

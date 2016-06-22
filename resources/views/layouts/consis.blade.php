@@ -15,6 +15,7 @@
     <!-- Countdown -->
     <link href="{{ asset('consis/css/jquery.countdown.css') }}" rel="stylesheet"> 
     <!-- Google Fonts -->
+
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
@@ -34,24 +35,25 @@
 
 <body> 
 
+    <!-- HOME -->
     @include('consis.header')
-
+    <!-- EVENTO -->
     @include('consis.event')
-
-    {{-- @include('consis.subscribe') --}}
-
-    {{-- @include('consis.speakers') --}}
+    <!-- SUBMISSÔES -->
+    @include('consis.subscribe')
+    <!-- Patrocinadores -->
+    @include('consis.speakers')
     
-    {{-- @include('consis.comments')--}} 
+    {{--@include('consis.comments')--}}
   
-   {{-- @include('consis.pricing') --}}
+   {{--@include('consis.pricing')--}}
 
     
-    {{-- @include('consis.register') --}}
+    @include('consis.register')
     
-    {{-- @include('consis.blog') --}}
+    @include('consis.blog')
     
-    {{-- @include('consis.sponsors') --}}
+    @include('consis.sponsors')
     
     @include('consis.contact')
     

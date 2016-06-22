@@ -1,5 +1,5 @@
     <section class="row blog">
-        <div class="container">
+      <!--   <div class="container">
             <div class="row blog_inner">
                 <div class="row m0 sec_header_left">
                     <h2>Blog &amp; News</h2>
@@ -58,5 +58,48 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
+<!-- 
+        <div class="container">
+            <div class="row blog_inner">
+                <h2>Nossos <span>Patrocinadores</span></h2>
+                <div class="protfolio_content"> 
+                     <div class="gallery_filter">
+                    </div>
+                    <div class="gallery_item flexslider">
+                        <ul >
+                            <li class="mix item bedroom indoor garage Kitchen bathroom" data-my-order="1"> 
+                                <img src="consis/images/header/itpac_logo.png" alt="#"> 
+                            </li>
+                             <li class="mix item indoor basement Kitchen" data-my-order="2"> 
+                                <img src="http://placehold.it/177x177" alt="#"> 
+                            </li>
+                             <li class="mix item bedroom indoor basement bathroom" data-my-order="3">
+                                <img src="http://placehold.it/177x177" alt="#"> 
+                            </li>
+                             <li class="mix item bedroom garage Kitchen" data-my-order="4">
+                                <img src="http://placehold.it/177x177" alt="#"> 
+                            </li>
+                            
+                        </ul>
+                        <ul class="slides">
+                         <li class="mix item bedroom basement garage bathroom" data-my-order="5">
+                             <img src="http://placehold.it/177x177" alt="#"> 
+                            </li>
+                            <li class="mix item bedroom basement garage bathroom" data-my-order="5">
+                                <img src="http://placehold.it/177x177" alt="#"> 
+                            </li>
+                            <li class="mix item bedroom basement garage bathroom" data-my-order="5">
+                                <img src="http://placehold.it/177x177" alt="#"> 
+                            </li>
+                            <li class="mix item bedroom basement garage bathroom" data-my-order="5">
+                                <img src="http://placehold.it/177x177" alt="#"> 
+                            </li>
+                            
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div> -->
     </section>

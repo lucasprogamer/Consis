@@ -133,7 +133,7 @@ h2, h3, h4, h5, h6 {
 
 /*====================================================*/
 .main_page {
-  background: url("/consis/images/header/consisback.png") no-repeat scroll;
+  background: url("/consis/images/header/auditorio_itpac.jpg") no-repeat scroll;
   background-size: cover;
   position: relative;
   height: 964px;
@@ -297,7 +297,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .menu_part .navbar-brand {
-  padding: 5px 15px;
+  padding: 5px 55px;
 }
 
 /*====================================================*/
@@ -319,8 +319,7 @@ h2, h3, h4, h5, h6 {
 
 /*====================================================*/
 .newsletter {
-  background: url("http://placehold.it/1920x305");
-  background-size: cover;
+  background: url("/consis/images/header/trabalho_estudo.jpg");
   position: relative;
   height: 300px;
   text-align: center;
@@ -379,9 +378,9 @@ h2, h3, h4, h5, h6 {
   color: #666666;
 }
 .newsletter .content form .input-group .sub_btn {
-  border-radius: 0 35px 35px 0;
+  /*border-radius: 0 35px 35px 0;*/
   background: #ef3b35;
-  padding-right: 30px;
+  /*padding-right: 30px;*/
   border: 0;
   color: #fff;
   text-transform: uppercase;
@@ -481,7 +480,7 @@ h2, h3, h4, h5, h6 {
 .event .event_inside .event_right:after {
   content: '';
   position: absolute;
-  background: url("../images/event/2.png");
+  background: url("/images/header/logo_consis1.png");
   top: 200px;
   left: 95px;
   height: 64px;
@@ -619,7 +618,7 @@ h2, h3, h4, h5, h6 {
 }
 
 /*====================================================*/
-.blogs {
+/*.blogs {
   padding: 110px 0;
 }
 .blogs .page_turning {
@@ -1083,6 +1082,129 @@ h2, h3, h4, h5, h6 {
 }
 .blogs .blogs_inner .leave_comment a:hover {
   background: #d74132;
+}
+*/
+.blog {
+  /*background-image: url("/consis/images/header/office.jpg");*/
+  background-size: cover;
+  position: relative;
+  height: 642px;
+  padding: 80px 0;
+  overflow: hidden;
+}
+.blog:before {
+  content: '';
+  position: absolute;
+  /*background: rgba(3, 50, 66, 0.9);*/
+  top: 0;
+  left: 0;
+  height: 642px;
+  width: 100%;
+}
+.blog .blog_inner {
+  position: relative;
+  text-align: center;
+}
+.blog .blog_inner h2 {
+  color: #fff;
+  font: bold 36px/1 "Montserrat", sans-serif;
+  text-transform: capitalize;
+  padding-bottom: 55px;
+}
+.blog .blog_inner h2 span {
+  color: #e74c3c;
+}
+.blog .blog_inner .protfolio_content .gallery_filter {
+  background: rgba(32, 46, 59, 0.75);
+  height: 65px;
+  border-radius: 0 40px;
+  text-align: center;
+  display: inline-block;
+  padding: 24px 0;
+}
+.blog .blog_inner .protfolio_content .gallery_filter ul {
+  list-style: none;
+}
+.blog .blog_inner .protfolio_content .gallery_filter ul li {
+  background: transparent;
+  border: 0;
+  color: #fff;
+  display: inline-block;
+  font: normal 14px/1 "Montserrat", sans-serif;
+  text-transform: capitalize;
+  border-right: 1px solid #fff;
+  cursor: pointer;
+  letter-spacing: 1px;
+  padding: 0 25px;
+}
+.blog .blog_inner .protfolio_content .gallery_filter ul li:last-child {
+  border-right: none;
+}
+.blog .blog_inner .protfolio_content .gallery_filter ul li:hover, .sponsor .sponsor_inner .protfolio_content .gallery_filter ul li:active {
+  color: #e74c3c;
+}
+.blog .blog_inner .protfolio_content .gallery_filter .active {
+  color: #e74c3c;
+}
+.blog .blog_inner .protfolio_content .gallery_item {
+  margin-top: 75px;
+  height: 180px;
+  background-color: transparent;
+  border: 0;
+}
+.blog .blog_inner .protfolio_content .gallery_item .flex-viewport {
+  padding: 10px 0 10px;
+}
+.blog .blog_inner .protfolio_content .gallery_item .slides li {
+  display: inline-block;
+  border: 1px solid #1b4a5b;
+  background: rgba(5, 51, 66, 0.4);
+  transition: all 300ms linear 0s;
+  height: 175px;
+}
+.blog .blog_inner .protfolio_content .gallery_item .slides li:first-child {
+  margin-left: 1px;
+}
+.blog .blog_inner .protfolio_content .gallery_item .slides li img {
+  width: 100%;
+}
+.blog .blog_inner .protfolio_content .gallery_item .slides li:hover {
+  -ms-transform: scaleY(1.1);
+  /* IE 9 */
+  -webkit-transform: scaleY(1.1);
+  /* Safari */
+  transform: scaleY(1.1);
+  border: 1px solid #e74c3c;
+}
+.blog .blog_inner .protfolio_content .gallery_item .flex-control-nav.flex-control-paging {
+  bottom: -90px;
+}
+.blog .blog_inner .protfolio_content .gallery_item .flex-control-nav.flex-control-paging li a {
+  position: relative;
+  background: #fff;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.blog .blog_inner .protfolio_content .gallery_item .flex-control-nav.flex-control-paging li a.flex-active {
+  background: #e74c3c;
+  border: 1px solid #e74c3c;
+  position: relative;
+  top: 1px;
+}
+.blog .blog_inner .protfolio_content .gallery_item .flex-control-nav.flex-control-paging li a.flex-active:before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  height: 16px;
+  width: 16px;
+  display: none;
+  background: transparent;
+  border-radius: 50%;
+  border: 1px solid #e74c3c;
+  display: block;
 }
 
 /*====================================================*/
@@ -1768,7 +1890,7 @@ h2, h3, h4, h5, h6 {
 
 /*====================================================*/
 .sponsor {
-  background-image: url("http://placehold.it/1920x642");
+  background-image: url("/consis/images/header/office.jpg");
   background-size: cover;
   position: relative;
   height: 642px;
@@ -2143,6 +2265,7 @@ h2, h3, h4, h5, h6 {
   position: relative;
 }
 .menu_part .nav.navbar-nav li {
+  cursor: pointer;
   padding: 0 10px;
   transition: all 300ms linear 0s;
 }
@@ -2722,7 +2845,7 @@ footer .footer_top {
   border-bottom: 1px solid #353742;
 }
 footer .footer_top img {
-  height: 50px;
+  height: 70px;
 }
 footer .footer_bottom .left {
   font: normal 13px/28px "Montserrat", sans-serif;

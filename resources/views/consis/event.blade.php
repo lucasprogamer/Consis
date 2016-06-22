@@ -1,4 +1,4 @@
-    <section class="row event">
+    <section id="congresso" class="row event">
         <div class="container">
             <div class="row event_inside">
                 <div class="col-md-8 event_left">
@@ -14,7 +14,7 @@
                                     <h4 class="media-heading">Palestras</h4>
                                 </div>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipisc, sed diam nonummy nibh euismod tincidunt laore dolore magna aliquam erat volutpat. </p>
+                            <p>O congresso contará com duas palestras, nos dias de abertura e encerramento do evento.</p>
                         </div>
                         <div class="col-sm-6 event_describe">
                             <div class="media item">
@@ -27,7 +27,7 @@
                                     <h4 class="media-heading">Mini Cursos</h4>
                                 </div>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipisc, sed diam nonummy nibh euismod tincidunt laore dolore magna aliquam erat volutpat. </p>
+                            <p>O evento vai oferecer 8 minicursos práticos para todos os participantes que se inscreverem. </p>
                         </div>
                         <div class="col-sm-6 event_describe">
                             <div class="media item">
@@ -40,7 +40,7 @@
                                     <h4 class="media-heading">Sessões Técnicas</h4>
                                 </div>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipisc, sed diam nonummy nibh euismod tincidunt laore dolore magna aliquam erat volutpat. </p>
+                            <p>As Sessões técnicas acontecerão antes e depois das palestras nos seus respectivos dias, e contará com a apresentação dos artigos publicados. </p>
                         </div>
                         <div class="col-sm-6 event_describe">
                             <div class="media item">
@@ -53,12 +53,12 @@
                                     <h4 class="media-heading">Campeonatos</h4>
                                 </div>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipisc, sed diam nonummy nibh euismod tincidunt laore dolore magna aliquam erat volutpat. </p>
+                            <p>O campeonato de games terá os jogos: Counter Strike e Legue of Legends, as equipes inscritas irão disputar os jogos em 3 dias.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 event_right">
-                    <img src="http://placehold.it/345x478" alt="#">
+                    <img src="consis/images/header/cafe.jpg" alt="#">
                 </div>
             </div>
         </div>
