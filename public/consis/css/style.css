@@ -2692,7 +2692,7 @@ h2, h3, h4, h5, h6 {
 .events_schedule .events_schedule_content .events_schedule_tab .tab-content .tab-pane {
   background: #fff;
   position: relative;
-  padding: 40px 50px 35px;
+  padding: 20px 40px 35px;
   transition: all 300ms linear 0s;
 }
 .events_schedule .events_schedule_content .events_schedule_tab .tab-content .tab-pane .item_hover {
@@ -2724,9 +2724,9 @@ h2, h3, h4, h5, h6 {
 }
 .events_schedule .events_schedule_content .events_schedule_tab .tab-content .tab-pane .item_hover .image_hover img {
   float: left;
-  margin-right: 40px;
-  height: 145px;
-  width: 145px;
+  margin-right: 20px;
+  height: 70px;
+  width: 70px;
   border-radius: 25px 0;
 }
 .events_schedule .events_schedule_content .events_schedule_tab .tab-content .tab-pane .item_hover .image_hover a {

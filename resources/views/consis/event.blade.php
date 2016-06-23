@@ -73,147 +73,203 @@
             <div class="row events_schedule_content">
                 <div class="events_schedule_tab">
                     <ul class="nav schedules col-md-2 col-sm-3">
-                        <li class="active"><a data-toggle="tab" href="#home"><h3>Dia 01 </h3><h6>08/03/2016</h6></a></li>
-                        <li><a data-toggle="tab" href="#menu1"><h3>Dia 02 </h3><h6>09/03/2016</h6></a></li>
-                        <li><a data-toggle="tab" href="#menu2"><h3>Dia 03 </h3><h6>10/03/2016</h6></a></li>
-                        <li><a data-toggle="tab" href="#menu3"><h3>Dia 04 </h3><h6>11/03/2016</h6></a></li>
+                        <li class="active"><a data-toggle="tab" href="#menu1"><h3>Dia 01 </h3><h6>24/10/2016</h6></a></li>
+                        <li><a data-toggle="tab" href="#menu2"><h3>Dia 02 </h3><h6>25/10/2016</h6></a></li>
+                        <li><a data-toggle="tab" href="#menu3"><h3>Dia 03 </h3><h6>26/10/2016</h6></a></li>
+                        <li><a data-toggle="tab" href="#menu4"><h3>Dia 04 </h3><h6>27/10/2016</h6></a></li>
                     </ul>
                     <div class="tab-content col-md-10 col-sm-9">
                         <div class="close_menu">
-                            <ul class="nav closemenu">
-                                <li class="active"><a data-toggle="tab" href="#home">09.00 AM - 11.30 AM</a></li>
-                                <li><a data-toggle="tab" href="#menu1"> 12.00 PM - 02.00 PM</a></li>
-                                <li><a data-toggle="tab" href="#menu2">02.30 PM - 05.00 PM</a></li>
-                                <li><a data-toggle="tab" href="#menu3">05.30 PM - 08.00 PM</a></li>
-                            </ul>
+                            <!-- <ul class="nav closemenu">
+                                <li class="active"><a data-toggle="tab" href="#menu1">16:00 hrs - 19:00 hrs</a></li>
+                                <li><a data-toggle="tab" href="#menu2"> 19:00 hrs - 20:45 hrs</a></li>
+                                <li><a data-toggle="tab" href="#menu3">20:45 hrs - 22:15 hrs</a></li>
+                                <!-- <li><a data-toggle="tab" href="#menu3">16:00 hrs - 19:00 hrs</a></li> -->
+                            <!-- </ul> --> 
                         </div>
-                        <div id="home" role="tabpanel" class="tab-pane fade in active">
-                            <div class="item_hover">
-                                <div class="image_hover">
-                                    <img src="http://placehold.it/145x145" alt="#">
-                                    <a href="#">Learn More</a>
-                                </div>
+                        <div id="menu1" role="tabpanel" class="tab-pane fade in active">
+
+                            <div class="item_hover" style="height: 60px; margin-top:20px">
+                           <!--  <div class="image_hover">
+                                    <img src="consis/images/header/credenciamento.jpg" alt="#">
+                                    <a href="#">Credenciamento</a>
+                                </div> -->
                                 <div class="hover_content">
-                                    <a href="schedule.html">Basic to Advanced Web Design Tips &amp; Tricks</a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incut  and  the labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation to it a ullo laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
-                                    <h3 class="pull-left"><i class="fa fa-user"></i>Touhida Moni (Founder, Lawem.com)</h3>
-                                    <h3><i class="fa fa-map-marker"></i>Hall # 2 (Windy Town)</h3>
+                                    <a href="#">
+                                    <i class="fa fa-ticket"></i>
+                                    <span>18:30</span> - Credenciamento </a>
+                                    <!-- <p style="border-bottom: 0px solid !important">O Credenciamento do evento inicia às 18 hrs na entrada do auditório do itpac junto a equipe de organização.</p>  -->    
+                                    <!-- <h3 class="pull-left"><i class="fa fa-user"></i>ITPAC</h3>
+                                    <h3><i class="fa fa-map-marker"></i>Auditório ITPAC</h3> -->                     
+                                </div>
+                            </div>
+                            
+                            <div class="item_hover" style="height: 60px; margin-top:20px">
+                                <!-- <div class="image_hover">
+                                    <img src="consis/images/header/abertura.jpg" alt="#">
+                                    <a href="#">Congresso</a>
+                                </div> -->
+                                <div class="hover_content">
+                                    <a href="#">
+                                    <i class="fa fa-feed"></i>
+                                    <span>19:00</span> - Abertura Congresso </a>
+                                    <!-- <p>Abertura do Congresso com apresentação do que acontecerá durante todo o evento.</p> -->
+                                    <!-- <h3 class="pull-left"><i class="fa fa-user"></i>ITPAC</h3>
+                                    <h3><i class="fa fa-map-marker"></i>Auditório ITPAC</h3> -->
+                                </div>
+                            </div>
+
+                            <div class="item_hover" style="height: 60px; margin-top:20px">
+                                <!-- <div class="image_hover">
+                                    <img src="consis/images/header/sessoes.jpg" alt="#">
+                                    <a href="#">Sessões</a>
+                                </div> -->
+                                <div class="hover_content">
+                                    <a href="#">
+                                    <i class="fa fa-bullhorn"></i>
+                                    <span>19:30</span> - Sessões Técnicas</a>
+                                    <!-- <p> Os artigos aceitos no congresso serão apresentados pelos autores durante pequenas sessões.</p> -->
+                                    <!-- <h3 class="pull-left"><i class="fa fa-user"></i>Artigos</h3>
+                                    <h3><i class="fa fa-map-marker"></i>Auditório ITPAC</h3> -->
                                 </div>
                             </div>
                             <div class="item_hover">
                                 <div class="image_hover">
-                                    <img src="http://placehold.it/145x145" alt="#">
-                                    <a href="#">Learn More</a>
+                                    <img src="consis/images/header/palestra_suissa.jpg" alt="#">
+                                    <a href="#">Palestra</a>
                                 </div>
                                 <div class="hover_content">
-                                    <a href="schedule.html">Theme Development &amp; Design for ThemeForest</a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incut  and  the labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation to it a ullo laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
-                                    <h3 class="pull-left"><i class="fa fa-user"></i>Touhida Moni (Founder, Lawem.com)</h3>
-                                    <h3><i class="fa fa-map-marker"></i>Hall # 2 (Windy Town)</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="menu1" role="tabe-panel" class="tab-pane fade">
-                            <div class="item_hover">
-                                <div class="image_hover">
-                                    <img src="http://placehold.it/145x145" alt="#">
-                                    <a href="#">Learn More</a>
-                                </div>
-                                <div class="hover_content">
-                                    <a href="schedule.html">Theme Development &amp; Design for ThemeForest</a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incut  and  the labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation to it a ullo laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
-                                    <h3 class="pull-left"><i class="fa fa-user"></i>Touhida Moni (Founder, Lawem.com)</h3>
-                                    <h3><i class="fa fa-map-marker"></i>Hall # 2 (Windy Town)</h3>
-                                </div>
-                            </div>
-                            <div class="item_hover">
-                                <div class="image_hover">
-                                    <img src="http://placehold.it/145x145" alt="#">
-                                    <a href="#">Learn More</a>
-                                </div>
-                                <div class="hover_content">
-                                    <a href="schedule.html">Basic to Advanced Web Design Tips &amp; Tricks</a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incut  and  the labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation to it a ullo laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
-                                    <h3 class="pull-left"><i class="fa fa-user"></i>Touhida Moni (Founder, Lawem.com)</h3>
-                                    <h3><i class="fa fa-map-marker"></i>Hall # 2 (Windy Town)</h3>
+                                    <a href="#">
+
+                                    <span>20:45</span> - Mongo DB - Como mudar seu jeito relacional de pensar</a>
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation to it a ullo laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+                                    <h3 class="pull-left"><i class="fa fa-user"></i>Jean Carlo Nascimento - Suissa</h3>
+                                    <h3><i class="fa fa-map-marker"></i>Auditório ITPAC</h3>
                                 </div>
                             </div>
                         </div>
                         <div id="menu2" role="tabe-panel" class="tab-pane fade">
-                            <div class="item_hover">
-                                <div class="image_hover">
-                                    <img src="http://placehold.it/145x145" alt="#">
-                                    <a href="#">Learn More</a>
-                                </div>
+                             <div class="item_hover" style="height: 60px; margin-top:20px">
+                           <!--  <div class="image_hover">
+                                    <img src="consis/images/header/credenciamento.jpg" alt="#">
+                                    <a href="#">Credenciamento</a>
+                                </div> -->
                                 <div class="hover_content">
-                                    <a href="schedule.html">Basic to Advanced Web Design Tips &amp; Tricks</a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incut  and  the labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation to it a ullo laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
-                                    <h3 class="pull-left"><i class="fa fa-user"></i>Touhida Moni (Founder, Lawem.com)</h3>
-                                    <h3><i class="fa fa-map-marker"></i>Hall # 2 (Windy Town)</h3>
+                                    <a href="#">
+                                    <i class="fa fa-gamepad"></i>
+                                    <span>16:00</span> - Campeonato de Games </a>
+                                    <!-- <p style="border-bottom: 0px solid !important">O Credenciamento do evento inicia às 18 hrs na entrada do auditório do itpac junto a equipe de organização.</p>  -->    
+                                    <!-- <h3 class="pull-left"><i class="fa fa-user"></i>ITPAC</h3>
+                                    <h3><i class="fa fa-map-marker"></i>Auditório ITPAC</h3> -->                     
                                 </div>
                             </div>
-                            <div class="item_hover">
-                                <div class="image_hover">
-                                    <img src="http://placehold.it/145x145" alt="#">
-                                    <a href="#">Learn More</a>
-                                </div>
+                            
+                            <div class="item_hover" style="height: 60px; margin-top:20px">
+                                <!-- <div class="image_hover">
+                                    <img src="consis/images/header/abertura.jpg" alt="#">
+                                    <a href="#">Congresso</a>
+                                </div> -->
                                 <div class="hover_content">
-                                    <a href="schedule.html">Theme Development &amp; Design for ThemeForest</a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incut  and  the labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation to it a ullo laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
-                                    <h3 class="pull-left"><i class="fa fa-user"></i>Touhida Moni (Founder, Lawem.com)</h3>
-                                    <h3><i class="fa fa-map-marker"></i>Hall # 2 (Windy Town)</h3>
+                                    <a href="#">
+                                    <i class="fa fa-users"></i>
+                                    <span>19:00</span> - Minicursos </a>
+                                    <!-- <p>Abertura do Congresso com apresentação do que acontecerá durante todo o evento.</p> -->
+                                    <!-- <h3 class="pull-left"><i class="fa fa-user"></i>ITPAC</h3>
+                                    <h3><i class="fa fa-map-marker"></i>Auditório ITPAC</h3> -->
                                 </div>
                             </div>
+
+                            
                         </div>
                         <div id="menu3" role="tabe-panel" class="tab-pane fade">
-                            <div class="item_hover">
-                                <div class="image_hover">
-                                    <img src="http://placehold.it/145x145" alt="#">
-                                    <a href="#">Learn More</a>
-                                </div>
+                        <div class="item_hover" style="height: 60px; margin-top:20px">
+                           <!--  <div class="image_hover">
+                                    <img src="consis/images/header/credenciamento.jpg" alt="#">
+                                    <a href="#">Credenciamento</a>
+                                </div> -->
                                 <div class="hover_content">
-                                    <a href="schedule.html">Theme Development &amp; Design for ThemeForest</a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incut  and  the labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation to it a ullo laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
-                                    <h3 class="pull-left"><i class="fa fa-user"></i>Touhida Moni (Founder, Lawem.com)</h3>
-                                    <h3><i class="fa fa-map-marker"></i>Hall # 2 (Windy Town)</h3>
+                                    <a href="#">
+                                    <i class="fa fa-gamepad"></i>
+                                    <span>16:00</span> - Campeonato de Games </a>
+                                    <!-- <p style="border-bottom: 0px solid !important">O Credenciamento do evento inicia às 18 hrs na entrada do auditório do itpac junto a equipe de organização.</p>  -->    
+                                    <!-- <h3 class="pull-left"><i class="fa fa-user"></i>ITPAC</h3>
+                                    <h3><i class="fa fa-map-marker"></i>Auditório ITPAC</h3> -->                     
                                 </div>
                             </div>
-                            <div class="item_hover">
-                                <div class="image_hover">
-                                    <img src="http://placehold.it/145x145" alt="#">
-                                    <a href="#">Learn More</a>
-                                </div>
+                            
+                            <div class="item_hover" style="height: 60px; margin-top:20px">
+                                <!-- <div class="image_hover">
+                                    <img src="consis/images/header/abertura.jpg" alt="#">
+                                    <a href="#">Congresso</a>
+                                </div> -->
                                 <div class="hover_content">
-                                    <a href="schedule.html">Basic to Advanced Web Design Tips &amp; Tricks</a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incut  and  the labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation to it a ullo laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
-                                    <h3 class="pull-left"><i class="fa fa-user"></i>Touhida Moni (Founder, Lawem.com)</h3>
-                                    <h3><i class="fa fa-map-marker"></i>Hall # 2 (Windy Town)</h3>
+                                    <a href="#">
+                                    <i class="fa fa-users"></i>
+                                    <span>19:00</span> - Minicursos </a>
+                                    <!-- <p>Abertura do Congresso com apresentação do que acontecerá durante todo o evento.</p> -->
+                                    <!-- <h3 class="pull-left"><i class="fa fa-user"></i>ITPAC</h3>
+                                    <h3><i class="fa fa-map-marker"></i>Auditório ITPAC</h3> -->
                                 </div>
                             </div>
+
                         </div>
                         <div id="menu4" role="tabe-panel" class="tab-pane fade">
-                            <div class="item_hover">
-                                <div class="image_hover">
-                                    <img src="http://placehold.it/145x145" alt="#">
-                                    <a href="#">Learn More</a>
-                                </div>
+                            <div class="item_hover" style="height: 60px; margin-top:20px">
+                           <!--  <div class="image_hover">
+                                    <img src="consis/images/header/credenciamento.jpg" alt="#">
+                                    <a href="#">Credenciamento</a>
+                                </div> -->
                                 <div class="hover_content">
-                                    <a href="schedule.html">Basic to Advanced Web Design Tips &amp; Tricks</a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incut  and  the labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation to it a ullo laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
-                                    <h3 class="pull-left"><i class="fa fa-user"></i>Touhida Moni (Founder, Lawem.com)</h3>
-                                    <h3><i class="fa fa-map-marker"></i>Hall # 2 (Windy Town)</h3>
+                                    <a href="#">
+                                    <i class="fa fa-gamepad"></i>
+                                    <span>16:00</span> - Campeonato de Games </a>
+                                    <!-- <p style="border-bottom: 0px solid !important">O Credenciamento do evento inicia às 18 hrs na entrada do auditório do itpac junto a equipe de organização.</p>  -->    
+                                    <!-- <h3 class="pull-left"><i class="fa fa-user"></i>ITPAC</h3>
+                                    <h3><i class="fa fa-map-marker"></i>Auditório ITPAC</h3> -->                     
+                                </div>
+                            </div>
+                            
+                            <div class="item_hover" style="height: 60px; margin-top:20px">
+                                <!-- <div class="image_hover">
+                                    <img src="consis/images/header/abertura.jpg" alt="#">
+                                    <a href="#">Congresso</a>
+                                </div> -->
+                                <div class="hover_content">
+                                    <a href="#">
+                                    <i class="fa fa-feed"></i>
+                                    <span>19:00</span> - Congresso </a>
+                                    <!-- <p>Abertura do Congresso com apresentação do que acontecerá durante todo o evento.</p> -->
+                                    <!-- <h3 class="pull-left"><i class="fa fa-user"></i>ITPAC</h3>
+                                    <h3><i class="fa fa-map-marker"></i>Auditório ITPAC</h3> -->
+                                </div>
+                            </div>
+
+                            <div class="item_hover" style="height: 60px; margin-top:20px">
+                                <!-- <div class="image_hover">
+                                    <img src="consis/images/header/sessoes.jpg" alt="#">
+                                    <a href="#">Sessões</a>
+                                </div> -->
+                                <div class="hover_content">
+                                    <a href="#">
+                                    <i class="fa fa-bullhorn"></i>
+                                    <span>19:30</span> - Sessões Técnicas</a>
+                                    <!-- <p> Os artigos aceitos no congresso serão apresentados pelos autores durante pequenas sessões.</p> -->
+                                    <!-- <h3 class="pull-left"><i class="fa fa-user"></i>Artigos</h3>
+                                    <h3><i class="fa fa-map-marker"></i>Auditório ITPAC</h3> -->
                                 </div>
                             </div>
                             <div class="item_hover">
                                 <div class="image_hover">
-                                    <img src="http://placehold.it/145x145" alt="#">
-                                    <a href="#">Learn More</a>
+                                    <img src="consis/images/header/palestra_manoel.jpg" alt="#">
+                                    <a href="#">Palestra</a>
                                 </div>
                                 <div class="hover_content">
-                                    <a href="schedule.html">Theme Development &amp; Design for ThemeForest</a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incut  and  the labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation to it a ullo laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
-                                    <h3 class="pull-left"><i class="fa fa-user"></i>Touhida Moni (Founder, Lawem.com)</h3>
-                                    <h3><i class="fa fa-map-marker"></i>Hall # 2 (Windy Town)</h3>
+                                    <a href="#">
+
+                                    <span>20:45</span> - Convergência Digital - Impactos da Computação em Nuvem, Moblidade, Internet das Coisas e Big DATA</a>
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation to it a ullo laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+                                    <h3 class="pull-left"><i class="fa fa-user"></i>Manoel Veras</h3>
+                                    <h3><i class="fa fa-map-marker"></i>Auditório ITPAC</h3>
                                 </div>
                             </div>
                         </div>
