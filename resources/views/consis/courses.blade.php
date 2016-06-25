@@ -12,7 +12,7 @@
             <a href="consis/images/minicurso/minicursowordpress.jpg" data-lightbox="roadtrip">
                 <img src="consis/images/minicurso/minicursowordpress.jpg" alt="">
                 <div class="item_back">
-                    <h4>Next Web Design  Event at Sunday</h4>
+                    <h4>Aqui vai o titulo</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivam at usaliquet orci. Ut interdum mauris sem, non aliquet felis inter. dum sit</p>
                     <div class="more">
                         <a href="#">Veja Mais <i class="fa fa-long-arrow-right"></i></a>
