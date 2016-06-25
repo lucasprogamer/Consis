@@ -1,6 +1,9 @@
 
-    <header id="topo" class="row main_page">
-            <div id="meuMenu">
+    <header class="row main_page">
+
+            <div class="fixed">
+                <div class="container">
+            
                 <nav class="navbar navbar-default menu_part">
                 <!-- mobile menu -->
                     <div class="navbar-header">
@@ -37,6 +40,11 @@
                     </div><!-- /.navbar-collapse -->
                 </nav>
             </div>
+        </div>
+
+
+
+            <!-- countdown -->
         <div class="container">
             <div class="row">
             
@@ -99,4 +107,7 @@
                 </div>
             </div>
         </div>
+
+
+
     </header>

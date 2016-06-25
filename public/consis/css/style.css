@@ -3505,3 +3505,9 @@ footer .footer_bottom .footer_menu ul li:before {
     margin-left: auto;
     margin-right: auto;
 } 
+
+.fixed{
+  position: fixed;
+  width:100%;
+  z-index:99;
+}
