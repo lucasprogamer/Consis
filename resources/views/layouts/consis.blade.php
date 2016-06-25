@@ -40,15 +40,19 @@
 
 <body> 
 
-    <!-- HOME -->
+    
     @include('consis.header')
 
-    <!-- EVENTO -->
-    @include('consis.event')
-        <!-- SUBMISSÔES -->
-    @include('consis.subscribe')
-    <!-- Patrocinadores -->
     
+    @include('consis.summary')
+    
+    @include('consis.subscribe')
+    
+    @include('consis.event')
+
+
+    
+    @include('consis.register')
     
     
 
@@ -56,16 +60,15 @@
    {{--@include('consis.pricing')--}}
 
     
-    @include('consis.register')
     
-<<<<<<< HEAD
-    @include('consis.blog')
+
 
     @include('consis.comments')
-=======
+
     @include('consis.courses')
->>>>>>> origin/master
+
     
+    <!-- Patrocinadores -->
     @include('consis.sponsors')
     
     @include('consis.contact')
