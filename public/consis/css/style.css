@@ -156,6 +156,7 @@ h2, h3, h4, h5, h6 {
   text-align: center;
   position: relative;
   padding-top: 150px;
+  margin-top:110px;
 }
 .main_page .container .count_down h6 {
   font: normal 12px/20px "Montserrat", sans-serif;
@@ -3088,6 +3089,7 @@ footer .footer_bottom .footer_menu ul li:before {
 
   .main_page .container .count_down {
     padding-top: 0;
+    margin-top:165px;
   }
 
   .main_page .container .event_info .event_info_describe {
