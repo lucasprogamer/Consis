@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ff4e15ffefe3ac9926ba55bbf33751b1",
+    "hash": "e778163cfcf54870db50a4856475d9a4",
     "content-hash": "289b1c8a9ce36955aac2266b356397c2",
     "packages": [
         {
@@ -1098,16 +1098,16 @@
         },
         {
             "name": "prettus/l5-repository",
-            "version": "2.5.1",
+            "version": "2.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/andersao/l5-repository.git",
-                "reference": "a6f52e0d79b91569fee183210765f9401a7b9be8"
+                "reference": "e67ad08cd79976c10463ec24d21d6b3587e5aa4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/andersao/l5-repository/zipball/a6f52e0d79b91569fee183210765f9401a7b9be8",
-                "reference": "a6f52e0d79b91569fee183210765f9401a7b9be8",
+                "url": "https://api.github.com/repos/andersao/l5-repository/zipball/e67ad08cd79976c10463ec24d21d6b3587e5aa4b",
+                "reference": "e67ad08cd79976c10463ec24d21d6b3587e5aa4b",
                 "shasum": ""
             },
             "require": {
@@ -1154,7 +1154,7 @@
                 "model",
                 "repository"
             ],
-            "time": "2016-04-26 15:53:10"
+            "time": "2016-06-23 22:09:47"
         },
         {
             "name": "prettus/laravel-validation",

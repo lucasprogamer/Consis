@@ -10,7 +10,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"><img src="consis/images/header/logo_consis1.png" alt="#"></a>
+                        <a class="navbar-brand" href="#"><img src="consis/images/header/consis1.png" alt="#"></a>
                     </div>
 
                     <!-- Menu -->

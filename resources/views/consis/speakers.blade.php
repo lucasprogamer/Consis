@@ -31,7 +31,7 @@
                             </div>
                         </li>
                         <li>
-                            <img src="consis/images/header/manoel.jpg" alt="#">
+                            <img src="consis/images/header/manoel_veras.jpg" alt="#">
                             <div class="speakers_right">
                                 <h4>Manoel Veras</h4>
                                 <h6>Graduado em engenharia Elétrica, Mestrado na área de Engenharia de Telecomunicações &amp; Doutorado em Administração</h6>
@@ -83,7 +83,7 @@
                           <img src="consis/images/header/suissajs.jpg" alt="#">
                         </li>
                         <li>
-                          <img src="consis/images/header/manoel.jpg" alt="#">
+                          <img src="consis/images/header/manoel_veras.jpg" alt="#">
                         </li>
                         <!-- <li>
                           <img src="http://placehold.it/70x70" alt="#">
