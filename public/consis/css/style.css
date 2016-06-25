@@ -3105,7 +3105,7 @@ footer .footer_bottom .footer_menu ul li:before {
   }
 
   .menu_part .navbar-right {
-    margin-right: 0px;
+    margin-right: -16px;
   }
 
   .blog .blog_inner .blog_details .blog_details_left {
