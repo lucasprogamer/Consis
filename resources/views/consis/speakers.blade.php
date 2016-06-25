@@ -83,7 +83,7 @@
                           <img src="consis/images/header/suissajs.jpg" alt="#">
                         </li>
                         <li>
-                          <img src="consis/images/header/manoel.jpg" alt="#">
+                          <img src="consis/images/header/manoel1.jpg" alt="#">
                         </li>
                         <!-- <li>
                           <img src="http://placehold.it/70x70" alt="#">
