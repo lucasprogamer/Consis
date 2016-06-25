@@ -1529,7 +1529,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .comment {
-  background-image: url("http://placehold.it/1920x439");
+  background-image: url("/consis/images/header/game.jpg");
   background-size: cover;
   position: relative;
   padding: 100px 0;
@@ -1887,7 +1887,25 @@ h2, h3, h4, h5, h6 {
 .speakers .pb0 {
   padding-bottom: 0;
 }
-
+.campeonato
+{
+    background-image: url("") !important;
+    background-size: none !important; 
+    height: 0px !important;
+    color: #fff;
+    padding-bottom: 55px;
+    text-align: center;
+    /* overflow: hidden; */
+}
+.campeonato h2
+{
+  font: bold 36px/1 "Montserrat", sans-serif;
+    text-transform: capitalize;
+    
+}
+.campeonato span {
+    color: #e74c3c;
+}
 /*====================================================*/
 .sponsor {
   background-image: url("/consis/images/header/office.jpg");

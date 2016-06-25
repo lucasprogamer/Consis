@@ -37,21 +37,25 @@
 
     <!-- HOME -->
     @include('consis.header')
+
     <!-- EVENTO -->
     @include('consis.event')
-    <!-- SUBMISSÔES -->
+        <!-- SUBMISSÔES -->
     @include('consis.subscribe')
     <!-- Patrocinadores -->
-    @include('consis.speakers')
     
-    {{--@include('consis.comments')--}}
-  
+    
+    
+
+    @include('consis.speakers')
    {{--@include('consis.pricing')--}}
 
     
     @include('consis.register')
     
     @include('consis.blog')
+
+    @include('consis.comments')
     
     @include('consis.sponsors')
     
