@@ -22,8 +22,13 @@
     
     <!--    Owl Carousel css -->
     <link rel="stylesheet" href="{{ asset('consis/css/owl.carousel.css') }}" type="text/css" media="screen"> 
+        
+    <!-- LightBox -->
+    <link rel="stylesheet" href="{{ asset('consis/vendors/Lightbox/lightbox.min.css') }}">
     <!-- Flexslider  -->
     <link rel="stylesheet" href="{{ asset('consis/vendors/flexslider/flexslider.css') }}"> 
+    <!-- Gallery.scss -->
+    <link rel="stylesheet" href="{{ asset('consis/scss/_gallery.scss') }}">
     <!-- style.css-->
     <link rel="stylesheet" href="{{ asset('consis/css/style.css') }}">
     
@@ -51,7 +56,7 @@
     
     @include('consis.register')
     
-    @include('consis.blog')
+    @include('consis.courses')
     
     @include('consis.sponsors')
     

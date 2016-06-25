@@ -3483,3 +3483,9 @@ footer .footer_bottom .footer_menu ul li:before {
 
 
 /*custom*/
+
+.gallery_inner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
