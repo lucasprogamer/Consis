@@ -46,13 +46,13 @@
     
     @include('consis.summary')
     
-    @include('consis.subscribe')
-    
-    @include('consis.event')
-
-
     
     @include('consis.register')
+
+    @include('consis.event')
+
+    @include('consis.subscribe')
+    
     
     
 

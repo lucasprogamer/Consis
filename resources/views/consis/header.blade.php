@@ -31,9 +31,11 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li><a onclick="$('body').animatescroll();">Home</a></li>
                             <li><a onclick="$('.events_schedule').animatescroll();">Agenda</a></li>
-                            <li><a onclick="$('.newsletter').animatescroll();">Submissões</a></li>
+                            <!-- <li><a onclick="$('.newsletter').animatescroll();">Submissões</a></li> -->
                             <li><a onclick="$('.speakers').animatescroll();">Palestrantes</a></li>
-                            <li><a onclick="$('.blog').animatescroll();">Blog</a></li>
+                            <!-- <li><a onclick="$('.comment').animatescroll();">Campeonato</a></li> -->
+                            <li><a onclick="$('.gallery').animatescroll();">Minicursos</a></li>
+                            <li><a onclick="$('.sponsor').animatescroll();">Patrocinadores</a></li>
                             <li><a onclick="$('.g_map').animatescroll();">Contato</a></li>
 
                         </ul>

@@ -28,6 +28,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 section.row, header.row, footer.row {
   margin: 0;
+
 }
 
 h2, h3, h4, h5, h6 {
@@ -402,7 +403,7 @@ h2, h3, h4, h5, h6 {
 
 /*====================================================*/
 .event {
-  padding: 110px 0 0;
+  padding: 110px 0 80px;
 }
 .event .event_inside .event_left {
   padding: 25px 25px 20px 25px;
@@ -2274,7 +2275,7 @@ h2, h3, h4, h5, h6 {
 /*====================================================*/
 .menu_part {
   background: #00232e;
-  padding: 22px 0;
+  padding: 10px 0;
   border: none;
   box-shadow: none;
 }
@@ -2387,7 +2388,7 @@ h2, h3, h4, h5, h6 {
   left: -113px;
   height: 94px;
   width: 115px;
-  border-radius: 0px 0px 0px 75px;
+  /*border-radius: 0px 0px 0px 75px;*/
 }
 .menu_part:after {
   content: '';
@@ -2397,7 +2398,7 @@ h2, h3, h4, h5, h6 {
   right: -113px;
   height: 94px;
   width: 115px;
-  border-radius: 0px 0px 75px 0px;
+  /*border-radius: 0px 0px 75px 0px;*/
 }
 
 .row.main_page {
@@ -2862,7 +2863,7 @@ footer .footer_top {
   border-bottom: 1px solid #353742;
 }
 footer .footer_top img {
-  height: 70px;
+  /*height: 70px;*/
 }
 footer .footer_bottom .left {
   font: normal 13px/28px "Montserrat", sans-serif;
@@ -2922,15 +2923,15 @@ footer .footer_bottom .footer_menu ul li:before {
 /*====================================================*/
 @media (max-width: 1366px) {
   .menu_part::before {
-    left: -58px;
-    height: 94px;
-    width: 60px;
+    /*left: -58px;*/
+    height: 70px;
+    /*width: 60px;*/
   }
 
   .menu_part::after {
-    right: -58px;
-    height: 94px;
-    width: 61px;
+    /*right: -58px;*/
+    height: 70px;
+    /*width: 61px;*/
     top: 0;
   }
 }
