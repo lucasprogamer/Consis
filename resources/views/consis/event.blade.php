@@ -31,7 +31,7 @@
                                 <div class="hover_content">
                                     <a style="cursor: pointer;">
                                     <i class="fa fa-ticket"></i>
-                                    <span>18:30</span> - Credenciamento </a>
+                                    <span>18:00</span> - Credenciamento </a>
                                     <!-- <p style="border-bottom: 0px solid !important">O Credenciamento do evento inicia às 18 hrs na entrada do auditório do itpac junto a equipe de organização.</p>  -->    
                                     <!-- <h3 class="pull-left"><i class="fa fa-user"></i>ITPAC</h3>
                                     <h3><i class="fa fa-map-marker"></i>Auditório ITPAC</h3> -->                     
