@@ -16,17 +16,17 @@
                                 <p>Evangelista de NoSQL e JavaScript, é palestrante de Frontend, Backend(JS) e NoSQL. Co-criador dos eventos FrontinSampa, FrontinCampinas, FrontinPG e Sampa.js</p>
                                 <h5><i class="fa fa-list"></i> Sobre:</h5>
                                 <ul class="nav following_events">
-                                    <li><a href="schedule.html"><span>1</span>Criou o Suissa Corp</a></li>
-                                    <li><a href="schedule.html"><span>2</span>Fundador da Webschool.io</a></li>
-                                    <li><a href="schedule.html"><span>3</span> Criador do curso gratuito de JS Funcional</a></li>
-                                    <li><a href="schedule.html"><span>4</span> Criador do JavaScript para mulheres JS4Girls</a></li>
+                                    <li><a style="cursor: pointer;"><span>1</span>Criou o Suissa Corp</a></li>
+                                    <li><a style="cursor: pointer;"><span>2</span>Fundador da Webschool.io</a></li>
+                                    <li><a style="cursor: pointer;"><span>3</span> Criador do curso gratuito de JS Funcional</a></li>
+                                    <li><a style="cursor: pointer;"><span>4</span> Criador do JavaScript para mulheres JS4Girls</a></li>
                                 </ul>
                                 <ul class="nav followers">
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                                    <li><a href="https://twitter.com/osuissa?lang=pt"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://www.instagram.com/osuissa/"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="https://www.facebook.com/suissa?fref=ts"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/suissa"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="http://nomadev.com.br/"><i class="fa fa-chrome"></i></a></li>
                                 </ul>
                             </div>
                         </li>
@@ -38,17 +38,17 @@
                                 <p>Escreveu nove livros. Orientou três dezenas de dissertações de mestrado, duas teses de doutorado  e publicou cerca de cem papers com diversos colaboradores.</p>
                                 <h5><i class="fa fa-list"></i> SOBRE:</h5>
                                 <ul class="nav following_events">
-                                    <li><a href="schedule.html"><span>1</span>Participou de projetos de pesquisa e extensão apoiado por CNPQ e CAPES</a></li>
-                                    <li><a href="schedule.html"><span>2</span>Certificado pela Microsoft, Cisco, ITIL, COBIT e Compaq.</a></li>
-                                    <li><a href="schedule.html"><span>3</span>2005 considerado o melhor consultor de TI da América Latina (DELL)</a></li>
-                                    <li><a href="schedule.html"><span>4</span>Atuou como engenheiro eletrônico na indústria aeronáutica</a></li>
+                                    <li><a style="cursor: pointer;"><span>1</span>Participou de projetos de pesquisa e extensão apoiado por CNPQ e CAPES</a></li>
+                                    <li><a style="cursor: pointer;"><span>2</span>Certificado pela Microsoft, Cisco, ITIL, COBIT e Compaq.</a></li>
+                                    <li><a style="cursor: pointer;"><span>3</span>2005 considerado o melhor consultor de TI da América Latina (DELL)</a></li>
+                                    <li><a style="cursor: pointer;"><span>4</span>Atuou como engenheiro eletrônico na indústria aeronáutica</a></li>
                                 </ul>
                                 <ul class="nav followers">
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                                    <li><a href="https://twitter.com/manoelveras"><i class="fa fa-twitter"></i></a></li>
+                                    <!-- <li><a href="#"><i class="fa fa-instagram"></i></a></li> -->
+                                    <li><a href="https://www.facebook.com/manoel.veras.9?fref=ts"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/manoelveras"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="manoelveras.com.br"><i class="fa fa-chrome"></i></a></li>
                                 </ul>
                             </div>
                         </li>

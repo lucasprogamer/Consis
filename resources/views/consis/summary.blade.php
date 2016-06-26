@@ -6,8 +6,8 @@
                         <div class="col-sm-6 event_describe">
                             <div class="media item">
                                 <div class="media-left media-middle icon_side">
-                                    <a href="#">
-                                        <i class="fa fa-users"></i>
+                                    <a>
+                                        <i class="fa fa-users" style="cursor: pointer;"></i>
                                     </a>
                                 </div>
                                 <div class="media-body">
@@ -19,8 +19,8 @@
                         <div class="col-sm-6 event_describe">
                             <div class="media item">
                                 <div class="media-left media-middle icon_side">
-                                    <a href="#">
-                                        <i class="fa fa-desktop"></i>
+                                    <a>
+                                        <i class="fa fa-desktop" style="cursor: pointer;"></i>
                                     </a>
                                 </div>
                                 <div class="media-body">
@@ -32,8 +32,8 @@
                         <div class="col-sm-6 event_describe">
                             <div class="media item">
                                 <div class="media-left media-middle icon_side">
-                                    <a href="#">
-                                        <i class="fa fa-ticket"></i>
+                                    <a>
+                                        <i class="fa fa-ticket" style="cursor: pointer;"></i>
                                     </a>
                                 </div>
                                 <div class="media-body">
@@ -45,15 +45,15 @@
                         <div class="col-sm-6 event_describe">
                             <div class="media item">
                                 <div class="media-left media-middle icon_side">
-                                    <a href="#">
-                                        <i class="fa fa-gamepad"></i>
+                                    <a>
+                                        <i class="fa fa-gamepad" style="cursor: pointer;"></i>
                                     </a>
                                 </div>
                                 <div class="media-body">
                                     <h4 class="media-heading">Campeonatos</h4>
                                 </div>
                             </div>
-                            <p>O campeonato de games terá os jogos: Counter Strike e Legue of Legends, as equipes inscritas irão disputar os jogos em 3 dias.</p>
+                            <p>O campeonato de games terá os jogos: Counter Strike e Legue of Legends, as equipes inscritas irão disputar os jogos durante 3 dias.</p>
                         </div>
                     </div>
                 </div>

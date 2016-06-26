@@ -16,7 +16,7 @@
                                 
                                 <div class="media item_profile">
                                     <div class="media-left media-middle icon_side">
-                                        <a href="#">
+                                        <a style="cursor:pointer">
                                             <img src="consis/images/header/jogocs.jpg" alt="#">
                                         </a>
                                     </div>
@@ -30,7 +30,7 @@
                                 
                                 <div class="media item_profile">
                                     <div class="media-left media-middle icon_side">
-                                        <a href="#">
+                                        <a style="cursor:pointer">
                                             <img src="consis/images/header/jogolol.jpg" alt="#">
                                         </a>
                                     </div>

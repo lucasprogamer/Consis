@@ -70,7 +70,7 @@
                     <div class="col-md-4 event_info_describe">
                         <div class="media item">
                             <div class="media-left media-middle icon_side">
-                                <a href="#">
+                                <a>
                                     <i class="fa fa-map-marker"></i>
                                 </a>
                             </div>
@@ -83,7 +83,7 @@
                     <div class="col-md-4 event_info_describe">
                         <div class="media item">
                             <div class="media-left media-middle icon_side">
-                                <a href="#">
+                                <a>
                                     <i class="fa fa-microphone"></i>
                                 </a>
                             </div>
@@ -96,7 +96,7 @@
                     <div class="col-md-4 event_info_describe">
                         <div class="media item">
                             <div class="media-left media-middle icon_side">
-                                <a href="#">
+                                <a>
                                     <i class="fa fa-ticket"></i>
                                 </a>
                             </div>

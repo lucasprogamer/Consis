@@ -321,7 +321,7 @@ h2, h3, h4, h5, h6 {
 
 /*====================================================*/
 .newsletter {
-  background: url("/consis/images/header/trabalho_estudo.jpg") no-repeat scroll;
+  background: url("/consis/images/header/conference.jpg") no-repeat scroll;
   position: relative;
   height: 300px;
   text-align: center;
@@ -1382,7 +1382,7 @@ h2, h3, h4, h5, h6 {
 /*====================================================*/
 .ticket {
   padding: 80px 0;
-  background: url("/consis/images/header/mockup_consis.jpg") no-repeat scroll;
+  background: url("/consis/images/header/conference.jpg") no-repeat scroll;
   background-size: cover;
   position: relative;
 }

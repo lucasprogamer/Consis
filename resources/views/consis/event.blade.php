@@ -29,7 +29,7 @@
                                     <a href="#">Credenciamento</a>
                                 </div> -->
                                 <div class="hover_content">
-                                    <a href="#">
+                                    <a style="cursor: pointer;">
                                     <i class="fa fa-ticket"></i>
                                     <span>18:30</span> - Credenciamento </a>
                                     <!-- <p style="border-bottom: 0px solid !important">O Credenciamento do evento inicia às 18 hrs na entrada do auditório do itpac junto a equipe de organização.</p>  -->    
@@ -44,7 +44,7 @@
                                     <a href="#">Congresso</a>
                                 </div> -->
                                 <div class="hover_content">
-                                    <a href="#">
+                                    <a style="cursor: pointer;">
                                     <i class="fa fa-feed"></i>
                                     <span>19:00</span> - Abertura Congresso </a>
                                     <!-- <p>Abertura do Congresso com apresentação do que acontecerá durante todo o evento.</p> -->
@@ -59,7 +59,7 @@
                                     <a href="#">Sessões</a>
                                 </div> -->
                                 <div class="hover_content">
-                                    <a href="#">
+                                    <a style="cursor: pointer;">
                                     <i class="fa fa-bullhorn"></i>
                                     <span>19:30</span> - Sessões Técnicas</a>
                                     <!-- <p> Os artigos aceitos no congresso serão apresentados pelos autores durante pequenas sessões.</p> -->
@@ -70,13 +70,13 @@
                             <div class="item_hover">
                                 <div class="image_hover">
                                     <img src="consis/images/header/palestra_suissa.jpg" alt="#">
-                                    <a href="#">Palestra</a>
+                                    <a style="cursor: pointer;">Palestra</a>
                                 </div>
                                 <div class="hover_content">
-                                    <a href="#">
+                                    <a style="cursor: pointer;">
 
                                     <span>20:45</span> - Mongo DB - Como mudar seu jeito relacional de pensar</a>
-                                    <p>Ut enim ad minim veniam, quis nostrud exercitation to it a ullo laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+                                    <p><!-- Ut enim ad minim veniam, quis nostrud exercitation to it a ullo laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor. --></p>
                                     <h3 class="pull-left"><i class="fa fa-user"></i>Jean Carlo Nascimento - Suissa</h3>
                                     <h3><i class="fa fa-map-marker"></i>Auditório ITPAC</h3>
                                 </div>
@@ -89,8 +89,8 @@
                                     <a href="#">Credenciamento</a>
                                 </div> -->
                                 <div class="hover_content">
-                                    <a href="#">
-                                    <i class="fa fa-gamepad"></i>
+                                    <a style="cursor: pointer;">
+                                    <i class="fa fa-gamepad" ></i>
                                     <span>16:00</span> - Campeonato de Games </a>
                                     <!-- <p style="border-bottom: 0px solid !important">O Credenciamento do evento inicia às 18 hrs na entrada do auditório do itpac junto a equipe de organização.</p>  -->    
                                     <!-- <h3 class="pull-left"><i class="fa fa-user"></i>ITPAC</h3>
@@ -104,7 +104,7 @@
                                     <a href="#">Congresso</a>
                                 </div> -->
                                 <div class="hover_content">
-                                    <a href="#">
+                                    <a  style="cursor: pointer;">
                                     <i class="fa fa-users"></i>
                                     <span>19:00</span> - Minicursos </a>
                                     <!-- <p>Abertura do Congresso com apresentação do que acontecerá durante todo o evento.</p> -->
@@ -122,7 +122,7 @@
                                     <a href="#">Credenciamento</a>
                                 </div> -->
                                 <div class="hover_content">
-                                    <a href="#">
+                                    <a style="cursor: pointer;">
                                     <i class="fa fa-gamepad"></i>
                                     <span>16:00</span> - Campeonato de Games </a>
                                     <!-- <p style="border-bottom: 0px solid !important">O Credenciamento do evento inicia às 18 hrs na entrada do auditório do itpac junto a equipe de organização.</p>  -->    
@@ -137,7 +137,7 @@
                                     <a href="#">Congresso</a>
                                 </div> -->
                                 <div class="hover_content">
-                                    <a href="#">
+                                    <a style="cursor: pointer;">
                                     <i class="fa fa-users"></i>
                                     <span>19:00</span> - Minicursos </a>
                                     <!-- <p>Abertura do Congresso com apresentação do que acontecerá durante todo o evento.</p> -->
@@ -154,7 +154,7 @@
                                     <a href="#">Credenciamento</a>
                                 </div> -->
                                 <div class="hover_content">
-                                    <a href="#">
+                                    <a  style="cursor: pointer;">
                                     <i class="fa fa-gamepad"></i>
                                     <span>16:00</span> - Campeonato de Games </a>
                                     <!-- <p style="border-bottom: 0px solid !important">O Credenciamento do evento inicia às 18 hrs na entrada do auditório do itpac junto a equipe de organização.</p>  -->    
@@ -169,8 +169,8 @@
                                     <a href="#">Congresso</a>
                                 </div> -->
                                 <div class="hover_content">
-                                    <a href="#">
-                                    <i class="fa fa-feed"></i>
+                                    <a style="cursor: pointer;">
+                                    <i class="fa fa-feed" ></i>
                                     <span>19:00</span> - Congresso </a>
                                     <!-- <p>Abertura do Congresso com apresentação do que acontecerá durante todo o evento.</p> -->
                                     <!-- <h3 class="pull-left"><i class="fa fa-user"></i>ITPAC</h3>
@@ -184,7 +184,7 @@
                                     <a href="#">Sessões</a>
                                 </div> -->
                                 <div class="hover_content">
-                                    <a href="#">
+                                    <a style="cursor: pointer;">
                                     <i class="fa fa-bullhorn"></i>
                                     <span>19:30</span> - Sessões Técnicas</a>
                                     <!-- <p> Os artigos aceitos no congresso serão apresentados pelos autores durante pequenas sessões.</p> -->
@@ -198,10 +198,10 @@
                                     <a href="#">Palestra</a>
                                 </div>
                                 <div class="hover_content">
-                                    <a href="#">
+                                    <a style="cursor: pointer;">
 
                                     <span>20:45</span> - Convergência Digital - Impactos da Computação em Nuvem, Moblidade, Internet das Coisas e Big DATA</a>
-                                    <p>Ut enim ad minim veniam, quis nostrud exercitation to it a ullo laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+                                    <p><!-- Ut enim ad minim veniam, quis nostrud exercitation to it a ullo laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor. --></p>
                                     <h3 class="pull-left"><i class="fa fa-user"></i>Manoel Veras</h3>
                                     <h3><i class="fa fa-map-marker"></i>Auditório ITPAC</h3>
                                 </div>
