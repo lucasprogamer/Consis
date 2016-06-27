@@ -388,7 +388,7 @@ h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   letter-spacing: 1px;
   height: 60px;
-  width: 200px;
+  width: 275px;
   font: normal 13px/60px "Montserrat", sans-serif;
   display: block;
   float: left;
@@ -2319,7 +2319,7 @@ h2, h3, h4, h5, h6 {
 }
 .menu_part .nav.navbar-nav li a {
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
   font-family: monL;
   transition: all 300ms linear 0s;
   background: transparent;
