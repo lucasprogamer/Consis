@@ -6,7 +6,7 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                                     <div class="campeonato">                       
-                        <h2>Campeonato <span>Games</span></h2>
+                        <h2><span>Game Party</span> Consis </h2>
                     </div>
                     <div class="item active">
 

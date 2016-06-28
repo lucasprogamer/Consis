@@ -2,7 +2,7 @@
         <div class="container">
             <div class="row content">
                 <h2>Chamada<span> Submissões </span>
-                <h4>Submeta seus artigos no congresso</h4>
+                <h2 style="font-size: 16px;padding-bottom: 0px;font-weight: normal;">Submeta seus artigos no congresso</h2>
                 </h2>
                 <form class="form-inline">
                     <div class="input-group">
