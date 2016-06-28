@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="{{ asset('consis/vendors/Lightbox/lightbox.min.css') }}">
     <!-- Flexslider  -->
     <link rel="stylesheet" href="{{ asset('consis/vendors/flexslider/flexslider.css') }}"> 
+    <link rel="stylesheet" href="{{ asset('consis/vendors/flexslider/preloader.css') }}"> 
     <!-- Gallery.scss -->
     <link rel="stylesheet" href="{{ asset('consis/scss/_gallery.scss') }}">
     <!-- style.css-->
@@ -37,9 +38,12 @@
       <script src="js/respond.min.js"></script>
     <![endif]-->
 </head>
-
 <body> 
-
+    <div class="preloader">
+      <div class="status">
+      </div>
+      
+    </div>
     
     @include('consis.header')
 
@@ -93,7 +97,7 @@
     <script src="{{ asset('consis/vendors/Lightbox/lightbox.min.js') }}"></script>
     <!-- Mixitup JS -->
     <script type="text/javascript" src="{{ asset('consis/vendors/mixitup/jquery.mixitup.min.js') }}"></script>  
-    
+    <script type="text/javascript" src="{{ asset('consis/js/preloader.js') }}"></script>
     <!-- Map JS -->
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
     <script type="text/javascript" src="{{ asset('consis/vendors/map/gmaps.min.js') }}"></script>
