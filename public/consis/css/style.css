@@ -482,7 +482,7 @@ h2, h3, h4, h5, h6 {
 .event .event_inside .event_right:after {
   content: '';
   position: absolute;
-  background: url("/images/header/logo_consis1.png");
+  background: url("/consis/images/header/logo.png") no-repeat;
   top: 200px;
   left: 95px;
   height: 64px;
