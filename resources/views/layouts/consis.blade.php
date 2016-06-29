@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>I Consis</title>
-     
+     <!-- favicon -->
+     <link rel="shortcut icon" sizes="16x16" type="image/png" href="consis/images/header/favicon.png"/>
     <!-- Bootstrap -->
     <link href="{{ asset('consis/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('consis/css/bootstrap-theme.min.css') }}" rel="stylesheet"> 

@@ -70,7 +70,7 @@
                             <div class="item_hover">
                                 <div class="image_hover">
                                     <img src="consis/images/header/palestra_suissa.jpg" alt="#">
-                                    <a style="cursor: pointer;">Palestra</a>
+                                    <!-- <a style="cursor: pointer;">Palestra</a> -->
                                 </div>
                                 <div class="hover_content">
                                     <a style="cursor: pointer;">
@@ -195,7 +195,7 @@
                             <div class="item_hover">
                                 <div class="image_hover">
                                     <img src="consis/images/header/palestra_manoel.jpg" alt="#">
-                                    <a href="#">Palestra</a>
+                                    <!-- <a href="#">Palestra</a> -->
                                 </div>
                                 <div class="hover_content">
                                     <a style="cursor: pointer;">
