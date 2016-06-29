@@ -99,7 +99,7 @@
     <script type="text/javascript" src="{{ asset('consis/vendors/mixitup/jquery.mixitup.min.js') }}"></script>  
     <script type="text/javascript" src="{{ asset('consis/js/preloader.js') }}"></script>
     <!-- Map JS -->
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyAL3KSOmk3G8GaJvPDULfDCLoY73UFIAaU"></script>
     <script type="text/javascript" src="{{ asset('consis/vendors/map/gmaps.min.js') }}"></script>
     <script src="{{ asset('consis/vendors/map/map.js') }}"></script>
      
