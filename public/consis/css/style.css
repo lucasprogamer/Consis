@@ -3514,3 +3514,11 @@ footer .footer_bottom .footer_menu ul li:before {
   width:100%;
   z-index:99;
 }
+
+.gallery .gallery_inner .item:hover .item_back{
+  left:0;
+}
+
+.gallery .gallery_inner .item .item_back h4{
+  margin-top: -65px;
+}

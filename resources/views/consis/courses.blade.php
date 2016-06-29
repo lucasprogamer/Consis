@@ -14,9 +14,6 @@
                 <div class="item_back">
                     <h4>Aqui vai o titulo</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivam at usaliquet orci. Ut interdum mauris sem, non aliquet felis inter. dum sit</p>
-                    <div class="more">
-                        <a href="#">Veja Mais <i class="fa fa-long-arrow-right"></i></a>
-                    </div>
                 </div>
             </a> 
         </div>
@@ -26,9 +23,6 @@
                 <div class="item_back">
                     <h4>Next Web Design  Event at Sunday</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivam at usaliquet orci. Ut interdum mauris sem, non aliquet felis inter. dum sit</p>
-                    <div class="more">
-                        <a href="#">Veja Mais <i class="fa fa-long-arrow-right"></i></a>
-                    </div>
                 </div>
             </a> 
         </div>
@@ -38,9 +32,6 @@
                 <div class="item_back">
                     <h4>Next Web Design  Event at Sunday</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivam at usaliquet orci. Ut interdum mauris sem, non aliquet felis inter. dum sit</p>
-                    <div class="more">
-                        <a href="#">Veja Mais <i class="fa fa-long-arrow-right"></i></a>
-                    </div>
                 </div>
             </a> 
         </div>
@@ -50,9 +41,6 @@
                 <div class="item_back">
                     <h4>Next Web Design  Event at Sunday</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivam at usaliquet orci. Ut interdum mauris sem, non aliquet felis inter. dum sit</p>
-                    <div class="more">
-                        <a href="#">Veja Mais <i class="fa fa-long-arrow-right"></i></a>
-                    </div>
                 </div>
             </a>
         </div>
@@ -65,9 +53,6 @@
                 <div class="item_back">
                     <h4>Next Web Design  Event at Sunday</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivam at usaliquet orci. Ut interdum mauris sem, non aliquet felis inter. dum sit</p>
-                    <div class="more">
-                        <a href="#">Veja Mais <i class="fa fa-long-arrow-right"></i></a>
-                    </div>
                 </div>
             </a> 
         </div>
@@ -77,9 +62,6 @@
                 <div class="item_back">
                     <h4>Next Web Design  Event at Sunday</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivam at usaliquet orci. Ut interdum mauris sem, non aliquet felis inter. dum sit</p>
-                    <div class="more">
-                        <a href="#">Veja Mais <i class="fa fa-long-arrow-right"></i></a>
-                    </div>
                 </div>
             </a> 
         </div>
@@ -89,9 +71,6 @@
                 <div class="item_back">
                     <h4>Next Web Design  Event at Sunday</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivam at usaliquet orci. Ut interdum mauris sem, non aliquet felis inter. dum sit</p>
-                    <div class="more">
-                        <a href="#">Veja Mais <i class="fa fa-long-arrow-right"></i></a>
-                    </div>
                 </div>
             </a> 
         </div>
@@ -101,9 +80,6 @@
                 <div class="item_back">
                     <h4>Next Web Design  Event at Sunday</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivam at usaliquet orci. Ut interdum mauris sem, non aliquet felis inter. dum sit</p>
-                    <div class="more">
-                        <a href="#">Veja Mais <i class="fa fa-long-arrow-right"></i></a>
-                    </div>
                 </div>
             </a>
         </div>
