@@ -39,8 +39,8 @@
             <a href="consis/images/minicurso/minicursocoding.jpg" data-lightbox="roadtrip">
                 <img src="consis/images/minicurso/minicursocoding.jpg" alt="">
                 <div class="item_back">
-                    <h4>Primeiros Passos para Validar sua Idéia e Montar uma Startup</h4>
-                    <p>Palestrante: Jefferson (Sebrae)</p>
+                    <h4>Coding Dojo</h4>
+                    <p>Palestrante: Edivan Ricardo</p>
                 </div>
             </a>
         </div>
@@ -51,8 +51,8 @@
             <a href="consis/images/minicurso/minicursostartup.jpg" data-lightbox="roadtrip">
                 <img src="consis/images/minicurso/minicursostartup.jpg" alt="">
                 <div class="item_back">
-                    <h4>Coding Dojo</h4>
-                    <p>Palestrante: Edivan Ricardo</p>
+                    <h4>Primeiros Passos para Validar sua Idéia e Montar uma Startup</h4>
+                    <p>Palestrante: Jefferson (Sebrae)</p>
                 </div>
             </a> 
         </div>
