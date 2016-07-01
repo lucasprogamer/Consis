@@ -9,6 +9,7 @@
      <!-- favicon -->
      <link rel="shortcut icon" sizes="16x16" type="image/png" href="consis/images/header/favicon.png"/>
     <!-- Bootstrap -->
+    <meta name="google-site-verification" content="2PPSnTeSa5asqGjZ5vG7QxNrI--Z9T8LptK0GTsamRs" />
     <link href="{{ asset('consis/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('consis/css/bootstrap-theme.min.css') }}" rel="stylesheet"> 
     <!-- Font Awesome  -->
