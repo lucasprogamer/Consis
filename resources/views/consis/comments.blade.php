@@ -9,7 +9,7 @@
                         <h2><span>Game Party</span> Consis </h2>
                     </div>
                     <div class="item active">
-
+            <div class="col-md-12">
                         <div class="total_items">
                         
                             <div class="col-sm-6 item_left">
@@ -41,6 +41,7 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>

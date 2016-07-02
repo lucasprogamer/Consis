@@ -44,8 +44,6 @@
                 </div>
             </a>
         </div>
-            
-        <div class="col-xs-12" style="height:50px;"></div>
 
         <div class="col-sm-3 item"> 
             <a href="consis/images/minicurso/minicursostartup.jpg" data-lightbox="roadtrip">

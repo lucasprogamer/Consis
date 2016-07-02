@@ -227,7 +227,7 @@ h2, h3, h4, h5, h6 {
   background: #e74c3c;
   padding: 17px 0;
   position: absolute;
-  bottom: -150px;
+  bottom: -180px;
   border-radius: 80px 80px 0 0;
   z-index: 55;
 }
@@ -345,7 +345,7 @@ h2, h3, h4, h5, h6 {
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
   color: #fff;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 .newsletter .content h2 span {
   color: #ef3b35;
@@ -1520,7 +1520,7 @@ h2, h3, h4, h5, h6 {
 @media (max-width: 991px) {
   .ticket .booking_ticket .register_form form a {
     padding: 20px 30px;
-    border-radius: 20px;
+    /*border-radius: 20px;*/
   }
 }
 
@@ -1608,21 +1608,21 @@ h2, h3, h4, h5, h6 {
 }
 .comment .comment_box .item_left {
   padding-left: 40px;
-  padding-right: 50px;
+  /*padding-right: 50px;*/
 }
 @media (max-width: 767px) {
   .comment .comment_box .item_left {
     margin-bottom: 20px;
-    padding: 0 50px;
+    padding: 0 0px;
   }
 }
 .comment .comment_box .item_right {
   padding-left: 50px;
-  padding-right: 40px;
+  /*padding-right: 40px;*/
 }
 @media (max-width: 767px) {
   .comment .comment_box .item_right {
-    padding: 0 50px;
+    padding: 0 0px;
   }
 }
 
@@ -3015,7 +3015,7 @@ footer .footer_bottom .footer_menu ul li:before {
   }
 
   .main_page .container .event_info {
-    bottom: -378px;
+    bottom: -338px;
     padding: 17px 30px;
   }
 
@@ -3090,7 +3090,7 @@ footer .footer_bottom .footer_menu ul li:before {
 
   .main_page .container .count_down {
     padding-top: 0;
-    margin-top:165px;
+    /*margin-top:165px;*/
   }
 
   .main_page .container .event_info .event_info_describe {
@@ -3211,8 +3211,8 @@ footer .footer_bottom .footer_menu ul li:before {
   }
 
   .newsletter .content form .input-group .sub_btn {
-    width: 35%;
-    float: right;
+    /*width: 35%;*/
+    /*float: right;*/
     padding-right: 0;
   }
 
