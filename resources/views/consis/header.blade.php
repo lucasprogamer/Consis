@@ -13,7 +13,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"><img style="width: 160px;height: 50px; position: absolute;top: 50%; margin-top: -25px;" src="consis/images/header/LOGOCONSIS.png" alt="#"></a>
+                        <a class="navbar-brand" href="#"><img  width="160" height="50" src="consis/images/header/LOGOCONSIS.png" alt="#"></a>
                     </div>
 
                     <!-- Menu -->
