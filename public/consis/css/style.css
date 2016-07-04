@@ -3101,9 +3101,9 @@ footer .footer_bottom .footer_menu ul li:before {
     border: 0;
   }
 
-  .events_schedule .events_schedule_content .events_schedule_tab .tab-content .tab-pane .item_hover:last-child {
+  /*.events_schedule .events_schedule_content .events_schedule_tab .tab-content .tab-pane .item_hover:last-child {
     display: none;
-  }
+  }*/
 
   .menu_part .navbar-right {
     margin-right: -16px;
