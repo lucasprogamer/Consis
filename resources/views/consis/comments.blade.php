@@ -35,7 +35,7 @@
                                         </a>
                                     </div>
                                     <div class="media-body">
-                                        <h4 class="media-heading">Legue of Legends</h4>
+                                        <h4 class="media-heading">League of Legends</h4>
                                         <h6>Inscrições em Breve</h6>
                                     </div>
                                 </div>
