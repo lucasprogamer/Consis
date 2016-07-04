@@ -2973,7 +2973,7 @@ footer .footer_bottom .footer_menu ul li:before {
   }
 
   .gallery .gallery_inner .item .item_back {
-    padding: 45px 18px 0;
+    padding: 100px 18px 0;
   }
 }
 @media (max-width: 991px) {
