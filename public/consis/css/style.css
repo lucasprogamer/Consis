@@ -1892,7 +1892,7 @@ h2, h3, h4, h5, h6 {
 .campeonato
 {
     background-image: url("") !important;
-    background-size: none !important; 
+    background-size: none !important;
     height: 0px !important;
     color: #fff;
     padding-bottom: 55px;
@@ -1903,7 +1903,7 @@ h2, h3, h4, h5, h6 {
 {
   font: bold 36px/1 "Montserrat", sans-serif;
     text-transform: capitalize;
-    
+
 }
 .campeonato span {
     color: #e74c3c;
@@ -3507,7 +3507,7 @@ footer .footer_bottom .footer_menu ul li:before {
     display: block;
     margin-left: auto;
     margin-right: auto;
-} 
+}
 
 .fixed{
   position: fixed;
@@ -3521,4 +3521,19 @@ footer .footer_bottom .footer_menu ul li:before {
 
 .gallery .gallery_inner .item .item_back h4{
   margin-top: -65px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
 }
