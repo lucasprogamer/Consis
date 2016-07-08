@@ -10,7 +10,8 @@
         "infyomlabs/laravel-generator": "dev-master",
         "laravelcollective/html": "5.2.*",
         "infyomlabs/core-templates": "dev-master",
-        "barryvdh/laravel-debugbar": "^2.2"
+        "barryvdh/laravel-debugbar": "^2.2",
+        "intervention/image": "^2.3"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

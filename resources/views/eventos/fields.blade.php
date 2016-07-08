@@ -14,12 +14,12 @@
              </span>
     </header>
 
-    
+
 		<div class="panel-body">
 			<div class="form-group  col-sm-12 col-lg-12">
-    			
+
     			{!! Form::textarea('Descrição', null, ['class' => 'form-control ckeditor']) !!}
-			
+
 			</div>
 		</div>
 	</section>

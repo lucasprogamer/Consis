@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 use Flash;
 use Prettus\Repository\Criteria\RequestCriteria;
 use Response;
+use Image;
 
 class eventoController extends AppBaseController
 {
@@ -56,8 +57,12 @@ class eventoController extends AppBaseController
     public function store(CreateeventoRequest $request)
     {
         $input = $request->all();
+        $file = $request->file('Imagem');
+        $this->uploadImage($file);
 
         $evento = $this->eventoRepository->create($input);
+
+
 
         Flash::success('evento saved successfully.');
 
@@ -122,11 +127,22 @@ class eventoController extends AppBaseController
             return redirect(route('eventos.index'));
         }
 
+
+        $file = $request->file('Imagem');
+        $imagem = $request->Imagem;
+        $newImage =   $this->uploadImage($file);
+        $path = $newImage->dirname.'/'.$newImage->basename;
+        $imagem->pathName = $path;
+        $imagem->fileName = $newImage->basename;
+
+        var_dump($imagem);
+        // var_dump($path);
         $evento = $this->eventoRepository->update($request->all(), $id);
 
         Flash::success('evento updated successfully.');
 
-        return redirect(route('eventos.index'));
+        // return redirect(route('eventos.index'));
+        return response()->json($evento->Imagem);
     }
 
     /**
@@ -145,6 +161,8 @@ class eventoController extends AppBaseController
 
             return redirect(route('eventos.index'));
         }
+
+        File::
 
         $this->eventoRepository->delete($id);
 

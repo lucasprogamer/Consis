@@ -18,10 +18,10 @@
                         <a class="fa fa-chevron-down" href="javascript:;"></a>
                     </span>
                 </header>
-        
+
                 <div class="panel-body">
 
-                    {!! Form::open(['route' => 'eventos.store']) !!}
+                    {!! Form::open(['route' => 'eventos.store', 'files' => true ]) !!}
 
                         @include('eventos.fields')
 

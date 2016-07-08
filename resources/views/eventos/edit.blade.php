@@ -18,9 +18,9 @@
                         <a class="fa fa-chevron-down" href="javascript:;"></a>
                     </span>
                 </header>
-        
+
                 <div class="panel-body">
-            {!! Form::model($evento, ['route' => ['eventos.update', $evento->id], 'method' => 'patch']) !!}
+            {!! Form::model($evento, ['route' => ['eventos.update', $evento->id], 'method' => 'patch', 'files' => true ]) !!}
 
             @include('eventos.fields')
 

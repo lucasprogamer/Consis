@@ -49,7 +49,7 @@ class evento extends Model
     use SoftDeletes;
 
     public $table = 'eventos';
-    
+
 
     protected $dates = ['deleted_at'];
 
@@ -83,6 +83,7 @@ class evento extends Model
         'Titulo' => 'required',
         'local' => 'required',
         'Dia' => 'Required',
-        'Autor' => 'required'
+        'Autor' => 'required',
+        'Imagem' => 'required'
     ];
 }
