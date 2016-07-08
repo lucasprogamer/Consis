@@ -12,6 +12,7 @@
      <meta name="keywords" content="HTML,CSS,XML,JavaScript,Palestras,Jean carlos Suissa,normadev,minicursos,sistemas,wordpres,arduino,code dojo,league of legends, lol, cs, COUNTER STRIKE, artigos, submissão,tcc,evento">
     <!-- Bootstrap -->
     <meta name="google-site-verification" content="qym3HhFYBt4Y7Q7xcKifTswHIwYjDofyQO9CaQGeF5U" />
+    <meta name="google-site-verification" content="qym3HhFYBt4Y7Q7xcKifTswHIwYjDofyQO9CaQGeF5U" />
     <link href="{{ asset('consis/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('consis/css/bootstrap-theme.min.css') }}" rel="stylesheet">
     <!-- Font Awesome  -->

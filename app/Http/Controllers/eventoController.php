@@ -130,19 +130,18 @@ class eventoController extends AppBaseController
 
         $file = $request->file('Imagem');
         $imagem = $request->Imagem;
-        $newImage =   $this->uploadImage($file);
-        $path = $newImage->dirname.'/'.$newImage->basename;
+        $path =   $this->uploadImage($file);
         $imagem->pathName = $path;
-        $imagem->fileName = $newImage->basename;
 
         var_dump($imagem);
-        // var_dump($path);
+
+
         $evento = $this->eventoRepository->update($request->all(), $id);
 
         Flash::success('evento updated successfully.');
 
         // return redirect(route('eventos.index'));
-        return response()->json($evento->Imagem);
+        // return response()->json($evento->Imagem);
     }
 
     /**

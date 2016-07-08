@@ -84,6 +84,5 @@ class evento extends Model
         'local' => 'required',
         'Dia' => 'Required',
         'Autor' => 'required',
-        'Imagem' => 'required'
     ];
 }
