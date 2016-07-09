@@ -32,6 +32,6 @@ class AppBaseController extends Controller
        $file->move('uploads', $image_name);
        $path = sprintf('uploads/%s', $image_name);
        $newImage = Image::make($path)->resize(200, 200)->save();
-       return $path;
+       return $newImage;
     }
 }

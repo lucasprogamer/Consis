@@ -20,6 +20,7 @@ class eventoController extends AppBaseController
     public function __construct(eventoRepository $eventoRepo)
     {
         $this->eventoRepository = $eventoRepo;
+        $this->middleware('auth');
     }
 
     /**
