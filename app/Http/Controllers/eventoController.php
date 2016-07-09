@@ -58,7 +58,6 @@ class eventoController extends AppBaseController
     public function store(CreateeventoRequest $request)
     {
         $input = $request->all();
-        $file = $request->file('Imagem');
         $this->uploadImage($file);
 
         $evento = $this->eventoRepository->create($input);

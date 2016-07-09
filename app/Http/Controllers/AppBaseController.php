@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use InfyOm\Generator\Utils\ResponseUtil;
 use Response;
 use Image;
-
+use Cloudder;
 /**
  * @SWG\Swagger(
  *   basePath="/api/v1",
@@ -27,11 +27,7 @@ class AppBaseController extends Controller
     public function uploadImage($file)
     {
 
-
-      $image_name = time()."-".$file->getClientOriginalName();
-       $file->move('uploads', $image_name);
-       $path = sprintf('uploads/%s', $image_name);
-       $newImage = Image::make($path)->resize(200, 200)->save();
-       return $newImage;
+      Cloudder::upload($file);
+      Cloudder::getResult();
     }
 }
