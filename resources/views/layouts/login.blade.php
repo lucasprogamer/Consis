@@ -10,7 +10,10 @@
   <title>{{{ $name or 'Consis' }}} - @yield('title')</title>
 
   <link href="{{ asset('adminex/css/style.css') }}" rel="stylesheet">
+  <link href="{{ asset('adminex/css/jquery.stepy.css') }}" rel="stylesheet">
   <link href="{{ asset('adminex/css/style-responsive.css') }}" rel="stylesheet">
+  <!--file upload-->
+  <link rel="stylesheet" type="text/css" href="{{asset('adminex/css/bootstrap-fileupload.min.css')}}" />
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -32,8 +35,58 @@
 
 <!-- Placed js at the end of the document so the pages load faster -->
 <script src="{{ asset('adminex/js/jquery-1.10.2.min.js') }}"></script>
+
+<script src="{{ asset('adminex/js/jquery-ui-1.9.2.custom.min.js')}}"></script>
+<script src="{{ asset('adminex/js/jquery-migrate-1.2.1.min.js')}}"></script>
+<script src="{{ asset('adminex/js/jquery.validate.min.js')}}"></script>
+<script src="{{ asset('adminex/js/jquery.stepy.js')}}"></script>
 <script src="{{ asset('adminex/js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('adminex/js/modernizr.min.js') }}"></script>
+<script src="{{ asset('adminex/js/bootstrap-fileupload.min.js')}}"></script>
+<script src="{{ asset('adminex/js/jquery.nicescroll.js')}}"></script>
 
+<script>
+    /*=====STEPY WIZARD====*/
+    $(function() {
+        $('#default').stepy({
+            backLabel: 'Anterior',
+            block: true,
+            nextLabel: 'Proximo',
+            titleClick: true,
+            titleTarget: '.stepy-tab'
+        });
+    });
+    /*=====STEPY WIZARD WITH VALIDATION====*/
+    $(function() {
+        $('#stepy_form').stepy({
+            backLabel: 'Back',
+            nextLabel: 'Next',
+            errorImage: true,
+            block: true,
+            description: true,
+            legend: false,
+            titleClick: true,
+            titleTarget: '#top_tabby',
+            validate: true
+        });
+        $('#stepy_form').validate({
+            errorPlacement: function(error, element) {
+                $('#stepy_form div.stepy-error').append(error);
+            },
+            rules: {
+                'name': 'required',
+                'email': 'required'
+            },
+            messages: {
+                'name': {
+                    required: 'Name field is required!'
+                },
+                'email': {
+                    required: 'Email field is requerid!'
+                }
+            }
+        });
+    });
+</script>
 </body>
 </html>
