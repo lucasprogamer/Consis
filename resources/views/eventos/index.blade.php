@@ -24,7 +24,7 @@
 				        <div class="clearfix"></div>
 
 					        @include('eventos.table')
-					        
+
 
 					</div>
                 </section>

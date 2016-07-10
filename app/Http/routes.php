@@ -46,3 +46,5 @@ Route::group(['prefix' => 'api', 'namespace' => 'API'], function () {
 Route::resource('posts', 'postController');
 
 Route::resource('eventos', 'eventoController');
+
+

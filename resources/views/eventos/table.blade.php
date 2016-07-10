@@ -6,7 +6,7 @@
         <th>Dia</th>
         <th>Imagem</th>
         <th>Autor</th>
-        <th colspan="3">Action</th>
+        <th colspan="3">Ações</th>
     </thead>
     <tbody>
     @foreach($eventos as $evento)
@@ -20,9 +20,9 @@
             <td>
                 {!! Form::open(['route' => ['eventos.destroy', $evento->id], 'method' => 'delete']) !!}
                 <div class='btn-group'>
-                    <a href="{!! route('eventos.show', [$evento->id]) !!}" class='btn btn-default btn-xs'><i class="glyphicon glyphicon-eye-open"></i></a>
-                    <a href="{!! route('eventos.edit', [$evento->id]) !!}" class='btn btn-default btn-xs'><i class="glyphicon glyphicon-edit"></i></a>
-                    {!! Form::button('<i class="glyphicon glyphicon-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-xs', 'onclick' => "return confirm('Are you sure?')"]) !!}
+                    <a href="{!! route('eventos.show', [$evento->id]) !!}" class='btn btn-default'><i class="fa fa-eye"></i></a>
+                    <a href="{!! route('eventos.edit', [$evento->id]) !!}" class='btn btn-default'><i class="fa fa-pencil"></i></a>
+                    {!! Form::button('<i class="fa fa-trash-o"></i>', ['type' => 'submit', 'class' => 'btn btn-danger', 'onclick' => "return confirm('Confirma aoagar evento?')"]) !!}
                 </div>
                 {!! Form::close() !!}
             </td>
