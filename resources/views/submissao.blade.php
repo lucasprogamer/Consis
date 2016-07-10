@@ -60,7 +60,7 @@
                             <fieldset title="Contato">
                                 <legend>Informações para contato</legend>
                                 <div class="form-group">
-                                    <label class="col-md-2 col-sm-2 control-label">Phone</label>
+                                    <label class="col-md-2 col-sm-2 control-label">Telefone</label>
                                     <div class="col-md-6 col-sm-6">
                                         <input type="text" placeholder="(99)  9 9999-9999" class="form-control">
                                     </div>
