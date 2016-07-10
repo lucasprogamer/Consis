@@ -57,10 +57,13 @@ class eventoController extends AppBaseController
      */
     public function store(CreateeventoRequest $request)
     {
-        $input = $request->all();
-        $this->uploadImage($file);
+      $file = $request->file('Imagem');
+      $imagem = $request->Imagem;
+      $result =  (object) $this->uploadImage($file);
+      $newRequest = $request->all();
+      $newRequest['url'] = $result->url;
 
-        $evento = $this->eventoRepository->create($input);
+        $evento = $this->eventoRepository->create($newRequest);
 
 
 
@@ -130,18 +133,19 @@ class eventoController extends AppBaseController
 
         $file = $request->file('Imagem');
         $imagem = $request->Imagem;
-        $path =   $this->uploadImage($file);
-        $imagem->pathName = $path;
+        $result =  (object) $this->uploadImage($file);
+        $newRequest = $request->all();
+        $newRequest['url'] = $result->url;
 
-        var_dump($imagem);
+
+        $evento = $this->eventoRepository->update($newRequest, $id);
 
 
-        $evento = $this->eventoRepository->update($request->all(), $id);
 
         Flash::success('evento updated successfully.');
 
-        // return redirect(route('eventos.index'));
-        // return response()->json($evento->Imagem);
+        return redirect(route('eventos.index'));
+
     }
 
     /**

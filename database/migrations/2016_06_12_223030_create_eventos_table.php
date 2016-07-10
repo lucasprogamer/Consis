@@ -21,6 +21,7 @@ class CreateeventosTable extends Migration
             $table->text('Dia');
             $table->text('Imagem');
             $table->text('Autor');
+            $table->text('url');
             $table->timestamps();
             $table->softDeletes();
         });

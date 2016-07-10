@@ -15,7 +15,7 @@
             <td>{!! $evento->Descrição !!}</td>
             <td>{!! $evento->local !!}</td>
             <td>{!! $evento->Dia !!}</td>
-            <td>{!! $evento->Imagem !!}</td>
+            <td> <img src="{{ $evento->url}}" height="100px"/></td>
             <td>{!! $evento->Autor !!}</td>
             <td>
                 {!! Form::open(['route' => ['eventos.destroy', $evento->id], 'method' => 'delete']) !!}

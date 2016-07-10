@@ -60,6 +60,7 @@ class evento extends Model
         'local',
         'Dia',
         'Imagem',
+        'url',
         'Autor'
     ];
 
