@@ -48,3 +48,6 @@ Route::resource('posts', 'postController');
 Route::resource('eventos', 'eventoController');
 
 
+
+
+Route::resource('submissoes', 'submissoesController');

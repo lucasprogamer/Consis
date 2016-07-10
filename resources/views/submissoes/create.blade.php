@@ -3,7 +3,7 @@
 @section('content')
     <div class="row">
         <div class="col-sm-12">
-            <h1 class="pull-left">Criar $MODEL_NAME$</h1>
+            <h1 class="pull-left">Criar Submissão</h1>
         </div>
     </div>
     <div class="clearfix"></div>
@@ -12,25 +12,21 @@
             <div class="row">
             <div class="col-md-12">
                 <section class="panel">
-
                     <div class="panel-body">
 
     @include('core-templates::common.errors')
 
     <div class="row">
-        {!! Form::open(['route' => '$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.store']) !!}
+        {!! Form::open(['route' => 'submissoes.store']) !!}
 
-            @include('$VIEW_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.fields')
+            @include('submissoes.fields')
 
         {!! Form::close() !!}
     </div>
-    </div>
-          </section>
-      </div>
-  </div>
   </div>
         </section>
     </div>
+</div>
 </div>
 
 @endsection

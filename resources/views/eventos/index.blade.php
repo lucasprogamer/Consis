@@ -1,7 +1,7 @@
 @extends('layouts.adminex')
 
 @section('content')
-        <h1 class="pull-left">eventos</h1>
+        <h1 class="pull-left">Eventos</h1>
         <a class="btn btn-primary pull-right" style="margin-top: 25px" href="{!! route('eventos.create') !!}">Adcionar Novo</a>
 
         <div class="clearfix"></div>
