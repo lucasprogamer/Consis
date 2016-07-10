@@ -20,6 +20,7 @@ class submissoesController extends InfyOmBaseController
     public function __construct(submissoesRepository $submissoesRepo)
     {
         $this->submissoesRepository = $submissoesRepo;
+        $this->middleware('auth');
     }
 
     /**

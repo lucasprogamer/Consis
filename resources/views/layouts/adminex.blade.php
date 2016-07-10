@@ -27,11 +27,11 @@
 
         <!--logo and iconic logo start-->
         <div class="logo">
-            <a href="{{ url('/dashboard') }}"><img src="images/logo.png" alt=""></a>
+            <a href="{{ url('/dashboard') }}"><img src="{{asset('consis/images/header/logoconsis.png')}}" height="60"></a>
         </div>
 
         <div class="logo-icon text-center">
-            <a href="{{ url('/dashboard') }}"><img src="images/logo_icon.png" alt=""></a>
+            <a href="{{ url('/dashboard') }}"><img src="{{asset('consis/images/header/favicon.png')}}" height="45"></a>
         </div>
         <!--logo and iconic logo end-->
 
@@ -41,7 +41,7 @@
             <!-- visible to small devices only -->
             <div class="visible-xs hidden-sm hidden-md hidden-lg">
                 <div class="media logged-user">
-                    <img alt="" src="images/photos/user-avatar.png" class="media-object">
+                    <img alt="" src="{{asset('adminex/images/photos/user-avatar.png')}}" class="media-object">
                     <div class="media-body">
                         <h4><a href="#">{{ Auth::user()->name }}</a></h4>
                         <span>"{{ Auth::user()->email }}"</span>
@@ -66,7 +66,7 @@
         </div>
     </div>
     <!-- left side end-->
-    
+
     <!-- main content start-->
     <div class="main-content" >
 
@@ -89,7 +89,7 @@
 
                 <li>
                     <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                        <img src="images/photos/user-avatar.png" alt="" />
+                        <img src="{{asset('adminex/images/photos/user-avatar.png')}}" alt="" />
                         {{ Auth::user()->name }}
                         <span class="caret"></span>
                     </a>
@@ -121,7 +121,7 @@
 
         <!--footer section start-->
         <footer class="sticky-footer">
-            {{ date('Y') }} &copy; Consis by 
+            {{ date('Y') }} &copy; Consis by
         </footer>
         <!--footer section end-->
 
