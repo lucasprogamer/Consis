@@ -7,24 +7,24 @@
 
     <form method="POST"  class="form-signin" action=" {{ url('/login')  }} ">
     {!! csrf_field() !!}
-    
+
         <div class="form-signin-heading text-center">
             <h1 class="sign-title">Entrar</h1>
-            <img src="images/login-logo.png" alt=""/>
+            <img src="{{ asset('consis/images/header/favicon.png') }}" height="100"/>
         </div>
-    
+
     <div class="login-wrap">
-    
+
         <input class="form-control" placeholder="email@exemplo.com" required autofocus type="email" name="email" value="{{ old('email') }}">
-    
+
         <input type="password" class="form-control" name="password" id="password" required placeholder="******">
-    
+
             <div class="registration">
                 Ainda não se inscreveu?
                 <a class="" href="{{ url('register') }}">
                     Inscreva-se
                 </a>
-            </div>    
+            </div>
 
             <div>
                 <button class="btn btn-lg btn-login btn-block" type="submit">
@@ -44,7 +44,7 @@
 
         <!-- Modal -->
         <form>
-            
+
         <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal" class="modal fade">
             <div class="modal-dialog">
                 <div class="modal-content">

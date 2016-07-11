@@ -11,7 +11,7 @@
         <tr>
             <td>{!! $submissoes->titulo !!}</td>
             <td>{!! $submissoes->atuacao !!}</td>
-            <td>{!! $submissoes->resumo !!}</td>
+            <td>{!! mb_strimwidth($submissoes->resumo, 0 , 50, '...') !!}</td>
             <td>{!! $submissoes->artigo !!}</td>
             <td>
                 {!! Form::open(['route' => ['submissoes.destroy', $submissoes->id], 'method' => 'delete']) !!}
