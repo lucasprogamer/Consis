@@ -164,6 +164,7 @@ return [
         \InfyOm\CoreTemplates\CoreTemplatesServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
+        'Artesaos\Defender\Providers\DefenderServiceProvider',
         'JD\Cloudder\CloudderServiceProvider'
 
     ],
@@ -216,6 +217,7 @@ return [
         'Flash'     => Laracasts\Flash\Flash::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
         'Image' => Intervention\Image\Facades\Image::class,
+        'Defender' => 'Artesaos\Defender\Facades\Defender',
         'Cloudder' => 'JD\Cloudder\Facades\Cloudder',
 
     ],

@@ -1,11 +1,13 @@
 <?php
 
 namespace App;
-
+use Artesaos\Defender\Traits\HasDefender;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable
 {
+
+  use HasDefender;
     /**
      * The attributes that are mass assignable.
      *
