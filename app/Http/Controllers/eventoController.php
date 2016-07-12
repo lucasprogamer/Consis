@@ -21,6 +21,7 @@ class eventoController extends AppBaseController
     {
         $this->eventoRepository = $eventoRepo;
         $this->middleware('auth');
+        $this->middleware('needsRole:admin');
     }
 
     /**
