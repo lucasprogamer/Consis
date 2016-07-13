@@ -21,6 +21,7 @@ class submissoesController extends InfyOmBaseController
     {
         $this->submissoesRepository = $submissoesRepo;
         $this->middleware('auth');
+        $this->middleware('needsRole:admin|revisor|submissor,true');
     }
 
     /**

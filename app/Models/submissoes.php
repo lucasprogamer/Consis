@@ -54,7 +54,7 @@ class submissoes extends Model
     use SoftDeletes;
 
     public $table = 'submissoes';
-    
+
 
     protected $dates = ['deleted_at'];
 
@@ -63,7 +63,9 @@ class submissoes extends Model
         'titulo',
         'atuacao',
         'resumo',
-        'artigo'
+        'artigo',
+        'url',
+        'status',
     ];
 
     /**
@@ -76,6 +78,8 @@ class submissoes extends Model
         'atuacao' => 'string',
         'resumo' => 'string',
         'artigo' => 'string'
+        'url' => 'string'
+        'status' => 'boolean'
     ];
 
     /**
@@ -84,6 +88,6 @@ class submissoes extends Model
      * @var array
      */
     public static $rules = [
-        
+
     ];
 }

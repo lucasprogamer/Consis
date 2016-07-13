@@ -19,6 +19,8 @@ class CreatesubmissoesTable extends Migration
             $table->text('atuacao');
             $table->text('resumo');
             $table->text('artigo');
+            $table->text('url');
+            $table->boolean('status');
             $table->timestamps();
             $table->softDeletes();
         });

@@ -18,6 +18,7 @@ Route::get('/', function () {
 Route::auth();
 
 Route::get('/dashboard', 'HomeController@index');
+
 Route::group(['prefix' => 'submissao'], function(){
     Route::get('/', function()
     {
@@ -44,10 +45,5 @@ Route::group(['prefix' => 'api', 'namespace' => 'API'], function () {
 
 
 Route::resource('posts', 'postController');
-
 Route::resource('eventos', 'eventoController');
-
-
-
-
 Route::resource('submissoes', 'submissoesController');
