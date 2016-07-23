@@ -6,26 +6,32 @@
 
 <!-- Titulo Field -->
 <div class="form-group">
-    {!! Form::label('titulo', 'Titulo:') !!}
-    <p>{!! $submissoes->titulo !!}</p>
+    {!! Form::label('Titulo', 'Titulo:') !!}
+    <p>{!! $submissoes->Titulo !!}</p>
 </div>
 
-<!-- Atuacao Field -->
+<!-- Atuaçca?o Field -->
 <div class="form-group">
-    {!! Form::label('atuacao', 'Atuacao:') !!}
-    <p>{!! $submissoes->atuacao !!}</p>
+    {!! Form::label('Atuaçca�o', 'Atuaçca?o:') !!}
+    <p>{!! $submissoes->Atuaçca�o !!}</p>
 </div>
 
 <!-- Resumo Field -->
 <div class="form-group">
-    {!! Form::label('resumo', 'Resumo:') !!}
-    <p>{!! $submissoes->resumo !!}</p>
+    {!! Form::label('Resumo', 'Resumo:') !!}
+    <p>{!! $submissoes->Resumo !!}</p>
 </div>
 
 <!-- Artigo Field -->
 <div class="form-group">
-    {!! Form::label('artigo', 'Artigo:') !!}
-    <p>{!! $submissoes->artigo !!}</p>
+    {!! Form::label('Artigo', 'Artigo:') !!}
+    <p>{!! $submissoes->Artigo !!}</p>
+</div>
+
+<!-- Url Field -->
+<div class="form-group">
+    {!! Form::label('url', 'Url:') !!}
+    <p>{!! $submissoes->url !!}</p>
 </div>
 
 <!-- Created At Field -->

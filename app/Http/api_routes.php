@@ -19,3 +19,5 @@
 Route::resource('posts', 'postAPIController');
 
 Route::resource('eventos', 'eventoAPIController');
+
+Route::resource('submissoes', 'submissoesAPIController');

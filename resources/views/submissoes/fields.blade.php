@@ -1,28 +1,33 @@
 <!-- Titulo Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('titulo', 'Titulo:') !!}
-    {!! Form::text('titulo', null, ['class' => 'form-control']) !!}
+    {!! Form::label('Titulo', 'Titulo:') !!}
+    {!! Form::text('Titulo', null, ['class' => 'form-control']) !!}
 </div>
 
-<!-- Atuacao Field -->
+<!-- Atuaçca?o Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('atuacao', 'Atuacao:') !!}
-    {!! Form::text('atuacao', null, ['class' => 'form-control']) !!}
+    {!! Form::label('Atuaçca�o', 'Atuaçca?o:') !!}
+    {!! Form::text('Atuaçca�o', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Resumo Field -->
-<div class="form-group col-sm-12 col-lg-12">
-    {!! Form::label('resumo', 'Resumo:') !!}
-    {!! Form::textarea('resumo', null, ['class' => 'form-control ckeditor', 'rows' => '5']) !!}
+<div class="form-group col-sm-6">
+    {!! Form::label('Resumo', 'Resumo:') !!}
+    {!! Form::text('Resumo', null, ['class' => 'form-control']) !!}
 </div>
-
 
 <!-- Artigo Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('artigo', 'Artigo:') !!}
-    {!! Form::file('artigo') !!}
+    {!! Form::label('Artigo', 'Artigo:') !!}
+    {!! Form::file('Artigo') !!}
 </div>
 <div class="clearfix"></div>
+
+<!-- Url Field -->
+<div class="form-group col-sm-6">
+    {!! Form::label('url', 'Url:') !!}
+    {!! Form::text('url', null, ['class' => 'form-control']) !!}
+</div>
 
 <!-- Submit Field -->
 <div class="form-group col-sm-12">

@@ -15,12 +15,11 @@ class CreatesubmissoesTable extends Migration
     {
         Schema::create('submissoes', function (Blueprint $table) {
             $table->increments('id');
-            $table->text('titulo');
+            $table->text('Titulo');
             $table->text('atuacao');
-            $table->text('resumo');
-            $table->text('artigo');
+            $table->text('Resumo');
+            $table->text('Artigo');
             $table->text('url');
-            $table->boolean('status');
             $table->timestamps();
             $table->softDeletes();
         });

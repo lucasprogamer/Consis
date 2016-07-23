@@ -11,7 +11,7 @@ class submissoesRepository extends BaseRepository
      * @var array
      */
     protected $fieldSearchable = [
-        'titulo',
+        'Titulo',
         'atuacao'
     ];
 

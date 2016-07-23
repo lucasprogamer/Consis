@@ -107,15 +107,15 @@
 
                             </fieldset>
                             <fieldset title="Final Step">
-                                <legend>Final Step Information</legend>
+                                <legend>Autores</legend>
                                 <div class="form-group">
                                     <div class="col-md-12">
-                                        <p>Congratulations This is the Final Step</p>
+                                        <p>Ainda não sei como vou fazer isso aqui</p>
                                     </div>
                                 </div>
                             </fieldset>
                             <button class="btn btn-info finish">
-                                Finish </button>
+                                Submeter </button>
                         </form>
                     </div>
                 </div>

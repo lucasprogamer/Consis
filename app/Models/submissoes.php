@@ -16,8 +16,8 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  *          format="int32"
  *      ),
  *      @SWG\Property(
- *          property="titulo",
- *          description="titulo",
+ *          property="Titulo",
+ *          description="Titulo",
  *          type="string"
  *      ),
  *      @SWG\Property(
@@ -26,13 +26,18 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  *          type="string"
  *      ),
  *      @SWG\Property(
- *          property="resumo",
- *          description="resumo",
+ *          property="Resumo",
+ *          description="Resumo",
  *          type="string"
  *      ),
  *      @SWG\Property(
- *          property="artigo",
- *          description="artigo",
+ *          property="Artigo",
+ *          description="Artigo",
+ *          type="string"
+ *      ),
+ *      @SWG\Property(
+ *          property="url",
+ *          description="url",
  *          type="string"
  *      ),
  *      @SWG\Property(
@@ -58,14 +63,16 @@ class submissoes extends Model
 
     protected $dates = ['deleted_at'];
 
+    public function submissoes(){
+      return $this->belongsTo('App\User', 'foreign_key');
+    }
 
     public $fillable = [
-        'titulo',
+        'Titulo',
         'atuacao',
-        'resumo',
-        'artigo',
-        'url',
-        'status',
+        'Resumo',
+        'Artigo',
+        'url'
     ];
 
     /**
@@ -74,12 +81,11 @@ class submissoes extends Model
      * @var array
      */
     protected $casts = [
-        'titulo' => 'string',
+        'Titulo' => 'string',
         'atuacao' => 'string',
-        'resumo' => 'string',
-        'artigo' => 'string'
+        'Resumo' => 'string',
+        'Artigo' => 'string',
         'url' => 'string'
-        'status' => 'boolean'
     ];
 
     /**
