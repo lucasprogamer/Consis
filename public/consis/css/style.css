@@ -110,7 +110,7 @@ h2, h3, h4, h5, h6 {
 .page_title {
   text-align: center;
   position: relative;
-  padding-top: 130px;
+  padding-top: 200px;
 }
 .page_title h2 {
   color: #e74c3c;
@@ -304,7 +304,7 @@ h2, h3, h4, h5, h6 {
 
 /*====================================================*/
 .page_top {
-  background: url("http://placehold.it/1920x450") no-repeat scroll;
+  background: url("/consis/images/header/submissoes.jpg") no-repeat scroll;
   background-size: cover;
   position: relative;
   height: 450px;
@@ -3493,7 +3493,7 @@ footer .footer_bottom .footer_menu ul li:before {
   }
 
   .page_title {
-    padding-top: 60px;
+    padding-top: 200px;
   }
 }
 /*====================================================*/

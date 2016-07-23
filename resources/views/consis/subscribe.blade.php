@@ -1,3 +1,4 @@
+    
     <section class="row newsletter">
         <div class="container">
             <div class="row content">
