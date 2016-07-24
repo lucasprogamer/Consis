@@ -29,31 +29,32 @@
                     <div class="widget-container">
                         <div class="stepy-tab">
                         </div>
-                        <form id="default" class="form-horizontal">
+
+                          {!! Form::open(['url' => 'submissao\submeter', 'files' => true, 'class'=> 'form-horizontal', 'id'=>'default' ]) !!}
                             <fieldset title="Cadastro">
                                 <legend>Informações Pessoais</legend>
                                 <div class="form-group">
                                     <label class="col-md-2 col-sm-2 control-label">Nome Completo</label>
                                     <div class="col-md-6 col-sm-6">
-                                        <input type="text" placeholder="Jhon Snow" required class="form-control">
+                                        <input name="nome" type="text" placeholder="Jhon Snow" required class="form-control">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-md-2 col-sm-2 control-label">Email</label>
                                     <div class="col-md-6 col-sm-6">
-                                        <input type="email" placeholder="email@examplo.com" class="form-control" required="email">
+                                        <input name="email" type="email" placeholder="email@exemplo.com" class="form-control" required="email">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-md-2 col-sm-2 control-label">Senha</label>
                                     <div class="col-md-6 col-sm-6">
-                                        <input type="password" required placeholder="******" class="form-control">
+                                        <input name="senha" type="password" required placeholder="******" class="form-control">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-md-2 col-sm-2 control-label">Comfirme Senha</label>
                                     <div class="col-md-6 col-sm-6">
-                                        <input type="password" required placeholder="******" class="form-control">
+                                        <input name="confirmSenha" type="password" required placeholder="******" class="form-control">
                                     </div>
                                 </div>
                             </fieldset>
@@ -62,13 +63,25 @@
                                 <div class="form-group">
                                     <label class="col-md-2 col-sm-2 control-label">Telefone</label>
                                     <div class="col-md-6 col-sm-6">
-                                        <input type="text" placeholder="(99)  9 9999-9999" class="form-control">
+                                      <input name="telefone" type="text" placeholder="555-2368" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-2 col-sm-2 control-label">Cidade</label>
+                                    <div class="col-md-6 col-sm-6">
+                                        <input name="cidade" type="text" placeholder="Ghotam" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-2 col-sm-2 control-label">CEP</label>
+                                    <div class="col-md-6 col-sm-6">
+                                        <input name="CEP" type="text" placeholder="77 777-777" class="form-control">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-md-2 col-sm-2 control-label">Endereço</label>
                                     <div class="col-md-6 col-sm-6">
-                                        <textarea rows="5" cols="60" class="form-control"></textarea>
+                                        <input name="endereco" type="text" placeholder=" Rua Ingram, Nº 20, Bairro do Queens" class="form-control">
                                     </div>
                                 </div>
                             </fieldset>
@@ -77,13 +90,13 @@
                                 <div class="form-group">
                                     <label class="col-md-2 col-sm-2 control-label">Titulo do Artigo</label>
                                     <div class="col-md-6 col-sm-6">
-                                        <input type="text" placeholder="Titulo do Artigo" class="form-control">
+                                        <input name="titulo" type="text" placeholder="Titulo do Artigo" class="form-control">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-md-2 col-sm-2 control-label">Resumo</label>
                                     <div class="col-md-6 col-sm-6">
-                                        <textarea rows="5" cols="60" class="form-control"></textarea>
+                                        <textarea name="resumo" rows="5" cols="60" class="form-control"></textarea>
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -97,7 +110,7 @@
                                                 <span class="btn btn-default btn-file">
                                                 <span class="fileupload-new"><i class="fa fa-paper-clip"></i>Artigo.pdf</span>
                                                 <span class="fileupload-exists"><i class="fa fa-undo"></i> Mudar</span>
-                                                <input type="file" class="default" />
+                                                <input name="artigo" type="file" class="default" />
                                                 </span>
                                             <span class="fileupload-preview" style="margin-left:5px;"></span>
                                             <a href="#" class="close fileupload-exists" data-dismiss="fileupload" style="float: none; margin-left:5px;"></a>
@@ -116,7 +129,7 @@
                             </fieldset>
                             <button class="btn btn-info finish">
                                 Submeter </button>
-                        </form>
+                        {!! Form::close() !!}
                     </div>
                 </div>
             </div>

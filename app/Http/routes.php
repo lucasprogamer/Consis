@@ -24,6 +24,7 @@ Route::group(['prefix' => 'submissao'], function(){
     {
         return view('submissao');
     });
+    Route::post('/submeter', 'submissaoController@submeter');
 });
 
 

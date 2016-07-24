@@ -12,8 +12,8 @@
 
 <!-- Atuaçca?o Field -->
 <div class="form-group">
-    {!! Form::label('Atuaçca�o', 'Atuaçca?o:') !!}
-    <p>{!! $submissoes->Atuaçca�o !!}</p>
+    {!! Form::label('atuacao', 'Atuação:') !!}
+    <p>{!! $submissoes->atuacao !!}</p>
 </div>
 
 <!-- Resumo Field -->
@@ -45,4 +45,3 @@
     {!! Form::label('updated_at', 'Updated At:') !!}
     <p>{!! $submissoes->updated_at !!}</p>
 </div>
-
