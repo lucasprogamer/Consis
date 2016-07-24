@@ -27,23 +27,28 @@ class submissaoController extends AppBaseController
 
   public function submeter(Request $request)
   {
-    $file = $request->file('artigo');
-    $imagem = $request->Imagem;
-    $result =  (object) $this->uploadImage($file);
-    $newRequest = $request->all();
-    $newRequest['url'] = $result->url;
 
 
-    $user = array(
-      'name' => $request['nome'],
-      'email' => $request['email'],
-      'password' => $request['senha'],
 
-     );
+    // $file = $request->file('artigo');
+    // $imagem = $request->Imagem;
+    // $result =  (object) $this->uploadImage($file);
+    // $newRequest = $request->all();
+    // $newRequest['url'] = $result->url;
 
-     
 
-      var_dump($user);
+    // $user = array(
+    //   'name' => $request['nome'],
+    //   'email' => $request['email'],
+    //   'password' => bcrypt($request['senha']),
+    //
+    //  );
+    //
+    //
+    //  User::create($user);
+
+
+
 
   }
 
