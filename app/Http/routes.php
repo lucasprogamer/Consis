@@ -51,3 +51,8 @@ Route::resource('eventos', 'eventoController');
 
 
 Route::resource('submissoes', 'submissoesController');
+
+Route::get('/instrucoessubmissao', function()
+    {
+        return view('submissoesartigos');
+    });
