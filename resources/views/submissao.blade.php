@@ -31,6 +31,7 @@
                         </div>
 
                           {!! Form::open(['url' => 'submissao\submeter', 'files' => true, 'class'=> 'form-horizontal', 'id'=>'default' ]) !!}
+                            {{ csrf_field() }}
                             <fieldset title="Cadastro">
                                 <legend>Informações Pessoais</legend>
                                 <div class="form-group">

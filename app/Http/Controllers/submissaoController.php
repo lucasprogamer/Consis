@@ -7,6 +7,7 @@ use App\Http\Requests\CreatesubmissoesRequest;
 use App\Http\Requests\UpdatesubmissoesRequest;
 use App\Repositories\submissoesRepository;
 use App\Http\Controllers\AppBaseController as InfyOmBaseController;
+use App\User;
 use Illuminate\Http\Request;
 use Flash;
 use Prettus\Repository\Criteria\RequestCriteria;
@@ -31,7 +32,19 @@ class submissaoController extends AppBaseController
     $result =  (object) $this->uploadImage($file);
     $newRequest = $request->all();
     $newRequest['url'] = $result->url;
-    var_dump($newRequest);
+
+
+    $user = array(
+      'name' => $request['nome'],
+      'email' => $request['email'],
+      'password' => $request['senha'],
+
+     );
+
+     
+
+      var_dump($user);
+
   }
 
 
