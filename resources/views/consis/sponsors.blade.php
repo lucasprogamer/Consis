@@ -15,8 +15,8 @@
                             <li class="mix item bedroom indoor garage Kitchen bathroom" data-my-order="1"> 
                                 <img src="consis/images/header/itpac_logo.png" alt="#"> 
                             </li>
-                             <li class="mix item indoor basement Kitchen" data-my-order="2"> 
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                             <li href="http://agenciaccm.com.br" class="mix item indoor basement Kitchen" data-my-order="2"> 
+                                <img src="consis/images/header/agencia.png" alt="#" > 
                             </li>
                              <li class="mix item bedroom indoor basement bathroom" data-my-order="3">
                                 <img src="http://placehold.it/177x177" alt="#"> 
