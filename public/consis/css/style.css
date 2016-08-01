@@ -1247,7 +1247,7 @@ h2, h3, h4, h5, h6 {
 .pricing .ticket_pricing .pricing_table .table_part .table_part_inner .table_head {
   border-radius: 0 50px;
   padding: 0;
-  background-image: url("http://placehold.it/370x114");
+  /*background-image: url("http://placehold.it/370x114");*/
   position: relative;
 }
 .pricing .ticket_pricing .pricing_table .table_part .table_part_inner .table_head:before {

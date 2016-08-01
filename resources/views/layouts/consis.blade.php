@@ -78,7 +78,6 @@
 
 
     @include('consis.speakers')
-   {{--@include('consis.pricing')--}}
 
 
 
@@ -89,6 +88,7 @@
     @include('consis.courses')
 
 
+   @include('consis.pricing')
     <!-- Patrocinadores -->
     @include('consis.sponsors')
 

@@ -2,25 +2,25 @@
         <div class="container">
             <div class="row ticket_pricing">
                 <div class="sec_header">
-                    <h2>Tickets Pricing</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod to end.</p>
+                    <h2>Inscrições</h2>
+                    <p>Venha participar do maior evento de tecnologia da Região Norte do Tocantins</p>
                 </div>
                 <div class="row m0 pricing_table">
                     <div class="col-sm-4 table_part">
                         <div class="table_part_inner">
                             <div class="table_head">
-                                <h2>&#36; 9.99</h2>
-                                <h6>silver pass</h6>
+                                <h2>R$ 50,00</h2>
+                                <h6>Lote Dois</h6>
                             </div>
                             <ul class="nav">
-                                <li><a href="#">Front Seats</a></li>
-                                <li><a href="#">Free Entrance</a></li>
-                                <li><a href="#">Free Snacks</a></li>
-                                <li><a href="#">Free Checkouts</a></li>
-                                <li><a href="#">1x Speech Listening</a></li>
+                                <li><a >Entrada Palestras</a></li>
+                                <li><a >Entrada Minicursos</a></li>
+                                <li><a >Entrada Competições</a></li>
+                                <li><a >Apresentãções de Artigos</a></li>   
+                                <li><a ><span>Até 30/09</span></a></li>
                             </ul>
                             <div class="buton">
-                                <a href="#">buy now!</a>
+                                <a href="./">Inscrever-se</a>
                             </div>
 
                         </div>
@@ -28,37 +28,37 @@
                     <div class="col-sm-4 table_part">
                         <div class="table_part_inner">
                             <div class="table_head">
-                                <h2>$ 19.99</h2>
-                                <h6>early bird</h6>
+                                <h2>R$ 40,00</h2>
+                                <h6>Lote Um </h6>
                                 <i class="fa fa-bookmark"></i>
                             </div>
                             <ul class="nav">
-                                <li><a href="#">Front Seats</a></li>
-                                <li><a href="#">Free Entrance</a></li>
-                                <li><a href="#">VIP Badge</a></li>
-                                <li><a href="#">Free Checkouts</a></li>
-                                <li><a href="#">5x Speech Listening</a></li>
+                                <li><a>Entrada Palestras</a></li>
+                                <li><a>Entrada Minicursos</a></li>
+                                <li><a>Entrada Competições</a></li>
+                                <li><a>Apresentãções de Artigos</a></li>   
+                                <li><a><span>Até 31/08</span></a></li>
                             </ul>
                             <div class="buton">
-                                <a href="#">buy now!</a>
+                                <a href="./">Inscrever-se</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-4 table_part">
                         <div class="table_part_inner">
                             <div class="table_head">
-                                <h2>$ 29.99</h2>
-                                <h6>gold pass</h6>
+                                <h2>R$ 60, 00</h2>
+                                <h6>Lote Três</h6>
                             </div>
                             <ul class="nav">
-                                <li><a href="#">Front Seats</a></li>
-                                <li><a href="#">Free Entrance</a></li>
-                                <li><a href="#">Free Snacks</a></li>
-                                <li><a href="#">VIP lounge access</a></li>
-                                <li><a href="#">10x Speech Listening</a></li>
+                                <li><a>Entrada Palestras</a></li>
+                                <li><a>Entrada Minicursos</a></li>
+                                <li><a>Entrada Competições</a></li>
+                                <li><a>Apresentãções de Artigos</a></li>   
+                                <li><a><span>Até 24/10</span></a></li>
                             </ul>
                             <div class="buton">
-                                <a href="#">buy now!</a>
+                                <a href="./">Inscrever-se</a>
                             </div>
                         </div>
                     </div>
