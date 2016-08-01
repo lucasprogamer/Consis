@@ -106,7 +106,7 @@
 				</br>• Segurança em Sistemas Computacionais
 				</br>• Sistemas de Alto Desempenho
 				</br></br>
-				Os autores deverão submeter artigo completo com no mínimo 6 e no máximo 10 páginas (incluindo resumo, abstract, palavras-chave, introdução, desenvolvimento, resultados obtidos, conclusões, figuras e referências), escrito em português.
+				Os autores deverão submeter artigo completo com no mínimo 8 e no máximo 10 páginas (incluindo resumo, abstract, palavras-chave, introdução, desenvolvimento, resultados obtidos, conclusões, figuras e referências), escrito em português.
 				</br>
 				</br>
 				Todos os artigos serão avaliados por um corpo de revisores, seguindo um processo de revisão com informações que identifiquem os autores e a instituição a qual está relacionado, conforme modelo disponível. O arquivo deve estar em formato .pdf e ser submetido exclusivamente pelo sistema do CONSIS. Logo, submissões enviadas por e-mail não serão consideradas.
