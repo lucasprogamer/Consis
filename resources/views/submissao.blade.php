@@ -31,7 +31,7 @@
                         <h1>Estamos terminando de organizar as submissões</h1>
                             <p>Enquanto isso baixe nosso modelo de artigo</p>
                             <div class="btn-group">
-                                                <a href="http://res.cloudinary.com/ddkb8r4ps/raw/upload/v1470245386/template/sbc_template_consis.doc" class="btn btn-success btn-lg">
+                                                <a href="http://res.cloudinary.com/ddkb8r4ps/raw/upload/v1470248704/template/sbc-template.dot" class="btn btn-success btn-lg">
                                                     Baixar <i class="fa fa-cloud-download" aria-hidden="true"></i>
                                                 </a>
 
