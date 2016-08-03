@@ -7,7 +7,7 @@
                 </h2>
                 <form class="form-inline">
                     <div class="input-group">
-                        <a style="position: absolute;left: 50%;margin-left: -132px;" href="#" class="sub_btn">Submissões em breve</a>
+                        <a style="position: absolute;left: 50%;margin-left: -132px;" href="/submissao" class="sub_btn">Submissões</a>
                     </div>
                 </form>
             </div>
