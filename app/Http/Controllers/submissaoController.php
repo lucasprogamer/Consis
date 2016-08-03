@@ -3,9 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests;
-use App\Http\Requests\CreatesubmissoesRequest;
-use App\Http\Requests\UpdatesubmissoesRequest;
-use App\Repositories\submissoesRepository;
 use App\Http\Controllers\AppBaseController as InfyOmBaseController;
 use App\User;
 use Illuminate\Http\Request;
@@ -18,11 +15,6 @@ class submissaoController extends AppBaseController
 
   /** @var  submissoesRepository */
   private $submissoesRepository;
-
-  public function __construct(submissoesRepository $submissoesRepo)
-  {
-      $this->submissoesRepository = $submissoesRepo;
-  }
 
 
   public function submeter(Request $request)
@@ -46,7 +38,7 @@ class submissaoController extends AppBaseController
     //
     //
     //  User::create($user);
-
+    
 
 
 
