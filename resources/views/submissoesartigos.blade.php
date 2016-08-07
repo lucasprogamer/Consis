@@ -70,7 +70,7 @@
 	            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">         
 	                <ul class="nav navbar-nav navbar-right">
 	                    <li><a href="/">Home</a></li>
-	                    <li><a href="/submissao">Submeter</a></li>
+	                    <li><a href="/submissao">Arquivo</a></li>
 	                </ul>
 	            </div>
 	        </nav>
@@ -112,6 +112,9 @@
 				Todos os artigos serão avaliados por um corpo de revisores, seguindo um processo de revisão com informações que identifiquem os autores e a instituição a qual está relacionado, conforme modelo disponível. O arquivo deve estar em formato .pdf e ser submetido exclusivamente pelo sistema do CONSIS. Logo, submissões enviadas por e-mail não serão consideradas.
 				</br>
 				</br>
+                <a href="/submissao" tabindex="14" style="color:red; font-size:14px">Baixe o arquivo template (.docx)</a>
+                </br>
+                </br>
 				Salientamos que no mínimo um dos autores do artigo (apresentador) deverá estar inscrito no I CONSIS 2016 até o dia 17/10/2016. Os artigos aceitos deverão, obrigatoriamente, serem apresentados por um dos seus autores conforme programação que será disponibilizada no site, em formato de apresentação Oral.
 				</p>
 					
