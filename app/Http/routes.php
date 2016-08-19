@@ -56,3 +56,7 @@ Route::get('/instrucoessubmissao', function()
     {
         return view('submissoesartigos');
     });
+Route::get('/datasimportantes', function()
+    {
+        return view('datassubmissoes');
+    });
