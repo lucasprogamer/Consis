@@ -7,7 +7,7 @@
                 </div>
                 <!-- Menu -->
                <div class="row footer_top col-md-2">
-                <img style="width: 160px;height: 50px;" src="consis/images/header/LOGOCONSIS.png" alt="#">
+                <img style="width: 160px;height: 50px;" src="consis/images/header/LOGO2.png" alt="#">
             </div>
             </div>
         </div>

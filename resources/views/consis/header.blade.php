@@ -13,7 +13,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"><img  width="160" height="50" src="consis/images/header/LOGOCONSIS.png" alt="#"></a>
+                        <a class="navbar-brand" href="#"><img  width="160" height="50" src="consis/images/header/LOGO2.png" alt="#"></a>
                     </div>
 
                     <!-- Menu -->
@@ -55,7 +55,7 @@
                 <div class="row m0 count_down">
                     <h6>24/10 a 27/10</h6>
                     
-                    <h2><span><img style="max-width: 500px;max-height: 120px;width: auto;height: auto;" src="consis/images/header/LOGOCONSIS.png" alt="#"></span></h2>
+                    <h2><span><img style="max-width: 500px;max-height: 120px;width: auto;height: auto;" src="consis/images/header/logo2.png" alt="#"></span></h2>
                     <h4>I Congresso de Sistemas de Informação FAHESA/ITPAC </h4> 
                     <ul id="example">
                         <li><span class="days">00</span><p class="days_text">Days</p></li>
