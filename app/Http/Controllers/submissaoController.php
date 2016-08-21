@@ -60,6 +60,15 @@ class submissaoController extends AppBaseController
 
   
     $submissoes = $this->submissoesRepository->create($artigo);
+
+
+
+    $profile = array(
+        'telefone' => $request['telefone'],
+        'cidade'   => $request['cidade'],
+        'CEP'      => $request['cep'],
+        'endereco'      => $request['endereco'],
+         );
   }
 
 

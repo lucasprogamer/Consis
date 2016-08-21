@@ -126,8 +126,8 @@
                                 </div>
 
                             </fieldset>
-                            <fieldset title="Final Step">
-                                <legend>Autores</legend>
+                            <fieldset title="Autores">
+                                <legend></legend>
                                 <div class="form-group">
                                     <div class="col-md-12">
                                         <p>Ainda não sei como vou fazer isso aqui</p>
