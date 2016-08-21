@@ -19,85 +19,85 @@
                                 <img src="consis/images/header/agencia.png" alt="#" > 
                             </li>
                              <li class="mix item bedroom indoor basement bathroom" data-my-order="3">
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li>
                              <li class="mix item bedroom garage Kitchen" data-my-order="4">
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li>
                              <li class="mix item bedroom basement garage bathroom" data-my-order="5">
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li>
                             <li class="mix item bedroom basement garage bathroom" data-my-order="5">
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li>
                             <li class="mix item bedroom basement garage bathroom" data-my-order="5">
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li>
                             <li class="mix item bedroom basement garage bathroom" data-my-order="5">
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li>
                             <li class="mix item bedroom indoor basement bathroom" data-my-order="3">
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li>
                             <li class="mix item bedroom indoor basement bathroom" data-my-order="3">
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li>
                             <li class="mix item bedroom indoor garage Kitchen bathroom" data-my-order="1"> 
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li>
                             <li class="mix item bedroom basement garage bathroom" data-my-order="5">
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li>
                             <li class="mix item bedroom basement garage bathroom" data-my-order="5">
-                                <img src="http://placehold.it/177x177" alt="#">
+                                <img src="consis/images/header/marca.png" alt="#">
                             </li>
                             <li class="mix item bedroom indoor basement bathroom" data-my-order="3">
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li>
                             <li class="mix item bedroom basement bathroom" data-my-order="3">
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li>
                             <li class="mix item bedroom indoor garage Kitchen bathroom" data-my-order="1"> 
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li>
                             <li class="mix item bedroom basement garage bathroom" data-my-order="5">
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li> 
                             <li class="mix item bedroom basement garage bathroom" data-my-order="5">
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li>
                             <li class="mix item bedroom basement garage bathroom" data-my-order="5">
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li>
                             <li class="mix item bedroom indoor basement bathroom" data-my-order="3">
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li>
                             <li class="mix item bedroom basement bathroom" data-my-order="3">
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li>
                             <li class="mix item bedroom indoor garage Kitchen bathroom" data-my-order="1"> 
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li>
                             <li class="mix item bedroom basement garage bathroom" data-my-order="5">
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li> 
                             <li class="mix item bedroom basement garage bathroom" data-my-order="5">
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li>
                             <li class="mix item bedroom basement garage bathroom" data-my-order="5">
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li>
                             <li class="mix item bedroom indoor basement bathroom" data-my-order="3">
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li>
                             <li class="mix item bedroom basement bathroom" data-my-order="3">
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li>
                             <li class="mix item bedroom indoor garage Kitchen bathroom" data-my-order="1"> 
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li>
                             <li class="mix item bedroom basement garage bathroom" data-my-order="5">
-                                <img src="http://placehold.it/177x177" alt="#"> 
+                                <img src="consis/images/header/marca.png" alt="#"> 
                             </li> 
                         </ul>
                     </div>

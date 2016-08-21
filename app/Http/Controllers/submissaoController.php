@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests;
+use App\Http\Requests\CreatesubmissoesRequest;
+use App\Http\Requests\UpdatesubmissoesRequest;
+use App\Repositories\submissoesRepository;
 use App\Http\Controllers\AppBaseController as InfyOmBaseController;
 use App\User;
 use Illuminate\Http\Request;
@@ -16,17 +19,20 @@ class submissaoController extends AppBaseController
   /** @var  submissoesRepository */
   private $submissoesRepository;
 
+    public function __construct(submissoesRepository $submissoesRepo)
+    {
+        $this->submissoesRepository = $submissoesRepo;
+    }
 
-  public function submeter(Request $request)
+  public function submeter(Request $request,submissoesRepository $submissoesRepo)
   {
 
 
 
-    // $file = $request->file('artigo');
-    // $imagem = $request->Imagem;
-    // $result =  (object) $this->uploadImage($file);
-    // $newRequest = $request->all();
-    // $newRequest['url'] = $result->url;
+    $file = $request->file('artigo');
+    $imagem = $request->Imagem;
+    $result = $this->uploadImage($file);
+
 
 
     // $user = array(
@@ -40,8 +46,20 @@ class submissaoController extends AppBaseController
     //  User::create($user);
     
 
+    
+    
+    $artigo = array(
+        'Titulo' => $request['titulo'],
+        'Resumo' => $request['resumo'],
+        'atuacao' => $request['atuacao'],
+        'Artigo' => $request['artigo'],
+        'situacao' => $request['situacao'],
+        'situacao' => $request['situacao'],
+        'url' => $result['url'],
+          );
 
-
+  
+    $submissoes = $this->submissoesRepository->create($artigo);
   }
 
 

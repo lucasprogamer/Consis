@@ -64,8 +64,8 @@
             </a> 
         </div>
         <div class="col-sm-3 item">
-            <a href="http://placehold.it/200x200" data-lightbox="roadtrip">
-                <img src="http://placehold.it/200x200" alt="">
+            <a href="consis/images/minicurso/minicurso.png" data-lightbox="roadtrip">
+                <img src="consis/images/minicurso/minicurso.png" alt="">
                 <div class="item_back">
                     <h4 style="text-align: center;padding-top: 60px;">Em Breve</h4>
                     <p><!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivam at usaliquet orci. Ut interdum mauris sem, non aliquet felis inter. dum sit --></p>
@@ -73,8 +73,8 @@
             </a> 
         </div>
         <div class="col-sm-3 item">
-            <a href="http://placehold.it/200x200" data-lightbox="roadtrip">
-                <img src="http://placehold.it/200x200" alt="">
+            <a href="consis/images/minicurso/minicurso.png" data-lightbox="roadtrip">
+                <img src="consis/images/minicurso/minicurso.png" alt="">
                 <div class="item_back">
                     <h4 style="text-align: center;padding-top: 60px;">Em Breve</h4>
                     <p><!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivam at usaliquet orci. Ut interdum mauris sem, non aliquet felis inter. dum sit --></p>

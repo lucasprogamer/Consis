@@ -30,6 +30,7 @@
                         <div class="stepy-tab">
                         </div>
 
+
                           {!! Form::open(['url' => 'submissao\submeter', 'files' => true, 'class'=> 'form-horizontal', 'id'=>'default' ]) !!}
                             {{ csrf_field() }}
                             <fieldset title="Cadastro">
@@ -95,13 +96,18 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
+                                    <label class="col-md-2 col-sm-2 control-label">Area de Atuação</label>
+                                    <div class="col-md-6 col-sm-6">
+                                        <input name="atuacao" type="text" placeholder="Area de Atuação" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
                                     <label class="col-md-2 col-sm-2 control-label">Resumo</label>
                                     <div class="col-md-6 col-sm-6">
                                         <textarea name="resumo" rows="5" cols="60" class="form-control"></textarea>
                                     </div>
                                 </div>
                                 <div class="form-group">
-
                                   <div class="alert alert-info fade in">
                                       <strong>Atenção!</strong> O Arquivo enviado deve estar em PDF
                                   </div>
