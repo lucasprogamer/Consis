@@ -117,7 +117,7 @@
                 <a href="/submissao" tabindex="14" style="color:red; font-size:14px">Baixe o arquivo template (.docx)</a>
                 </br>
                 </br>
-				Salientamos que no mínimo um dos autores do artigo (apresentador) deverá estar inscrito no I CONSIS 2016 até o dia 16/10/2016. Os artigos aceitos deverão, obrigatoriamente, serem apresentados por um dos seus autores conforme programação que será disponibilizada no site, em formato de apresentação Oral.
+				Salientamos que no mínimo um dos autores do artigo (apresentador) deverá estar inscrito no I CONSIS 2016 até o dia 05/10/2016. Os artigos aceitos deverão, obrigatoriamente, serem apresentados por um dos seus autores conforme programação que será disponibilizada no site, em formato de apresentação Oral.
 				</p>
 					
             </div>
