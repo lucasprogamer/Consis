@@ -40,7 +40,7 @@
                                 <li><a><span>Até 31/08</span></a></li>
                             </ul>
                             <div class="buton">
-                                <a href="./">Inscrever-se</a>
+                                <a href="https://www.itpac.br/eventos/">Inscrever-se</a>
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@
                                 <li><a><span>Até 24/10</span></a></li>
                             </ul>
                             <div class="buton">
-                                <a href="https://www.itpac.br/eventos/">Inscrever-se</a>
+                                <a href="./">Inscrever-se</a>
                             </div>
                         </div>
                     </div>
