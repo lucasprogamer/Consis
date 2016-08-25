@@ -37,9 +37,9 @@
                                 <li><a>Entrada Minicursos</a></li>
                                 <li><a>Entrada Competições</a></li>
                                 <li><a>Apresentãções de Artigos</a></li>   
-                                <li><a><span>Até 31/08</span></a></li>
+                                <li><a><span>Até 09/09</span></a></li>
                             </ul>
-                            <div class="buton">
+                            <div class="buton" style="background: #d74132;color: white;">
                                 <a href="https://www.itpac.br/eventos/">Inscrever-se</a>
                             </div>
                         </div>
