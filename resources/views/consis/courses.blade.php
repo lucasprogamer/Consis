@@ -13,7 +13,7 @@
                 <img src="consis/images/minicurso/minicursowordpress.jpg" alt="">
                 <div class="item_back">
                     <h4>Desmistificando o Wordpress no Desenvolvimento de Grandes Sites</h4>
-                    <p>Palestrante: Bruno Fernando e Lucas Alves</p>
+                    <p>Palestrante: Bruno Fernando</p>
                 </div>
             </a> 
         </div>
@@ -40,7 +40,7 @@
                 <img src="consis/images/minicurso/minicursocoding.jpg" alt="">
                 <div class="item_back">
                     <h4>Coding Dojo</h4>
-                    <p>Palestrante: Edivan Ricardo</p>
+                    <p>Palestrante: Edivan Ricardo e Lucas Alves</p>
                 </div>
             </a>
         </div>
@@ -65,19 +65,19 @@
         </div>
         <div class="col-sm-3 item">
             <a href="consis/images/minicurso/minicurso.png" data-lightbox="roadtrip">
-                <img src="consis/images/minicurso/minicurso.png" alt="">
+                <img src="consis/images/minicurso/minicursofrontend.png" alt="">
                 <div class="item_back">
-                    <h4 style="text-align: center;padding-top: 60px;">Em Breve</h4>
-                    <p><!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivam at usaliquet orci. Ut interdum mauris sem, non aliquet felis inter. dum sit --></p>
+                    <h4>Processos de Desenvolvimento Front End</h4>
+                    <p>Palestrante: Hudson Silva</p>
                 </div>
             </a> 
         </div>
         <div class="col-sm-3 item">
             <a href="consis/images/minicurso/minicurso.png" data-lightbox="roadtrip">
-                <img src="consis/images/minicurso/minicurso.png" alt="">
+                <img src="consis/images/minicurso/minicursoproxy.png" alt="">
                 <div class="item_back">
-                    <h4 style="text-align: center;padding-top: 60px;">Em Breve</h4>
-                    <p><!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivam at usaliquet orci. Ut interdum mauris sem, non aliquet felis inter. dum sit --></p>
+                    <h4>Introdução a Proxy Squid</h4>
+                    <p>Palestrante: Filho Arrais</p>
                 </div>
             </a>
         </div>
