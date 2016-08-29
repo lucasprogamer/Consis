@@ -53,7 +53,7 @@
                                     <h4 class="media-heading">Campeonatos</h4>
                                 </div>
                             </div>
-                            <p>O campeonato de games terá os jogos: Counter Strike e Legue of Legends, as equipes inscritas irão disputar os jogos durante 3 dias.</p>
+                            <p>O campeonato de games terá os jogos: Counter Strike e League of Legends, as equipes inscritas irão disputar os jogos durante 3 dias.</p>
                         </div>
                     </div>
                 </div>
