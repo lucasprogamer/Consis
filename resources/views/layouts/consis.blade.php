@@ -49,19 +49,30 @@
   ga('send', 'pageview');
 
 </script>
-
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.min.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#myModal").modal('show');
+    });
+</script>
 </head>
 <body>
     <div class="preloader">
       <div class="status">
       </div>
-
     </div>
-
+    <div id="myModal" class="modal fade" style="margin-top: 10%;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <img style="max-width: 580px;max-height: 350px;width: auto;height: auto;" src="consis/images/header/consis_preta.png" alt="#">
+                <button style="margin-top: -80px;margin-right: 90px;  position: relative;font-family: monL;" type="submit" class="btn btn-primary pull-right"><a href="https://goo.gl/forms/ptOFim7X5YYWoz2k2" style="color:#fff";>Acessar</a></button>
+            </div>
+        </div>
+    </div>
+    </div>
     @include('consis.header')
 
 

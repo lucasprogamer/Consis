@@ -18,23 +18,13 @@
 
                     <!-- Menu -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                      
-
-                      <!--  <div class="search_button">
-                            <a type="button" class="btn btn-searce" data-toggle="collapse" data-target="#search"><i class="fa fa-search"></i></a>
-                            <div id="search" class="search_p collapse">
-                                <input type="search" placeholder="Search...">
-                            </div>
-                        </div> -->
-                        
-                      
+                  
                         <ul class="nav navbar-nav navbar-right">
                             <li><a onclick="$('body').animatescroll();">Home</a></li>
                             <li><a onclick="$('#congresso').animatescroll();">Congresso</a></li>
                             <li><a onclick="$('.events_schedule').animatescroll();">Agenda</a></li>
                             <!-- <li><a onclick="$('.newsletter').animatescroll();">Submissões</a></li> -->
                             <li><a onclick="$('.speakers').animatescroll();">Palestrantes</a></li>
-                            <!-- <li><a onclick="$('.comment').animatescroll();">Campeonato</a></li> -->
                             <li><a onclick="$('.gallery').animatescroll();">Minicursos</a></li>
                             <li><a onclick="$('.sponsor').animatescroll();">Patrocinadores</a></li>
                             <li><a onclick="$('.g_map').animatescroll();">Contato</a></li>
