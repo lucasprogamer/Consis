@@ -60,3 +60,6 @@ Route::get('/datasimportantes', function()
     {
         return view('datassubmissoes');
     });
+
+
+Route::resource('profiles', 'profileController');

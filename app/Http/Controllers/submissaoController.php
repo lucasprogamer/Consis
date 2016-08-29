@@ -19,12 +19,16 @@ class submissaoController extends AppBaseController
   /** @var  submissoesRepository */
   private $submissoesRepository;
 
-    public function __construct(submissoesRepository $submissoesRepo)
+  /** @var  profileRepository */
+  private $profileRepository;
+
+    public function __construct(submissoesRepository $submissoesRepo, profileRepository $profileRepo)
     {
         $this->submissoesRepository = $submissoesRepo;
+        $this->profileRepository = $profileRepo;
     }
 
-  public function submeter(Request $request,submissoesRepository $submissoesRepo)
+  public function submeter(Request $request,submissoesRepository $submissoesRepo, profileRepository $profileRepo)
   {
 
 
@@ -48,29 +52,30 @@ class submissaoController extends AppBaseController
 
     
     
-    $artigo = array(
-        'Titulo' => $request['titulo'],
-        'Resumo' => $request['resumo'],
-        'atuacao' => $request['atuacao'],
-        'Artigo' => $request['artigo'],
-        'situacao' => $request['situacao'],
-        'situacao' => $request['situacao'],
-        'url' => $result['url'],
-          );
+    // $artigo = array(
+    //     'Titulo' => $request['titulo'],
+    //     'Resumo' => $request['resumo'],
+    //     'atuacao' => $request['atuacao'],
+    //     'Artigo' => $request['artigo'],
+    //     'situacao' => $request['situacao'],
+    //     'situacao' => $request['situacao'],
+    //     'url' => $result['url'],
+    //       );
 
   
-    $submissoes = $this->submissoesRepository->create($artigo);
+    // $submissoes = $this->submissoesRepository->create($artigo);
 
 
 
-    $profile = array(
+    $perfil = array(
         'telefone' => $request['telefone'],
-        'cidade'   => $request['cidade'],
+        'cidade'   => $request['cidade'], 
         'CEP'      => $request['cep'],
         'endereco'      => $request['endereco'],
          );
   }
 
-
+var_dump($perfil);
+    // $profile = $this->profileRepository->create($perfil);
 
 }
