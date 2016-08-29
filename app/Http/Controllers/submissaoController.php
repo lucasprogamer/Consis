@@ -73,9 +73,11 @@ class submissaoController extends AppBaseController
         'CEP'      => $request['cep'],
         'endereco'      => $request['endereco'],
          );
+
+    var_dump($perfil);
+    // $profile = $this->profileRepository->create($perfil);
   }
 
-var_dump($perfil);
-    // $profile = $this->profileRepository->create($perfil);
+
 
 }
