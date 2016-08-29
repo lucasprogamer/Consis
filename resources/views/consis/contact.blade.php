@@ -18,19 +18,19 @@
                         <li>
                             <i class="fa fa-phone"></i>
                             <div class="fleft contact_no">
-                                <a href="#">(63) 8112 - 8095 </a> 
+                                <a href="#">(63) 9 8112 - 8095 </a> 
                             </div>
                         </li>
                          <li>
                             <i class="fa fa-phone"></i>
                             <div class="fleft service_time">
-                                (63) 9291 - 6364
+                                (63) 9 9291 - 6364
                             </div>
                         </li>
                         <li>
                             <i class="fa fa-paper-plane"></i>
                             <div class="fleft contact_mail">
-                                <a href="#">consis@gmail.com</a>
+                                <a href="#">consis@itpac.br</a>
                             </div>
                         </li>
                        
