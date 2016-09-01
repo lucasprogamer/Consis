@@ -95,19 +95,15 @@ class profileController extends InfyOmBaseController
      */
     public function edit($id)
     {
-        $phone = User::find(1)->profile;
+        $profile = $this->profileRepository->findWithoutFail($id);
 
-        echo $phone->telefone;
+        if (empty($profile)) {
+            Flash::error('profile not found');
 
-        // $profile = $this->profileRepository->findWithoutFail($id);
+            return redirect(route('profiles.index'));
+        }
 
-        // if (empty($profile)) {
-        //     Flash::error('profile not found');
-
-        //     return redirect(route('profiles.index'));
-        // }
-
-        // return view('profiles.edit')->with('profile', $profile);
+        return view('profiles.edit')->with('profile', $profile);
     }
 
     /**

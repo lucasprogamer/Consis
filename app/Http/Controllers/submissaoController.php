@@ -6,6 +6,9 @@ use App\Http\Requests;
 use App\Http\Requests\CreatesubmissoesRequest;
 use App\Http\Requests\UpdatesubmissoesRequest;
 use App\Repositories\submissoesRepository;
+use App\Http\Requests\CreateprofileRequest;
+use App\Http\Requests\UpdateprofileRequest;
+use App\Repositories\profileRepository;
 use App\Http\Controllers\AppBaseController as InfyOmBaseController;
 use App\User;
 use Illuminate\Http\Request;
@@ -39,31 +42,35 @@ class submissaoController extends AppBaseController
 
 
 
-    // $user = array(
-    //   'name' => $request['nome'],
-    //   'email' => $request['email'],
-    //   'password' => bcrypt($request['senha']),
-    //
-    //  );
-    //
-    //
-    //  User::create($user);
+    $user = array(
+      'name' => $request['nome'],
+      'email' => $request['email'],
+      'password' => bcrypt($request['senha']),
+    
+     );
+    
+    
+    $lastId =  User::create($user)->id;
+
+
     
 
     
     
-    // $artigo = array(
-    //     'Titulo' => $request['titulo'],
-    //     'Resumo' => $request['resumo'],
-    //     'atuacao' => $request['atuacao'],
-    //     'Artigo' => $request['artigo'],
-    //     'situacao' => $request['situacao'],
-    //     'situacao' => $request['situacao'],
-    //     'url' => $result['url'],
-    //       );
+    $artigo = array(
+        'Titulo' => $request['titulo'],
+        'Resumo' => $request['resumo'],
+        'atuacao' => $request['atuacao'],
+        'Artigo' => $request['artigo'],
+        'situacao' => $request['situacao'],
+        'situacao' => $request['situacao'],
+        'url' => $result['url'],
+        'user_id'      => $lastId,
+          );
 
   
-    // $submissoes = $this->submissoesRepository->create($artigo);
+    $submissoes = $this->submissoesRepository->create($artigo);
+
 
 
 
@@ -72,10 +79,11 @@ class submissaoController extends AppBaseController
         'cidade'   => $request['cidade'], 
         'CEP'      => $request['cep'],
         'endereco'      => $request['endereco'],
+        'user_id'      => $lastId,
          );
 
-    var_dump($perfil);
-    // $profile = $this->profileRepository->create($perfil);
+
+    $profile = $this->profileRepository->create($perfil);
   }
 
 
