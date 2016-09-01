@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests;
+use App\user;
 use App\Http\Requests\CreateprofileRequest;
 use App\Http\Requests\UpdateprofileRequest;
 use App\Repositories\profileRepository;
@@ -94,15 +95,19 @@ class profileController extends InfyOmBaseController
      */
     public function edit($id)
     {
-        $profile = $this->profileRepository->findWithoutFail($id);
+        $phone = User::find(1)->profile;
 
-        if (empty($profile)) {
-            Flash::error('profile not found');
+        echo $phone->telefone;
 
-            return redirect(route('profiles.index'));
-        }
+        // $profile = $this->profileRepository->findWithoutFail($id);
 
-        return view('profiles.edit')->with('profile', $profile);
+        // if (empty($profile)) {
+        //     Flash::error('profile not found');
+
+        //     return redirect(route('profiles.index'));
+        // }
+
+        // return view('profiles.edit')->with('profile', $profile);
     }
 
     /**
