@@ -22,7 +22,15 @@
                                     </div>
                                     <div class="media-body">
                                         <h4 class="media-heading">Counter Strike</h4>
-                                        <h6>Inscrições em Breve</h6>
+                                        <a style="cursor: pointer; font-style:italic" href="https://goo.gl/forms/LdvrovwDHJh3Op293">
+                                        <i class="fa fa-gamepad"></i>
+                                        <span>Inscreva-se</span></a>
+                                        <br>
+                                        <br>
+                                        <a style="cursor: pointer; font-style:italic" href="http://res.cloudinary.com/ddkb8r4ps/image/upload/v1472480936/CONSISREGRASCS_tpxmdv.pdf">
+                                        <i class="fa fa-chevron-right"></i>
+                                        <span>Veja as Regras</span></a>
+                                        
                                     </div>
                                 </div>
                             </div>

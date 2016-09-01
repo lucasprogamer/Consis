@@ -20,10 +20,17 @@ a, .btn, button {
   text-decoration: none;
   outline: none;
   transition: all 300ms linear 0s;
+  color: #e74c3c;
+  font-weight: bold;
+  font-size: 15px;
+
+  font-family:"Droid Serif";
+  
 }
 a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   text-decoration: none;
   outline: none;
+  color: #fff;
 }
 
 section.row, header.row, footer.row {
