@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
-class CreateprofilesTable extends Migration
+class CreateauthoresTable extends Migration
 {
 
     /**
@@ -13,9 +13,14 @@ class CreateprofilesTable extends Migration
      */
     public function up()
     {
-        Schema::table('profiles', function (Blueprint $table) {
+        Schema::create('authores', function (Blueprint $table) {
+            $table->increments('id');
+            $table->text('name');
+            $table->text('email');
             $table->integer('user_id');
             // $table->foreign('user_id')->references('id')->on('user');  
+            $table->timestamps();
+            $table->softDeletes();
         });
     }
 
@@ -26,6 +31,6 @@ class CreateprofilesTable extends Migration
      */
     public function down()
     {
-        Schema::drop('profiles');
+        Schema::drop('authores');
     }
 }

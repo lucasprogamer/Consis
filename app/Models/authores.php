@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 /**
  * @SWG\Definition(
- *      definition="submissoes",
+ *      definition="authores",
  *      required={},
  *      @SWG\Property(
  *          property="id",
@@ -16,28 +16,13 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  *          format="int32"
  *      ),
  *      @SWG\Property(
- *          property="Titulo",
- *          description="Titulo",
+ *          property="name",
+ *          description="name",
  *          type="string"
  *      ),
  *      @SWG\Property(
- *          property="atuacao",
- *          description="atuacao",
- *          type="string"
- *      ),
- *      @SWG\Property(
- *          property="Resumo",
- *          description="Resumo",
- *          type="string"
- *      ),
- *      @SWG\Property(
- *          property="Artigo",
- *          description="Artigo",
- *          type="string"
- *      ),
- *      @SWG\Property(
- *          property="url",
- *          description="url",
+ *          property="email",
+ *          description="email",
  *          type="string"
  *      ),
  *      @SWG\Property(
@@ -54,25 +39,19 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  *      )
  * )
  */
-class submissoes extends Model
+class authores extends Model
 {
     use SoftDeletes;
 
-    public $table = 'submissoes';
-
+    public $table = 'authores';
+    
 
     protected $dates = ['deleted_at'];
 
-    public function submissoes(){
-      return $this->belongsTo('App\User', 'foreign_key');
-    }
 
     public $fillable = [
-        'Titulo',
-        'atuacao',
-        'Resumo',
-        'Artigo',
-        'url'
+        'name',
+        'email'
     ];
 
     /**
@@ -81,11 +60,8 @@ class submissoes extends Model
      * @var array
      */
     protected $casts = [
-        'Titulo' => 'string',
-        'atuacao' => 'string',
-        'Resumo' => 'string',
-        'Artigo' => 'string',
-        'url' => 'string'
+        'name' => 'string',
+        'email' => 'string'
     ];
 
     /**
@@ -94,7 +70,7 @@ class submissoes extends Model
      * @var array
      */
     public static $rules = [
-
+        
     ];
 
 

@@ -84,7 +84,13 @@ class submissaoController extends AppBaseController
 
 
     $profile = $this->profileRepository->create($perfil);
+
+
+    
+
+      // return redirect('/login');
   }
+
 
 
 

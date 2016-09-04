@@ -63,3 +63,5 @@ Route::get('/datasimportantes', function()
 
 
 Route::resource('profiles', 'profileController');
+
+Route::resource('authores', 'authoresController');
