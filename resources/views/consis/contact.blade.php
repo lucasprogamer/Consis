@@ -44,9 +44,9 @@
                 </div>
                 <ul class="nav followers pull-left">
                     <li><a href="https://www.facebook.com/consis2016/"><i class="fa fa-facebook"></i></a></li>
-<!--                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+<!--                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
-                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.instagram.com/consis2016_itpac/"><i class="fa fa-instagram"></i></a></li>
                 </ul>
             </div>
         </div>
