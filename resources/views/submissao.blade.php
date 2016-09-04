@@ -127,10 +127,41 @@
 
                             </fieldset>
                             <fieldset title="Autores">
-                                <legend></legend>
+                                <legend>Demais envolvidos no artigo</legend>
                                 <div class="form-group">
-                                    <div class="col-md-12">
-                                        <p>Ainda não sei como vou fazer isso aqui</p>
+                                    <label class="col-md-2 col-sm-2 control-label">Nome do Autor</label>
+                                    <div class="col-md-6 col-sm-6">
+                                        <input name="name1" type="text" placeholder="Nome do Autor" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-2 col-sm-2 control-label">Email</label>
+                                    <div class="col-md-6 col-sm-6">
+                                        <input name="email1" type="text" placeholder="Email@exemplo.com" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-2 col-sm-2 control-label">Nome do Autor</label>
+                                    <div class="col-md-6 col-sm-6">
+                                        <input name="name2" type="text" placeholder="Nome do Autor" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-2 col-sm-2 control-label">Email</label>
+                                    <div class="col-md-6 col-sm-6">
+                                        <input name="email2" type="text" placeholder="Email@exemplo.com" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-2 col-sm-2 control-label">Nome do Autor</label>
+                                    <div class="col-md-6 col-sm-6">
+                                        <input name="name3" type="text" placeholder="Nome do Autor" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-2 col-sm-2 control-label">Email</label>
+                                    <div class="col-md-6 col-sm-6">
+                                        <input name="email3" type="text" placeholder="Email@exemplo.com" class="form-control">
                                     </div>
                                 </div>
                             </fieldset>
