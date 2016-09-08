@@ -13,7 +13,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        parent::boot();
+        \Blade::setEchoFormat('e(utf8_encode(%s))');
     }
 
     /**

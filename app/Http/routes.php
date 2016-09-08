@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 Route::auth();
 
-Route::get('/dashboard', 'HomeController@index');
+Route::get('/dashboard', 'HomeController@index')->name('dashboard');
 
 Route::group(['prefix' => 'submissao'], function(){
     Route::get('/', function()

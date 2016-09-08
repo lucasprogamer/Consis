@@ -1,7 +1,9 @@
 @extends('layouts.adminex')
 
+@section('title', 'Submissões')
+
 @section('content')
-        <h1 class="pull-left">submissoes</h1>
+        <h1 class="pull-left">Submissões</h1>
         <a class="btn btn-primary pull-right" style="margin-top: 25px" href="{!! route('submissoes.create') !!}">Adcionar Novo</a>
 
         <div class="clearfix"></div>
@@ -14,7 +16,6 @@
                 <div class="col-md-12">
                     <section class="panel">
                         <header class="panel-heading">
-                            submissoes
                                 <span class="tools pull-right">
                                     <a href="javascript:;" class="fa fa-chevron-down"></a>
                                  </span>

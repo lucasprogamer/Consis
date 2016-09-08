@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
+
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <meta name="description" content="Sistema de Gerenciamento de Eventos">
   <meta name="author" content="Lucas de Souza Alves">
@@ -60,19 +62,13 @@
 
             <!--sidebar nav start-->
             <ul class="nav nav-pills nav-stacked custom-nav">
-                <li class="menu-list"><a href="index.html"><i class="fa fa-home"></i> <span>Dashboard</span></a>
-                    <ul class="sub-menu-list">
-                        <li><a href="index_alt.html"> Dashboard 1</a></li>
-                        <li><a href="index.html"> Dashboard 2</a></li>
-                    </ul>
+                <li><a href=" {{ route('dashboard') }}"><i class="fa fa-home"></i> <span>Dashboard</span></a>
                 </li>
-                <li class="menu-list"><a href=""><i class="fa fa-laptop"></i> <span>Layouts</span></a>
-                    <ul class="sub-menu-list">
-                        <li ><a href="blank_page.html"> Blank Page</a></li>
-                        <li><a href="boxed_view.html"> Boxed Page</a></li>
-                        <li><a href="leftmenu_collapsed_view.html"> Sidebar Collapsed</a></li>
-                        <li><a href="horizontal_menu.html"> Horizontal Menu</a></li>
 
+                <li class="menu-list"><a><i class="fa fa-file-text"></i> <span>Submissões</span></a>
+                    <ul class="sub-menu-list">
+                        <li ><a href=" {{ route('submissoes.index') }} "> Todas as Submissões</a></li>
+                        <li><a href=" {{ route('submissoes.create') }} "> Enviar Submissão</a></li>
                     </ul>
                 </li>
 
@@ -123,12 +119,6 @@
 
         </div>
         <!-- header section end-->
-
-        <!-- page heading start-->
-        <div class="page-heading">
-            @yield('title')
-        </div>
-        <!-- page heading end-->
 
         <!--body wrapper start-->
         <div class="wrapper">
