@@ -34,6 +34,7 @@
             <a href="{{ url('/dashboard') }}"><img src="{{asset('consis/images/header/favicon.png')}}" height="45"></a>
         </div>
         <!--logo and iconic logo end-->
+                    <br>
 
 
         <div class="left-side-inner">
@@ -56,8 +57,24 @@
                 </ul>
             </div>
 
+
             <!--sidebar nav start-->
             <ul class="nav nav-pills nav-stacked custom-nav">
+                <li class="menu-list"><a href="index.html"><i class="fa fa-home"></i> <span>Dashboard</span></a>
+                    <ul class="sub-menu-list">
+                        <li><a href="index_alt.html"> Dashboard 1</a></li>
+                        <li><a href="index.html"> Dashboard 2</a></li>
+                    </ul>
+                </li>
+                <li class="menu-list"><a href=""><i class="fa fa-laptop"></i> <span>Layouts</span></a>
+                    <ul class="sub-menu-list">
+                        <li ><a href="blank_page.html"> Blank Page</a></li>
+                        <li><a href="boxed_view.html"> Boxed Page</a></li>
+                        <li><a href="leftmenu_collapsed_view.html"> Sidebar Collapsed</a></li>
+                        <li><a href="horizontal_menu.html"> Horizontal Menu</a></li>
+
+                    </ul>
+                </li>
 
 
             </ul>

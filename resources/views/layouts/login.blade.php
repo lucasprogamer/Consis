@@ -51,8 +51,8 @@
      /*=====STEPY WIZARD WITH VALIDATION====*/
     $(function() {
         $('#stepy_form').stepy({
-            backLabel: 'Back',
-            nextLabel: 'Next',
+            backLabel: 'Anterior',
+            nextLabel: 'Proximo',
             errorImage: true,
             block: true,
             description: true,
@@ -66,15 +66,53 @@
                 $('#stepy_form div.stepy-error').append(error);
             },
             rules: {
-                'name': 'required',
-                'email': 'required'
+                'nome': 'required',
+                'email': {
+                  required:true,
+                  email:true
+                },
+                'senha': {
+                  required:true,
+                  minlength :6
+                },
+                'confirmSenha': {
+                  minlength :6,
+                  equalTo : "#senha"
+                },
+                'titulo': {
+                  required :true,
+                },
+                'atuacao': {
+                  required :true,
+                },
+                'artigo': {
+                  required :true,
+                }
             },
             messages: {
-                'name': {
-                    required: 'Name field is required!'
+                'nome': {
+                    required: 'Seu Nome precisa ser inserido!'
                 },
                 'email': {
-                    required: 'Email field is requerid!'
+                    required: 'Precisamos do seu email para manter contato!',
+                    email: 'Por favor insira um email valido!'
+                },
+                'senha': {
+                    required: 'O campo senha deve ser preenchido!',
+                    minlength : 'A senha deve conter no minimo 6 caracteres!',
+                },
+                'confirmSenha': {
+                    equalTo: 'As senhas não coincidem!',
+                    minlength : 'A senha deve conter no minimo 6 caracteres!',
+                },
+                'atuacao': {
+                    required: 'O campo da Area de atuação deve ser preenchido!',
+                },
+                'titulo': {
+                    required: 'O Titulo do artigo deve ser preenchido!',
+                },
+                'artigo': {
+                    required: 'Por favor insira um arquivo em PDF!',
                 }
             }
         });

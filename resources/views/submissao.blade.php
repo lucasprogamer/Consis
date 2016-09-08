@@ -33,6 +33,8 @@
 
                           {!! Form::open(['url' => 'submissao\submeter', 'files' => true, 'class'=> 'form-horizontal', 'id'=>'stepy_form' ]) !!}
                             {{ csrf_field() }}
+
+                            {{-- Usuario --}}
                             <fieldset title="Cadastro">
                                 <legend>Informações Pessoais</legend>
                                 <div class="form-group">
@@ -50,7 +52,7 @@
                                 <div class="form-group">
                                     <label class="col-md-2 col-sm-2 control-label">Senha</label>
                                     <div class="col-md-6 col-sm-6">
-                                        <input name="senha" type="password" required placeholder="******" class="form-control">
+                                        <input id="senha" name="senha" type="password" required placeholder="******" class="form-control">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -60,6 +62,8 @@
                                     </div>
                                 </div>
                             </fieldset>
+
+                            {{-- Contato --}}
                             <fieldset title="Contato">
                                 <legend>Informações para contato</legend>
                                 <div class="form-group">
@@ -87,18 +91,20 @@
                                     </div>
                                 </div>
                             </fieldset>
+
+                            {{-- Artigo --}}
                             <fieldset title="Artigo">
                                 <legend>Informações sobre o Artgo</legend>
                                 <div class="form-group">
                                     <label class="col-md-2 col-sm-2 control-label">Titulo do Artigo</label>
                                     <div class="col-md-6 col-sm-6">
-                                        <input name="titulo" type="text" placeholder="Titulo do Artigo" class="form-control">
+                                        <input name="titulo" type="text" required placeholder="Titulo do Artigo" class="form-control">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-md-2 col-sm-2 control-label">Area de Atuação</label>
                                     <div class="col-md-6 col-sm-6">
-                                        <input name="atuacao" type="text" placeholder="Area de Atuação" class="form-control">
+                                        <input name="atuacao" required type="text" placeholder="Area de Atuação" class="form-control">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -117,7 +123,7 @@
                                                 <span class="btn btn-default btn-file">
                                                 <span class="fileupload-new"><i class="fa fa-paper-clip"></i>Artigo.pdf</span>
                                                 <span class="fileupload-exists"><i class="fa fa-undo"></i> Mudar</span>
-                                                <input name="artigo" type="file" class="default" />
+                                                <input  required name="artigo" type="file" class="default" />
                                                 </span>
                                             <span class="fileupload-preview" style="margin-left:5px;"></span>
                                             <a href="#" class="close fileupload-exists" data-dismiss="fileupload" style="float: none; margin-left:5px;"></a>
