@@ -31,6 +31,7 @@ class profileController extends InfyOmBaseController
      */
     public function index(Request $request)
     {
+       
         $this->profileRepository->pushCriteria(new RequestCriteria($request));
         $profiles = $this->profileRepository->all();
 

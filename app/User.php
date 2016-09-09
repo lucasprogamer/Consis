@@ -32,10 +32,7 @@ class User extends Authenticatable
         return $this->hasOne('App\Models\profile');
     }
 
-    public function authores()
-    {
-        return $this->hasMany('App\Models\authores');
-    }
+
 
     public function submissoes()
     {

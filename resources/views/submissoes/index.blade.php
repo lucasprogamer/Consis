@@ -24,7 +24,7 @@
 
     				        <div class="clearfix"></div>
 
-        @include('submissoes.table')
+        @include('submissoes.table-user')
         </div>
               </section>
           </div>

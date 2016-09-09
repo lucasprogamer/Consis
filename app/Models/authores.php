@@ -51,7 +51,8 @@ class authores extends Model
 
     public $fillable = [
         'name',
-        'email'
+        'email',
+        'submissoes_id'
     ];
 
     /**

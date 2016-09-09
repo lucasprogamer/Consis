@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests;
+use App\Models\submissoes;
 use App\Http\Requests\CreatesubmissoesRequest;
 use App\Http\Requests\UpdatesubmissoesRequest;
 use App\Repositories\submissoesRepository;
@@ -20,6 +21,7 @@ class submissoesController extends InfyOmBaseController
     public function __construct(submissoesRepository $submissoesRepo)
     {
         $this->submissoesRepository = $submissoesRepo;
+        $this->middleware('auth');
     }
 
     /**
@@ -28,13 +30,15 @@ class submissoesController extends InfyOmBaseController
      * @param Request $request
      * @return Response
      */
-    public function index(Request $request)
+    public function index(Request $request, Submissoes $submissoes)
     {
-        $this->submissoesRepository->pushCriteria(new RequestCriteria($request));
-        $submissoes = $this->submissoesRepository->all();
+       dd( Submissoes::has('authores')->get());
+        // $this->submissoesRepository->pushCriteria(new RequestCriteria($request));
+        // $submissoes = $this->submissoesRepository->all();
+         
 
-        return view('submissoes.index')
-            ->with('submissoes', $submissoes);
+        // return view('submissoes.index')
+        //     ->with('submissoes', $submissoes);
     }
 
     /**

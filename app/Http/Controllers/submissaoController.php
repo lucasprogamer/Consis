@@ -73,7 +73,9 @@ class submissaoController extends AppBaseController
           );
 
   
-    $submissoes = $this->submissoesRepository->create($artigo);
+    $submissoes = $this->submissoesRepository->create($artigo)->id;
+
+
 
 
 
@@ -94,6 +96,7 @@ class submissaoController extends AppBaseController
         'name' => $request['name1'],
         'email'   => $request['email1'], 
         'user_id'      => $lastId,
+        'submissoes_id'      => $submissoes,
          );
 
 
@@ -104,6 +107,8 @@ class submissaoController extends AppBaseController
         'name' => $request['name2'],
         'email'   => $request['email2'], 
         'user_id'      => $lastId,
+        'submissoes_id'      => $submissoes,
+
          );
 
 
@@ -113,6 +118,8 @@ class submissaoController extends AppBaseController
         'name' => $request['name3'],
         'email'   => $request['email3'], 
         'user_id'      => $lastId,
+        'submissoes_id'      => $submissoes,
+        
          );
 
 
@@ -123,7 +130,7 @@ class submissaoController extends AppBaseController
 
     
 
-      // return redirect('/login');
+      return redirect('/login');
   }
 
 

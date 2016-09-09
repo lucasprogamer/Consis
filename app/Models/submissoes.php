@@ -97,5 +97,10 @@ class submissoes extends Model
 
     ];
 
+    public function authores()
+    {
+        return $this->hasMany('App\Models\authores');
+    }
+
 
 }
