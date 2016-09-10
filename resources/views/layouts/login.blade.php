@@ -24,7 +24,7 @@
 
 
 <body class="login-body">
-
+@include('flash::message')
 <div class="container">
     @yield('content')
 </div>

@@ -30,15 +30,14 @@ class submissoesController extends InfyOmBaseController
      * @param Request $request
      * @return Response
      */
-    public function index(Request $request, Submissoes $submissoes)
+    public function index(Request $request)
     {
-       dd( Submissoes::has('authores')->get());
-        // $this->submissoesRepository->pushCriteria(new RequestCriteria($request));
-        // $submissoes = $this->submissoesRepository->all();
+        $this->submissoesRepository->pushCriteria(new RequestCriteria($request));
+        $submissoes = $this->submissoesRepository->all();
          
 
-        // return view('submissoes.index')
-        //     ->with('submissoes', $submissoes);
+        return view('submissoes.index')
+            ->with('submissoes', $submissoes);
     }
 
     /**

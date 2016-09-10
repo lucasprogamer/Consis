@@ -91,9 +91,9 @@
         <!--toggle button end-->
 
         <!--search start-->
-        <form class="searchform" action="{{ url('/dashboard') }}" method="post">
+      {{--   <form class="searchform" action="{{ url('/dashboard') }}" method="post">
             <input type="text" class="form-control" name="keyword" placeholder="Buscar..." />
-        </form>
+        </form> --}}
         <!--search end-->
 
         <!--notification menu start -->

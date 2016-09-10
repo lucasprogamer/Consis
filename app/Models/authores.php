@@ -62,7 +62,8 @@ class authores extends Model
      */
     protected $casts = [
         'name' => 'string',
-        'email' => 'string'
+        'email' => 'string',
+        'submissoes_id' => 'integer'
     ];
 
     /**
@@ -73,6 +74,11 @@ class authores extends Model
     public static $rules = [
         
     ];
+
+    public function submissoes()
+    {
+         return $this->belongsTo('App\Models\submissoes');
+    }
 
 
 }

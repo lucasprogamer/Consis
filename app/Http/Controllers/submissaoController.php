@@ -128,6 +128,7 @@ class submissaoController extends AppBaseController
 
 
 
+        Flash::success('Submissão Realizada com Sucesso.');
     
 
       return redirect('/login');

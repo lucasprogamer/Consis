@@ -63,9 +63,6 @@ class submissoes extends Model
 
     protected $dates = ['deleted_at'];
 
-    public function submissoes(){
-      return $this->belongsTo('App\User', 'foreign_key');
-    }
 
     public $fillable = [
         'Titulo',
