@@ -19,12 +19,12 @@
 
         <input type="password" class="form-control" name="password" id="password" required placeholder="******">
 
-            <div class="registration">
+{{--             <div class="registration">
                 Ainda não se inscreveu?
                 <a class="" href="{{ url('register') }}">
                     Inscreva-se
                 </a>
-            </div>
+            </div> --}}
 
             <div>
                 <button class="btn btn-lg btn-login btn-block" type="submit">
@@ -35,7 +35,7 @@
             <label class="checkbox">
                 <input type="checkbox" value="remember-me"> Lembrar-me
                 <span class="pull-right">
-                    <a data-toggle="modal" href="#myModal"> Esqueci minha senha?</a>
+                    {{-- <a data-toggle="modal" href="#myModal"> Esqueci minha senha?</a> --}}
 
                 </span>
             </label>

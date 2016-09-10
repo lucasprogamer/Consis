@@ -29,7 +29,7 @@
 
         <!--logo and iconic logo start-->
         <div class="logo">
-            <a href="{{ url('/dashboard') }}"><img src="{{asset('consis/images/header/logoconsis.png')}}" height="60"></a>
+            <a href="{{ url('/dashboard') }}"><img src="{{asset('consis/images/header/LOGOCONSIS.png')}}" height="60"></a>
         </div>
 
         <div class="logo-icon text-center">
