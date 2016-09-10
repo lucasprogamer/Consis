@@ -43,7 +43,7 @@
                                         </a>
                                     </div>
                                     <div class="media-body">
-                                         <h4 class="media-heading">Counter Strike</h4>
+                                         <h4 class="media-heading">League of Legends</h4>
                                         <a style="cursor: pointer; font-style:italic" href="https://goo.gl/forms/FN1dIbyzmRiuoHb83">
                                         <i class="fa fa-gamepad"></i>
                                         <span>Inscreva-se</span></a>
