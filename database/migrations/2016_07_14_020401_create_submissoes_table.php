@@ -20,6 +20,7 @@ class CreatesubmissoesTable extends Migration
             $table->text('Resumo');
             $table->text('Artigo');
             $table->text('url');
+            $table->integer('user_id');
             $table->timestamps();
             $table->softDeletes();
         });

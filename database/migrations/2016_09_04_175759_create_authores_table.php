@@ -18,6 +18,7 @@ class CreateauthoresTable extends Migration
             $table->text('name');
             $table->text('email');
             $table->integer('user_id');
+            $table->integer('submissoes_id');
             // $table->foreign('user_id')->references('id')->on('user');  
             $table->timestamps();
             $table->softDeletes();

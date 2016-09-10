@@ -19,6 +19,7 @@ class CreateprofilesTable extends Migration
             $table->text('cidade');
             $table->text('cep');
             $table->text('endereco');
+            $table->integer('user_id'); 
             $table->timestamps();
             $table->softDeletes();
         });
