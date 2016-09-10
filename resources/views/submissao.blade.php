@@ -32,7 +32,7 @@
 
 
                           {!! Form::open(['url' => 'submissao\submeter', 'files' => true, 'class'=> 'form-horizontal', 'id'=>'stepy_form' ]) !!}
-                            {{-- {{ csrf_field() }} --}}
+                            {!!csrf_field() !!}
 
                             {{-- Usuario --}}
                             <fieldset title="Cadastro">
