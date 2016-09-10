@@ -43,8 +43,15 @@
                                         </a>
                                     </div>
                                     <div class="media-body">
-                                        <h4 class="media-heading">League of Legends</h4>
-                                        <h6>Inscrições em Breve</h6>
+                                         <h4 class="media-heading">Counter Strike</h4>
+                                        <a style="cursor: pointer; font-style:italic" href="https://goo.gl/forms/FN1dIbyzmRiuoHb83">
+                                        <i class="fa fa-gamepad"></i>
+                                        <span>Inscreva-se</span></a>
+                                        <br>
+                                        <br>
+                                        <a style="cursor: pointer; font-style:italic" href="http://res.cloudinary.com/ddkb8r4ps/raw/upload/v1473514601/regraslol_seoamn.pdf">
+                                        <i class="fa fa-chevron-right"></i>
+                                        <span>Veja as Regras</span></a>
                                     </div>
                                 </div>
                             </div>
