@@ -19,7 +19,7 @@
                                 <img src="consis/images/header/agencia.png" alt="#" > 
                             </li>
                              <li class="mix item bedroom indoor basement bathroom" data-my-order="3">
-                                <img src="consis/images/header/marca.png" alt="#"> 
+                                <img src="consis/images/header/aranet.png" alt="#"> 
                             </li>
                              <li class="mix item bedroom garage Kitchen" data-my-order="4">
                                 <img src="consis/images/header/marca.png" alt="#"> 
