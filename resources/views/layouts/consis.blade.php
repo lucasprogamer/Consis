@@ -67,8 +67,8 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <img style="max-width: 580px;max-height: 350px;width: auto;height: auto;" src="consis/images/header/consis_preta.png" alt="#">
-                <button style="margin-top: -80px;margin-right: 90px;  position: relative;font-family: monL;" type="submit" class="btn btn-primary pull-right"><a href="https://goo.gl/forms/ptOFim7X5YYWoz2k2" style="color:#fff";>Acessar</a></button>
+                <img style="max-width: 580px;max-height: 350px;width: auto;height: auto;" src="consis/images/header/consis_submissoes.png" alt="#">
+                <button style="margin-top: -80px;margin-right: 90px;  position: relative;font-family: monL;" type="submit" class="btn btn-primary pull-right"><a href="/submissao" style="color:#fff";>Acessar</a></button>
             </div>
         </div>
     </div>
