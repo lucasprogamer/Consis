@@ -4,7 +4,7 @@
         <th>Atuação</th>
         <th>Resumo</th>
         <th>Artigo</th>
-        <th colspan="3">Action</th>
+        {{-- <th colspan="3">Action</th> --}}
     </thead>
     <tbody>
     @foreach($submissoes as $submissoes)
@@ -13,7 +13,7 @@
             <td>{!! $submissoes->atuacao !!}</td>
             <td>{!! $submissoes->Resumo !!}</td>
             <td><a target="_blank" href="{!! $submissoes->url !!}"><i class="fa fa-cloud-download"></i></a></td>
-            <td>
+            {{-- <td>
                 {!! Form::open(['route' => ['submissoes.destroy', $submissoes->id], 'method' => 'delete']) !!}
             <div class="dropdown">
                   <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -26,7 +26,7 @@
                   </ul>
              </div>
                 {!! Form::close() !!}
-            </td>
+            </td> --}}
         </tr>
     @endforeach
     </tbody>

@@ -9,7 +9,7 @@
      <!-- favicon -->
      <link rel="shortcut icon" sizes="16x16" type="image/png" href="consis/images/header/favicon.png"/>
      <meta name="description" content="I CONSIS - Congresso de Sistemas de Informação FAHESA/ITPAC de 24 à 27 de outubro - Palestras, Minicursos, Submissão de Artigos, Campeonatos.">
-     <meta name="keywords" content="I Consis, Consis Congresso, Consis 2016, Consis Araguaina, Araguaina Congresso, Foda-se,HTML,CSS,XML,JavaScript,Palestras,Jean carlos Suissa,normadev,minicursos,sistemas,wordpres,arduino,code dojo,league of legends, lol, cs, COUNTER STRIKE, artigos, submissão,tcc,evento">
+     <meta name="keywords" content="I Consis, Consis Congresso, Consis 2016, Consis Araguaina, Araguaina Congresso,HTML,CSS,XML,JavaScript,Palestras,Jean carlos Suissa,normadev,minicursos,sistemas,wordpres,arduino,code dojo,league of legends, lol, cs, COUNTER STRIKE, artigos, submissão,tcc,evento">
     <!-- Bootstrap -->
     <meta name="google-site-verification" content="qym3HhFYBt4Y7Q7xcKifTswHIwYjDofyQO9CaQGeF5U" />
     <meta name="google-site-verification" content="qym3HhFYBt4Y7Q7xcKifTswHIwYjDofyQO9CaQGeF5U" />
@@ -67,8 +67,8 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <img style="max-width: 580px;max-height: 350px;width: auto;height: auto;" src="consis/images/header/consis_preta.png" alt="#">
-                <button style="margin-top: -80px;margin-right: 90px;  position: relative;font-family: monL;" type="submit" class="btn btn-primary pull-right"><a href="https://goo.gl/forms/ptOFim7X5YYWoz2k2" style="color:#fff";>Acessar</a></button>
+                <img style="max-width: 580px;max-height: 350px;width: auto;height: auto;" src="consis/images/header/consis_submissoes.png" alt="#">
+                <button style="margin-top: -80px;margin-right: 90px;  position: relative;font-family: monL;" type="submit" class="btn btn-primary pull-right"><a href="/submissao" style="color:#fff";>Acessar</a></button>
             </div>
         </div>
     </div>
