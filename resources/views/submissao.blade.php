@@ -179,7 +179,7 @@
                              <h1>Você pode baixar o  modelo no link abaixo</h1>
 
                              <div class="btn-group">
-                                              <a href="http://res.cloudinary.com/ddkb8r4ps/raw/upload/v1473476263/sbc_template_consis_ku1ekl.doc" class="btn btn-success btn-lg">
+                                              <a href="http://res.cloudinary.com/ddkb8r4ps/raw/upload/v1475937970/sbc-template_wj90ow.dot" class="btn btn-success btn-lg">
                                                   Baixar <i class="fa fa-cloud-download" aria-hidden="true"></i>
                                                 </a>
 
