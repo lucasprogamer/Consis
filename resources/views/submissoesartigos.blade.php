@@ -108,7 +108,7 @@
 				</br>• Segurança em Sistemas Computacionais
 				</br>• Sistemas de Alto Desempenho
 				</br></br>
-				Os autores deverão submeter artigo completo com no mínimo 8 e no máximo 10 páginas (incluindo resumo, abstract, palavras-chave, introdução, desenvolvimento, resultados obtidos, conclusões, figuras e referências), escrito em português.
+				Os autores deverão submeter artigo completo com no mínimo 6 e no máximo 10 páginas (incluindo resumo, abstract, palavras-chave, introdução, desenvolvimento, resultados obtidos, conclusões, figuras e referências), escrito em português.
 				</br>
 				</br>
 				Todos os artigos serão avaliados por um corpo de revisores, seguindo um processo de revisão com informações que identifiquem os autores e a instituição a qual está relacionado, conforme modelo disponível. O arquivo deve estar em formato .pdf e ser submetido exclusivamente pelo sistema do CONSIS. Logo, submissões enviadas por e-mail não serão consideradas.
@@ -118,8 +118,45 @@
                 </br>
                 </br>
 				Salientamos que no mínimo um dos autores do artigo (apresentador) deverá estar inscrito no I CONSIS 2016 até o dia 05/10/2016. Os artigos aceitos deverão, obrigatoriamente, serem apresentados por um dos seus autores conforme programação que será disponibilizada no site, em formato de apresentação Oral.
-				</p>
-					
+				</br>
+                </br>
+                <a>Avaliadores:</a>
+                </br>
+                </br>
+                    Dr. Alexandre Tadeu Rossini da Silva - UFT</br>
+                    <a href="http://lattes.cnpq.br/2916003886317695" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a></br>
+                    </br>
+                    Dra. Anna Paula de Sousa Parente Rodrigues - UFT</br>
+                    <a href="http://lattes.cnpq.br/7403870021636760" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
+                    </br>
+                    </br>
+                    Dr. Antonio da Luz Junior - IFTO</br>
+                    <a href="http://lattes.cnpq.br/9994708784948688" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a></br>
+                    </br>
+                    Dr. Edeilson Milhomem da Silva - CEULP/ULBRA</br><a href="http://lattes.cnpq.br/3929602832095048" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
+                    </br>
+                    </br>
+                    Me. Fabiano Fagundes - CEULP/ULBRA</br><a href="http://lattes.cnpq.br/7309417394410594" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
+                    </br>
+                    </br>
+                    Dr. George Lauro Ribeiro de Brito - UFT</br><a href="http://lattes.cnpq.br/8779620606534106" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
+                    </br>
+                    </br>
+                    Dr. Leandro Maciel Almeida - UFPE</br><a href="http://lattes.cnpq.br/8513145553846486" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
+                    </br>
+                    </br>
+                    Me. Marcelo Ricardo Quinta - UFG</br><a href="http://lattes.cnpq.br/8015038176149979" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
+                    </br>
+                    </br>
+                    Me. Silvano Maneck Malfatti - Católica do Tocantins</br><a href="http://lattes.cnpq.br/5988455539579567" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
+                    lattes.cnpq.br/5988455539579567</br>
+                    </br>
+                    Ma. Stéphany Moraes Martins - Católica do Tocantins</br><a href="http://lattes.cnpq.br/5321235260918016" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
+                    </br>
+                    </br>
+                    Ma. Thatiane de Oliveira Rosa - IFTO</br><a href="http://lattes.cnpq.br/0303783728759750" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a></br>
+                </p>
+
             </div>
           </div>
     </div>

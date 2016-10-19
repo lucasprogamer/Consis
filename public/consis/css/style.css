@@ -2326,7 +2326,7 @@ h2, h3, h4, h5, h6 {
 }
 .menu_part .nav.navbar-nav li a {
   color: #fff;
-  font-size: 15px;
+  font-size: 14px;
   font-family: monL;
   transition: all 300ms linear 0s;
   background: transparent;
