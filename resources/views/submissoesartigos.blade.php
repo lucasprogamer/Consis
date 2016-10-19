@@ -149,7 +149,7 @@
                     </br>
                     </br>
                     Me. Silvano Maneck Malfatti - Católica do Tocantins</br><a href="http://lattes.cnpq.br/5988455539579567" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
-                    lattes.cnpq.br/5988455539579567</br>
+                    </br>
                     </br>
                     Ma. Stéphany Moraes Martins - Católica do Tocantins</br><a href="http://lattes.cnpq.br/5321235260918016" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
                     </br>
