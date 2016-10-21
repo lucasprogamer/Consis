@@ -3,6 +3,7 @@
         <th>Titulo</th>
         <th>Atuação</th>
         <th>Resumo</th>
+        <th>Autores</th>
         <th>Artigo</th>
         {{-- <th colspan="3">Action</th> --}}
     </thead>
@@ -12,6 +13,12 @@
             <td>{!! $submissoes->Titulo !!}</td>
             <td>{!! $submissoes->atuacao !!}</td>
             <td>{!! $submissoes->Resumo !!}</td>
+            <td>
+              @foreach ($submissoes->authores as $authores)
+                {!! $authores->name !!}
+              @endforeach
+             
+            </td>
             <td><a target="_blank" href="{!! $submissoes->url !!}"><i class="fa fa-cloud-download"></i></a></td>
             {{-- <td>
                 {!! Form::open(['route' => ['submissoes.destroy', $submissoes->id], 'method' => 'delete']) !!}

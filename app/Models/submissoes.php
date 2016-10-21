@@ -98,6 +98,10 @@ class submissoes extends Model
     {
         return $this->hasMany('App\Models\authores');
     }
+        public function user()
+    {
+        return $this->belongsTo('App\User');
+    }
 
 
 }
