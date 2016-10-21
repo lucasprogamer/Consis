@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row biggest_event_header">
             <h2>Sessões Técnicas</h2>
-            <h6>Artigos Aprovados - Serão 10 minutos para cada Apresentação no AUDITÓRIO</br>Pelo menos um dos autores devem estar inscritos no CONGRESSO e devem comparecer no auditório 30 min antes da apresentação</h6>
+            <h6>Artigos Aprovados SESSÃO ORAL - Serão 10 minutos para cada Apresentação no AUDITÓRIO</br>Pelo menos um dos autores devem estar inscritos no CONGRESSO e devem comparecer no auditório 30 min antes da apresentação</h6>
         </div>
         <div class="row biggest_event_describe" style="margin-left: 40px; margin-right: 40px;">
             <div class="col-sm-12 biggest_event_left">
