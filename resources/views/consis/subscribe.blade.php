@@ -28,7 +28,7 @@
                     <a style="color:#222;">24/10 (20:20)</a> - Gerência de Projetos de Software: Uma análise entre o Guia PMBOK® e a Metodologia Ágil SCRUM</br>
                     <a  style="color:red; font-size:12px">Autores: Werbeth de Araújo Matias, Gênesis Santos Lopes, Edeilson Milhomem Silva</a></br>
                     </br>
-                    <a style="color:#222;">24/10 (20:20)</a> - O Uso do Geogebra no Ensino de Integrais</br>
+                    <a style="color:#222;">24/10 (20:30)</a> - O Uso do Geogebra no Ensino de Integrais</br>
                     <a  style="color:red; font-size:12px">Autores: Evilane Leão Cordeiro, Mariana Matos Arantes</a></br>
                     </br>
                     <a style="color:#222;">25/10 (18:20)</a> - O uso dos métodos ágeis XP, LEAN E SCRUM no contexto de desenvolvimento de software</br>
