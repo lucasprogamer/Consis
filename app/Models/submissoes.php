@@ -98,6 +98,10 @@ class submissoes extends Model
     {
         return $this->hasMany('App\Models\authores');
     }
+        public function authores()
+    {
+        return $this->hasOne('App\User');
+    }
 
 
 }
