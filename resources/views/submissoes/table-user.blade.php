@@ -17,7 +17,7 @@
               @foreach ($submissoes->authores as $authores)
                 {!! $authores->name !!}
               @endforeach
-              {!! $submissoes->user->name !!}
+              {{ $submissoes->user->name }}
             </td>
             <td><a target="_blank" href="{!! $submissoes->url !!}"><i class="fa fa-cloud-download"></i></a></td>
             {{-- <td>
