@@ -98,7 +98,7 @@ class submissoes extends Model
     {
         return $this->hasMany('App\Models\authores');
     }
-        public function authores()
+        public function user()
     {
         return $this->hasOne('App\User');
     }
