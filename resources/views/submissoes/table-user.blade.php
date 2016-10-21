@@ -13,7 +13,7 @@
             <td>{!! $submissoes->Titulo !!}</td>
             <td>{!! $submissoes->atuacao !!}</td>
             <td>{!! $submissoes->Resumo !!}</td>
-            <td>{!! $submissoes->user->name  !!}</td>
+            <td>{!! $submissoes->authores  !!}</td>
             <td><a target="_blank" href="{!! $submissoes->url !!}"><i class="fa fa-cloud-download"></i></a></td>
             {{-- <td>
                 {!! Form::open(['route' => ['submissoes.destroy', $submissoes->id], 'method' => 'delete']) !!}
