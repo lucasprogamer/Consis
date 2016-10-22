@@ -14,7 +14,7 @@
                     <a  style="color:red; font-size:12px">Autores: Lucas Pereira Alves, Lucas Vieira de Sousa</a></br>
                     </br>
                     <a style="color:#222;">24/10 (19:40)</a> - Aplicando UML e Projeto de Banco de Dados no Processo de Desenvolvimento de Software</br>
-                    <a  style="color:red; font-size:12px">Autores: Lucas Pereira Alves, Lucas Vieira de Sousa</a></br>
+                    <a  style="color:red; font-size:12px">Autores: Salumão Barbosa da Costa, Márcio Alves Guimarães, Wanderson Rosado Borges</a></br>
                     </br>
                     <a style="color:#222;">24/10 (19:50)</a> - Ataques SQL Injection em Banco de Dados Através de Aplicações Web: Um Estudo</br>
                     <a  style="color:red; font-size:12px">Autores: Luciano Baltazar, Nathannael Valadares, Calos Andrew</a></br>
