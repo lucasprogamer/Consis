@@ -31,7 +31,7 @@
                     <a style="color:#222;">24/10 (20:30)</a> - O Uso do Geogebra no Ensino de Integrais</br>
                     <a  style="color:red; font-size:12px">Autores: Evilane Leão Cordeiro, Mariana Matos Arantes</a></br>
                     </br>
-                    <a style="color:#222;">25/10 (18:20)</a> - O uso dos métodos ágeis XP, LEAN E SCRUM no contexto de desenvolvimento de software</br>
+                    <a style="color:#222;">25/10 (18:20)</a> - Métodos Ágeis para o Desenvolvimento de Software: O Estudo de Caso DEVELOP</br>
                     <a  style="color:red; font-size:12px">Autores: Juliana Sousa do Nascimento, Luanna Andrade Silva</a></br>
                     </br>
                     <a style="color:#222;">25/10 (18:30)</a> - Plataformas de Computação Física</br>
