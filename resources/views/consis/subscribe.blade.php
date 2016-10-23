@@ -31,16 +31,16 @@
                     <a style="color:#222;">24/10 (20:30)</a> - O Uso do Geogebra no Ensino de Integrais</br>
                     <a  style="color:red; font-size:12px">Autores: Evilane Leão Cordeiro, Mariana Matos Arantes</a></br>
                     </br>
-                    <a style="color:#222;">25/10 (18:20)</a> - Métodos Ágeis para o Desenvolvimento de Software: O Estudo de Caso DEVELOP</br>
+                    <a style="color:#222;">27/10 (18:20)</a> - Métodos Ágeis para o Desenvolvimento de Software: O Estudo de Caso DEVELOP</br>
                     <a  style="color:red; font-size:12px">Autores: Juliana Sousa do Nascimento, Luanna Andrade Silva</a></br>
                     </br>
-                    <a style="color:#222;">25/10 (18:30)</a> - Plataformas de Computação Física</br>
+                    <a style="color:#222;">27/10 (18:30)</a> - Plataformas de Computação Física</br>
                     <a  style="color:red; font-size:12px">Autores: Bruna Giovanna Silva Nascimento, Jefferson Carlos Lima, Carlos Andrew Costa Bezerra, Vanessa França Rocha</a></br>
                     </br>
-                    <a style="color:#222;">25/10 (18:40)</a> - Sistemas Especialistas</br>
+                    <a style="color:#222;">27/10 (18:40)</a> - Sistemas Especialistas</br>
                     <a  style="color:red; font-size:12px">Autores: Leandro Neres, Lindomar Silva Soares, Carlos Andrew Bezerra</a></br>
                     </br>
-                    <a style="color:#222;">25/10 (18:50)</a> - TATO - Aplicativo Interativo para Crianças Autistas</br>
+                    <a style="color:#222;">27/10 (18:50)</a> - TATO - Aplicativo Interativo para Crianças Autistas</br>
                     <a  style="color:red; font-size:12px">Autores: Maykon Jhony Chaves da Silva, Pedro James Martins Teixeira, Marcia Maria Savoine</a></br>
                     </br>
 
