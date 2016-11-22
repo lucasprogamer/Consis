@@ -13,9 +13,6 @@
         minutes:'minutos',
         second:'Segundo',
         seconds:'Segundos'
-    }, 
-    function () {
-        alert('Done!');
     });
     
     // MixItUp JS
