@@ -22,7 +22,7 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li><a onclick="$('body').animatescroll();">Home</a></li>
                             <li><a onclick="$('#congresso').animatescroll();">Congresso</a></li>
-                            <li><a onclick="$('#submission').animatescroll();">Submissões</a></li>
+                            <li><a onclick="$('#submission').animatescroll();">Anais</a></li>
                             <li><a onclick="$('.events_schedule').animatescroll();">Agenda</a></li>
                             <!-- <li><a onclick="$('.newsletter').animatescroll();">Submissões</a></li> -->
                             {{-- <li><a onclick="$('.speakers').animatescroll();">Palestrantes</a></li> --}}
@@ -49,13 +49,13 @@
                     <h2><span><img style="max-width: 500px;max-height: 120px;width: auto;height: auto;" src="consis/images/header/logo2.png" alt="#"></span></h2>
                     <h4>I Congresso de Sistemas de Informação FAHESA/ITPAC </h4> 
                     <ul id="example">
-                        <li><span class="days">00</span><p class="days_text">Days</p></li>
+                        <li><span class="days">00</span><p class="">Days</p></li>
                         <li class="seperator"></li>
-                        <li><span class="hours">00</span><p class="hours_text">Hours</p></li>
+                        <li><span class="">00</span><p class="">Hours</p></li>
                         <li class="seperator"></li>
-                        <li class="minit"><span class="minutes">00</span><p class="minutes_text">Minutes</p></li>
+                        <li class="minit"><span class="minutes">00</span><p class="">Minutes</p></li>
                         <li class="seperator"></li>
-                        <li class="minit"><span class="seconds">00</span><p class="seconds_text">Seconds</p></li>
+                        <li class="minit"><span class="seconds">00</span><p class="">Seconds</p></li>
                     </ul> 
                 </div>
                 <div class="row m0 event_info">
