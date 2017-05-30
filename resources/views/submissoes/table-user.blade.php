@@ -4,6 +4,7 @@
         <th>Atuação</th>
         <th>Resumo</th>
         <th>Autores</th>
+        <th>Email</th>
         <th>Artigo</th>
         {{-- <th colspan="3">Action</th> --}}
     </thead>
@@ -16,6 +17,12 @@
             <td>
               @foreach ($submissoes->authores as $authores)
                 {!! $authores->name !!}
+              @endforeach
+             
+            </td>
+            <td>
+             @foreach ($submissoes->authores as $authores)
+                {!! $authores->email !!}
               @endforeach
              
             </td>
