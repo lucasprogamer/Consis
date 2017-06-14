@@ -22,7 +22,7 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li><a onclick="$('body').animatescroll();">Home</a></li>
                             <li><a onclick="$('#congresso').animatescroll();">Congresso</a></li>
-                            <li><a onclick="$('#submission').animatescroll();">Anais</a></li>
+                            <li><a href="/anais">Anais</a></li>
                             <li><a onclick="$('.events_schedule').animatescroll();">Agenda</a></li>
                             <!-- <li><a onclick="$('.newsletter').animatescroll();">Submissões</a></li> -->
                             {{-- <li><a onclick="$('.speakers').animatescroll();">Palestrantes</a></li> --}}

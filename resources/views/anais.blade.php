@@ -72,7 +72,8 @@
 	                    <li><a href="/">Home</a></li>
                         <li><a href="/instrucoessubmissao">Instruções</a></li>
                         <li><a href="/datasimportantes">Datas Importantes</a></li>
-	                    <li><a href="/submissao">Arquivo</a></li>
+                        <li><a href="/anaisapresentados">Anais Apresentados</a></li>
+                        <li><a href="/submissao">Template</a></li>
 	                </ul>
 	            </div>
 	        </nav>
@@ -92,69 +93,9 @@
         </div>
         <div class="row biggest_event_describe" style="margin-left: 40px; margin-right: 40px;">
             <div class="col-sm-12 biggest_event_left">
-                <p>Os trabalhos devem ser submetidos na forma de artigo completo escritos em português e formatados seguindo o estilo dos artigos da SBC. A submissão dos artigos será exclusivamente por meio do sistema do congresso, em formato pdf.
-                </br>
-                </br>A temática do I CONSIS 2016 compreende:
-				</br>• Arquitetura de Computadores
-				</br>• Banco de Dados
-				</br>• Jogos Digitais
-				</br>• Computação Gráfica
-				</br>• Engenharia de Software
-				</br>• Interação Humano Computador
-				</br>• Computação Aplicada
-				</br>• Inteligência Artificial
-				</br>• Redes de Computadores
-				</br>• Computação Móvel
-				</br>• Segurança em Sistemas Computacionais
-				</br>• Sistemas de Alto Desempenho
-				</br></br>
-				Os autores deverão submeter artigo completo com no mínimo 6 e no máximo 10 páginas (incluindo resumo, abstract, palavras-chave, introdução, desenvolvimento, resultados obtidos, conclusões, figuras e referências), escrito em português.
-				</br>
-				</br>
-				Todos os artigos serão avaliados por um corpo de revisores, seguindo um processo de revisão com informações que identifiquem os autores e a instituição a qual está relacionado, conforme modelo disponível. O arquivo deve estar em formato .pdf e ser submetido exclusivamente pelo sistema do CONSIS. Logo, submissões enviadas por e-mail não serão consideradas.
-				</br>
-				</br>
-                <a href="/submissao" tabindex="14" style="color:red; font-size:14px">Baixe o arquivo template (.docx)</a>
-                </br>
-                </br>
-				Salientamos que no mínimo um dos autores do artigo (apresentador) deverá estar inscrito no I CONSIS 2016 até o dia 05/10/2016. Os artigos aceitos deverão, obrigatoriamente, serem apresentados por um dos seus autores conforme programação que será disponibilizada no site, em formato de apresentação Oral.
-				</br>
-                </br>
-                <a>Avaliadores:</a>
-                </br>
-                </br>
-                    Dr. Alexandre Tadeu Rossini da Silva - UFT</br>
-                    <a href="http://lattes.cnpq.br/2916003886317695" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a></br>
-                    </br>
-                    Dra. Anna Paula de Sousa Parente Rodrigues - UFT</br>
-                    <a href="http://lattes.cnpq.br/7403870021636760" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
-                    </br>
-                    </br>
-                    Dr. Antonio da Luz Junior - IFTO</br>
-                    <a href="http://lattes.cnpq.br/9994708784948688" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a></br>
-                    </br>
-                    Dr. Edeilson Milhomem da Silva - CEULP/ULBRA</br><a href="http://lattes.cnpq.br/3929602832095048" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
-                    </br>
-                    </br>
-                    Me. Fabiano Fagundes - CEULP/ULBRA</br><a href="http://lattes.cnpq.br/7309417394410594" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
-                    </br>
-                    </br>
-                    Dr. George Lauro Ribeiro de Brito - UFT</br><a href="http://lattes.cnpq.br/8779620606534106" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
-                    </br>
-                    </br>
-                    Dr. Leandro Maciel Almeida - UFPE</br><a href="http://lattes.cnpq.br/8513145553846486" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
-                    </br>
-                    </br>
-                    Me. Marcelo Ricardo Quinta - UFG</br><a href="http://lattes.cnpq.br/8015038176149979" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
-                    </br>
-                    </br>
-                    Me. Silvano Maneck Malfatti - Católica do Tocantins</br><a href="http://lattes.cnpq.br/5988455539579567" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
-                    </br>
-                    </br>
-                    Ma. Stéphany Moraes Martins - Católica do Tocantins</br><a href="http://lattes.cnpq.br/5321235260918016" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
-                    </br>
-                    </br>
-                    Ma. Thatiane de Oliveira Rosa - IFTO</br><a href="http://lattes.cnpq.br/0303783728759750" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a></br>
+                <p>De 24 a 27 de outubro de 2016 aconteceu na faculdade FAHESA/ITPAC o I Congresso de Sistemas de Informação (CONSIS 2016) da região norte do estado do Tocantins, com 2 palestras, 8 minicursos, Campeonatos de Counter Strike e League of Legends e Submissões de Artigos, o objetivo do evento é além de integrar toda sociedade acadêmica, profissionais e interessados na área de tecnologia da informação, ampliar as áreas de conhecimento destes profissionais.
+                </p>
+                <p>A abertura do congresso acontecerá no dia 24 com a palestra “MongoDB – Como mudar seu jeito relacional de pensar”, com o palestrante Jean Carlo Nascimento, o “Suissa” e apresentações dos artigos aprovados, nos dias 25 e 26/10 nas salas de aulas e laboratórios, os minicursos de Front End, Startup, Wordpress, Scrum, Desenvolvimento de Aplicativos, Arduíno, Coding Dojo e Proxy (todos práticos). Durante todo o evento haverá o campeonato de CS GO e LOL, com a disputa de equipes. E, por fim, no dia 27, a última palestra “Convergência Digital – Impactos da Computação em Nuvem, Mobilidade, Internet das Coisas e BIG DATA” com o palestrante Manoel Veras.
                 </p>
 
             </div>
