@@ -69,7 +69,7 @@
 
     @include('consis.event')
 
-    @include('consis.subscribe')
+   {{--  @include('consis.subscribe') --}}
 
 
 
