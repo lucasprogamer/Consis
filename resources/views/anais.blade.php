@@ -73,6 +73,7 @@
                         <li><a href="/instrucoessubmissao">Instruções</a></li>
                         <li><a href="/datasimportantes">Datas Importantes</a></li>
                         <li><a href="/anaisapresentados">Anais Apresentados</a></li>
+                        <li><a href="/comiteeditorial">Comitê Editorial</a></li>
                         <li><a href="/submissao">Template</a></li>
 	                </ul>
 	            </div>
