@@ -4,13 +4,28 @@
             <h2>Anais</h2>
             <h6>Artigos Aprovados e Apresentados no Consis 2016</h6>
         </div>
-        <div class="row biggest_event_describe" style="margin-left: 40px; margin-right: 40px;">
+        <div class="row events_schedule_content" role="tabpanel">
+        <div class="events_schedule_tab">
+            <div class="item_hover"  style="margin-left: 40px; margin-right: 40px;">
+             <div class="col-sm-12 hover_content">
+                 <div class="col-sm-3">
+                    <a class="hovera" href="/instrucoessubmissao" tabindex="14">Normas para Publicação |</a>
+                </div>
+                <div class="col-sm-3 event_describe">
+                    <a class="hovera" href="http://res.cloudinary.com/ddkb8r4ps/image/upload/v1475636446/zwex61mnu2onghylzsit.pdf" tabindex="14">Normas para Publicação |</a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <br>
+        <br>
+        <br>
             <div class="col-sm-12 biggest_event_left">
-                
-                <a>Trabalhos Completos:</a>
-                </br>
-                </br>
-            <div class="col-sm-12">
+               
+            <a class="col-sm-12 biggest_event_left hovera">Trabalhos Completos:</a>
+            </br>
+            </br>
+            <div class="col-sm-12 biggest_event_left">
                <div class="col-sm-12 col-xs-10 table_part">
                     <div class="col-sm-9 event_describe">
                         <a style="color:#222;">Análises dos Protocolos de Segurança WEP, WPA e WPA2 em Redes sem Fio: Um Estudo</a></br>
@@ -138,7 +153,7 @@
                 </div>
                 </div>
                    </p>
-
+            
             </div>
           </div>
     </div>

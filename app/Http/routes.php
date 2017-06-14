@@ -60,7 +60,14 @@ Route::get('/datasimportantes', function()
     {
         return view('datassubmissoes');
     });
-
+Route::get('/anais', function()
+    {
+        return view('anais');
+    });
+Route::get('/anaisapresentados', function()
+    {
+        return view('anaisapresentados');
+    });
 
 Route::resource('profiles', 'profileController');
 

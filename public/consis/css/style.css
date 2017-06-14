@@ -1,5 +1,8 @@
 /*====================================================*/
 /*====================================================*/
+a.hovera:hover {
+    color: #222 !important;
+}
 @font-face {
   font-family: monL;
   src: url(../fonts/dawat-font/Montserrat-Light.woff);
