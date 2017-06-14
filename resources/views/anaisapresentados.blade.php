@@ -73,6 +73,7 @@
                         <li><a href="/instrucoessubmissao">Instruções</a></li>
                         <li><a href="/datasimportantes">Datas Importantes</a></li>
                         <li><a href="/anaisapresentados">Anais Apresentados</a></li>
+                        <li><a href="/comiteeditorial">Comitê Editorial</a></li>
                         <li><a href="/submissao">Template</a></li>
 	                </ul>
 	            </div>
@@ -81,7 +82,7 @@
     	</div>
 	</div>
 	<div class="page_title">
-	            <h2><span>Anais</span> Apresentados</h2>
+	            <h2><span>Submissões de</span> Artigos</h2>
 	            <h4>Artigos apresentados no congresso</h4>
     </div>
 </header>

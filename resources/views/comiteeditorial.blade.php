@@ -72,8 +72,9 @@
 	                    <li><a href="/">Home</a></li>
                         <li><a href="/instrucoessubmissao">Instruções</a></li>
                         <li><a href="/datasimportantes">Datas Importantes</a></li>
-                        <li><a href="/anaisapresentados">Anais Apresentados</a></li>
-                        <li><a href="/submissao">Template</a></li>
+                        <li><a href="/Anaisapresentados">Anais Apresentados</a></li>
+                        <li><a href="/comiteeditorial">Comitê Editorial</a></li>
+	                    <li><a href="/submissao">Arquivo</a></li>
 	                </ul>
 	            </div>
 	        </nav>
@@ -82,22 +83,67 @@
 	</div>
 	<div class="page_title">
 	            <h2><span>Submissões de</span> Artigos</h2>
-	            <h4>Apresentação</h4>
+	            <h4>Normas e instruções para submissões de artigos no congresso</h4>
     </div>
 </header>
 <section class="row biggest_event">
     <div class="container">
         <div class="row biggest_event_header">
-            <h2>CONSIS 2016</h2>
-            <h6>24 a 27 de Outubro - Apresentação do Congresso</h6>
+            <h2>Comitê Editorial</h2>
+            <h6>Confira o comitê editorial</h6>
         </div>
         <div class="row biggest_event_describe" style="margin-left: 40px; margin-right: 40px;">
             <div class="col-sm-12 biggest_event_left">
-                <p>De 24 a 27 de outubro de 2016 aconteceu na faculdade FAHESA/ITPAC o I Congresso de Sistemas de Informação (CONSIS 2016) da região norte do estado do Tocantins, com 2 palestras, 8 minicursos, Campeonatos de Counter Strike e League of Legends e Submissões de Artigos, o objetivo do evento é além de integrar toda sociedade acadêmica, profissionais e interessados na área de tecnologia da informação, ampliar as áreas de conhecimento destes profissionais.
-                </p>
-                <p>A abertura do congresso acontecerá no dia 24 com a palestra “MongoDB – Como mudar seu jeito relacional de pensar”, com o palestrante Jean Carlo Nascimento, o “Suissa” e apresentações dos artigos aprovados, nos dias 25 e 26/10 nas salas de aulas e laboratórios, os minicursos de Front End, Startup, Wordpress, Scrum, Desenvolvimento de Aplicativos, Arduíno, Coding Dojo e Proxy (todos práticos). Durante todo o evento haverá o campeonato de CS GO e LOL, com a disputa de equipes. E, por fim, no dia 27, a última palestra “Convergência Digital – Impactos da Computação em Nuvem, Mobilidade, Internet das Coisas e BIG DATA” com o palestrante Manoel Veras.
-                </p>
-
+                <p>As apresentações que compõem as conferências atual e anteriores neste site são de acesso livre e estão disponíveis para leitura gratuitamente, em benefício de autores e leitores interessados.
+                <br>
+                <br>
+                <a>Equipe Editorial</a>
+                </br>
+                </br>• Marcelo Schmidt
+				</br>• André Rincon
+                <br>
+                <br>
+				<a>Editores Assistentes </a>
+                </br>
+                </br>• Vanessa Rocha
+                <br>
+                <br>
+                <a>Comitê Técnico </a>
+                <br>
+                <br>
+                 • Dr. Alexandre Tadeu Rossini da Silva - UFT</br>
+                    <a href="http://lattes.cnpq.br/2916003886317695" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a></br>
+                    </br>
+                    • Dra. Anna Paula de Sousa Parente Rodrigues - UFT</br>
+                    <a href="http://lattes.cnpq.br/7403870021636760" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
+                    </br>
+                    </br>
+                    • Dr. Antonio da Luz Junior - IFTO</br>
+                    <a href="http://lattes.cnpq.br/9994708784948688" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a></br>
+                    </br>
+                    • Dr. Edeilson Milhomem da Silva - CEULP/ULBRA</br><a href="http://lattes.cnpq.br/3929602832095048" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
+                    </br>
+                    </br>
+                    • Me. Fabiano Fagundes - CEULP/ULBRA</br><a href="http://lattes.cnpq.br/7309417394410594" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
+                    </br>
+                    </br>
+                    • Dr. George Lauro Ribeiro de Brito - UFT</br><a href="http://lattes.cnpq.br/8779620606534106" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
+                    </br>
+                    </br>
+                    • Dr. Leandro Maciel Almeida - UFPE</br><a href="http://lattes.cnpq.br/8513145553846486" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
+                    </br>
+                    </br>
+                    • Me. Marcelo Ricardo Quinta - UFG</br><a href="http://lattes.cnpq.br/8015038176149979" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
+                    </br>
+                    </br>
+                    • Me. Silvano Maneck Malfatti - Católica do Tocantins</br><a href="http://lattes.cnpq.br/5988455539579567" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
+                    </br>
+                    </br>
+                    • Ma. Stéphany Moraes Martins - Católica do Tocantins</br><a href="http://lattes.cnpq.br/5321235260918016" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a>
+                    </br>
+                    </br>
+                    • Ma. Thatiane de Oliveira Rosa - IFTO</br><a href="http://lattes.cnpq.br/0303783728759750" tabindex="14" style="color:red; font-size:12px">Currículo Lattes</a></br>
+                    </p>
             </div>
           </div>
     </div>

@@ -68,7 +68,10 @@ Route::get('/anaisapresentados', function()
     {
         return view('anaisapresentados');
     });
-
+Route::get('/comiteeditorial', function()
+    {
+        return view('comiteeditorial');
+    });
 Route::resource('profiles', 'profileController');
 
 Route::resource('authores', 'authoresController');
